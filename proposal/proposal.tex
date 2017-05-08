@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{pdflscape}
+\usepackage[margin=1.5in]{geometry}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Rachel LeCover}
+\lhead{Project Proposal}
+\rfoot{Page \thepage}
+ 
+\begin{document}
+\section*{Topic}
+Platelets play a key role in coagulation. Not only do they contribute to the structure of clots, the proteins they release accelerate the coagulation cascade. Furthermore, when activated by the presence of thrombin, a key protease in the coagulation cascade, they express negatively charged lipids on their surfaces, further promoting coagulation.
+\section*{Current Literature}
+Thomas et al have developed a model for the metabolic network of a platelet, as detailed in \cite{thomas2014network}. This network contains 1,008 reactions, with 739 compartment specific metabolites and 225 proteins. Furthermore, it encodes which reactions are controlled by which genes, allowing for the simulation of knock outs. 
+\section*{Extension of Model}
+Thomas et al investigated the effect on aspirin on the system, but did not develop a dynamic model of the system. I propose to use this model of platelet metabolism to dynamically model the state of the platelet using dFBA. Once my dynamic model is constructed, I can use it to simulate how platelets would function should certain genes be knocked out. Although other kinetic models of platelets exist  \cite{ashby1989model}, I believe that no one has ever constructed a dFBA model of platelet metabolism. 
+
+\bibliographystyle{unsrt}
+\bibliography{propsal}
+\end{document}

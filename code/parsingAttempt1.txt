@@ -1,0 +1,3024 @@
+//R# = 1 sink xan(c) Regulation: 
+sink_xan_c,xan_c,[],-inf,inf
+
+//R# = 2 3,5-Cyclic GMP exchange Regulation: 
+EX_35cgmp_e,35cgmp_e,[],-inf,inf
+
+//R# = 3 4-Hydroxyphenylacetate exchange Regulation: 
+EX_4hphac_e,4hphac_e,[],-inf,inf
+
+//R# = 4 4-Nitrophenol exchange Regulation: 
+EX_4nph_e,4nph_e,[],-inf,inf
+
+//R# = 5 4-Nitrophenyl sulfate exchange Regulation: 
+EX_4nphsf_e,4nphsf_e,[],-inf,inf
+
+//R# = 6 L-Cystine exchange Regulation: 
+EX_Lcystin_e,Lcystin_e,[],-inf,inf
+
+//R# = 7 Acetate exchange Regulation: 
+EX_ac_e,ac_e,[],-inf,inf
+
+//R# = 8 Adenine exchange Regulation: 
+EX_ade_e,ade_e,[],-inf,inf
+
+//R# = 9 Adenosine exchange Regulation: 
+EX_adn_e,adn_e,[],-inf,inf
+
+//R# = 10 adp exchange Regulation: 
+EX_adp_e,adp_e,[],-inf,inf
+
+//R# = 11 ADPribose exchange Regulation: 
+EX_adprib_e,adprib_e,[],-inf,inf
+
+//R# = 12 Adrenaline exchange Regulation: 
+EX_adrnl_e,adrnl_e,[],-inf,inf
+
+//R# = 13 L-Alanine exchange Regulation: 
+EX_ala_L_e,ala_L_e,[],-inf,inf
+
+//R# = 14 AMP exchange Regulation: 
+EX_amp_e,amp_e,[],-inf,inf
+
+//R# = 15 nC20:4 exchange Regulation: 
+EX_arachd_e,arachd_e,[],-inf,inf
+
+//R# = 16 L-Arginine exchange Regulation: 
+EX_arg_L_e,arg_L_e,[],-inf,inf
+
+//R# = 17 L-Ascorbate exchange Regulation: 
+EX_ascb_L_e,ascb_L_e,[],-inf,inf
+
+//R# = 18 L-Asparagine exchange Regulation: 
+EX_asn_L_e,asn_L_e,[],-inf,inf
+
+//R# = 19 L-Aspartate exchange Regulation: 
+EX_asp_L_e,asp_L_e,[],-inf,inf
+
+//R# = 20 Bilirubin exchange Regulation: 
+EX_bilirub_e,bilirub_e,[],-inf,inf
+
+//R# = 21 Calcium exchange Regulation: 
+EX_ca2_e,ca2_e,[],-inf,inf
+
+//R# = 22 Choline exchange Regulation: 
+EX_chol_e,chol_e,[],-inf,inf
+
+//R# = 23 Citrate exchange Regulation: 
+EX_cit_e,cit_e,[],-inf,inf
+
+//R# = 24 Carbon monoxide exchange Regulation: 
+EX_co_e,co_e,[],-inf,inf
+
+//R# = 25 CO2 exchange Regulation: 
+EX_co2_e,co2_e,[],-inf,inf
+
+//R# = 26 Creatine exchange Regulation: 
+EX_creat_e,creat_e,[],-inf,inf
+
+//R# = 27 Hydrogen cyanide exchange Regulation: 
+EX_cyan_e,cyan_e,[],-inf,inf
+
+//R# = 28 L-Cysteine exchange Regulation: 
+EX_cys_L_e,cys_L_e,[],-inf,inf
+
+//R# = 29 Cytidine exchange Regulation: 
+EX_cytd_e,cytd_e,[],-inf,inf
+
+//R# = 30 Dehydroascorbate exchange Regulation: 
+EX_dhdascb_e,dhdascb_e,[],-inf,inf
+
+//R# = 31 Dopamine exchange Regulation: 
+EX_dopa_e,dopa_e,[],-inf,inf
+
+//R# = 32 Dopamine 3-O-sulfate exchange Regulation: 
+EX_dopasf_e,dopasf_e,[],-inf,inf
+
+//R# = 33 Fe2+ exchange Regulation: 
+EX_fe2_e,fe2_e,[],-inf,inf
+
+//R# = 34 D-Fructose exchange Regulation: 
+EX_fru_e,fru_e,[],-inf,inf
+
+//R# = 35 D-Galactose exchange Regulation: 
+EX_gal_e,gal_e,[],-inf,inf
+
+//R# = 36 GDP exchange Regulation: 
+EX_gdp_e,gdp_e,[],-inf,inf
+
+//R# = 37 D-Glucose exchange Regulation: 
+EX_glc_e,glc_D_e,[],-inf,inf
+
+//R# = 38 L-Glutamine exchange Regulation: 
+EX_gln_L_e,gln_L_e,[],-inf,inf
+
+//R# = 39 L-Glutamate exchange Regulation: 
+EX_glu_L_e,glu_L_e,[],-inf,inf
+
+//R# = 40 Glycine exchange Regulation: 
+EX_gly_e,gly_e,[],-inf,inf
+
+//R# = 41 Glycine betaine exchange Regulation: 
+EX_glyb_e,glyb_e,[],-inf,inf
+
+//R# = 42 Oxidized glutathione exchange Regulation: 
+EX_gthox_e,gthox_e,[],-inf,inf
+
+//R# = 43 Reduced glutathione exchange Regulation: 
+EX_gthrd_e,gthrd_e,[],-inf,inf
+
+//R# = 44 H+ exchange Regulation: 
+EX_h_e,h_e,[],-inf,inf
+
+//R# = 45 H2O exchange Regulation: 
+EX_h2o_e,h2o_e,[],-inf,inf
+
+//R# = 46 Hydrogen peroxide exchange Regulation: 
+EX_h2o2_e,h2o2_e,[],-inf,inf
+
+//R# = 47 Bicarbonate exchange Regulation: 
+EX_hco3_e,hco3_e,[],-inf,inf
+
+//R# = 48 Hexadecanoate (n-C16:0) exchange Regulation: 
+EX_hdca_e,hdca_e,[],-inf,inf
+
+//R# = 49 L-Histidine exchange Regulation: 
+EX_his_L_e,his_L_e,[],-inf,inf
+
+//R# = 50 Histamine exchange Regulation: 
+EX_hista_e,hista_e,[],-inf,inf
+
+//R# = 51 Hypoxanthine exchange Regulation: 
+EX_hxan_e,hxan_e,[],-inf,inf
+
+//R# = 52 L-Isoleucine exchange Regulation: 
+EX_ile_L_e,ile_L_e,[],-inf,inf
+
+//R# = 53 myo-Inositol exchange Regulation: 
+EX_inost_e,inost_e,[],-inf,inf
+
+//R# = 54 Inosine exchange Regulation: 
+EX_ins_e,ins_e,[],-inf,inf
+
+//R# = 55 L-Lactate exchange Regulation: 
+EX_lac_L_e,lac_L_e,[],-inf,inf
+
+//R# = 56 leukotriene F4 exchange Regulation: 
+EX_leuktrF4_e,leuktrF4_e,[],-inf,inf
+
+//R# = 57 linoleic acid (all cis C18:2) exchange Regulation: 
+EX_lnlc_e,lnlc_e,[],-inf,inf
+
+//R# = 58 L-Lysine exchange Regulation: 
+EX_lys_L_e,lys_L_e,[],-inf,inf
+
+//R# = 59 L-Methionine exchange Regulation: 
+EX_met_L_e,met_L_e,[],-inf,inf
+
+//R# = 60 Sodium exchange Regulation: 
+EX_na1_e,na1_e,[],-inf,inf
+
+//R# = 61 Nicotinamide adenine dinucleotide exchange Regulation: 
+EX_nad_e,nad_e,[],-inf,inf
+
+//R# = 62 Nicotinamide exchange Regulation: 
+EX_ncam_e,ncam_e,[],-inf,inf
+
+//R# = 63 Ammonia exchange Regulation: 
+EX_nh4_e,nh4_e,[],-inf,inf
+
+//R# = 64 Nitric oxide exchange Regulation: 
+EX_no_e,no_e,[],-inf,inf
+
+//R# = 65 Sulfate derivative of norepinephrine exchange Regulation: 
+EX_nrpphrsf_e,nrpphrsf_e,[],-inf,inf
+
+//R# = 66 O2 exchange Regulation: 
+EX_o2_e,o2_e,[],-inf,inf
+
+//R# = 67 Superoxide anion exchange Regulation: 
+EX_o2s_e,o2s_e,[],-inf,inf
+
+//R# = 68 octadecanoate (n-C18:0) exchange Regulation: 
+EX_ocdca_e,ocdca_e,[],-inf,inf
+
+//R# = 69 octadecenoate (n-C18:1) exchange Regulation: 
+EX_ocdcea_e,ocdcea_e,[],-inf,inf
+
+//R# = 70 Ornithine exchange Regulation: 
+EX_orn_e,orn_e,[],-inf,inf
+
+//R# = 71 L-Phenylalanine exchange Regulation: 
+EX_phe_L_e,phe_L_e,[],-inf,inf
+
+//R# = 72 alpha-N-Phenylacetyl-L-glutamine exchange Regulation: 
+EX_pheacgln_e,pheacgln_e,[],-inf,inf
+
+//R# = 73 Protoheme exchange Regulation: 
+EX_pheme_e,pheme_e,[],-inf,inf
+
+//R# = 74 Phosphate exchange Regulation: 
+EX_pi_e,pi_e,[],-inf,inf
+
+//R# = 75 L-Proline exchange Regulation: 
+EX_pro_L_e,pro_L_e,[],-inf,inf
+
+//R# = 76 Prostaglandin D2 exchange Regulation: 
+EX_prostgd2_e,prostgd2_e,[],-inf,inf
+
+//R# = 77 Pyruvate exchange Regulation: 
+EX_pyr_e,pyr_e,[],-inf,inf
+
+//R# = 78 L-Serine exchange Regulation: 
+EX_ser_L_e,ser_L_e,[],-inf,inf
+
+//R# = 79 Sulfate exchange Regulation: 
+EX_so4_e,so4_e,[],-inf,inf
+
+//R# = 80 sphingosylphosphorylcholine (homo sapiens) exchange Regulation: 
+EX_spc_hs_e,spc_hs_e,[],-inf,inf
+
+//R# = 81 Sphingosine 1-phosphate exchange Regulation: 
+EX_sphs1p_e,sphs1p_e,[],-inf,inf
+
+//R# = 82 Serotonin exchange Regulation: 
+EX_srtn_e,srtn_e,[],-inf,inf
+
+//R# = 83 Succinate exchange Regulation: 
+EX_succ_e,succ_e,[],-inf,inf
+
+//R# = 84 Thiocyanate exchange Regulation: 
+EX_tcynt_e,tcynt_e,[],-inf,inf
+
+//R# = 85 Thymine exchange Regulation: 
+EX_thym_e,thym_e,[],-inf,inf
+
+//R# = 86 Thymidine exchange Regulation: 
+EX_thymd_e,thymd_e,[],-inf,inf
+
+//R# = 87 L-Tryptophan exchange Regulation: 
+EX_trp_L_e,trp_L_e,[],-inf,inf
+
+//R# = 88 Thiosulfate exchange Regulation: 
+EX_tsul_e,tsul_e,[],-inf,inf
+
+//R# = 89 Thromboxane A2 exchange Regulation: 
+EX_txa2_e,txa2_e,[],-inf,inf
+
+//R# = 90 Tyramine O-sulfate exchange Regulation: 
+EX_tymsf_e,tymsf_e,[],-inf,inf
+
+//R# = 91 L-Tyrosine exchange Regulation: 
+EX_tyr_L_e,tyr_L_e,[],-inf,inf
+
+//R# = 92 Uracil exchange Regulation: 
+EX_ura_e,ura_e,[],-inf,inf
+
+//R# = 93 Urate exchange Regulation: 
+EX_urate_e,urate_e,[],-inf,inf
+
+//R# = 94 Urea exchange Regulation: 
+EX_urea_e,urea_e,[],-inf,inf
+
+//R# = 95 Uridine exchange Regulation: 
+EX_uri_e,uri_e,[],-inf,inf
+
+//R# = 96 L-Valine exchange Regulation: 
+EX_val_L_e,val_L_e,[],-inf,inf
+
+//R# = 97 sink 12harachd(c) Regulation: 
+sink_12harachd_c,12harachd_c,[],-inf,inf
+
+//R# = 98 sink 15HPET(c) Regulation: 
+sink_15HPET_c,15HPET_c,[],-inf,inf
+
+//R# = 99 sink 4mop Regulation: 
+sink_4mop,4mop_c,[],-inf,inf
+
+//R# = 100 sink 5moxact(c) Regulation: 
+sink_5moxact_c,5moxact_c,[],-inf,inf
+
+//R# = 101 sink ca2(c) Regulation: 
+sink_ca2_c,ca2_c,[],-inf,inf
+
+//R# = 102 sink homoval(c) Regulation: 
+sink_homoval_c,homoval_c,[],-inf,inf
+
+//R# = 103 sink ind3ac(c) Regulation: 
+sink_ind3ac_c,ind3ac_c,[],-inf,inf
+
+//R# = 104 sink mal(c) Regulation: 
+sink_mal_c,mal_L_c,[],-inf,inf
+
+//R# = 105 sink for intracellular Sodium Regulation: 
+sink_na1,na1_c,[],-inf,inf
+
+//R# = 106 sink txb(c) Regulation: 
+sink_txb_c,txb2_c,[],-inf,inf
+
+//R# = 107 6-glutamyl-10FTHF transport, mitochondrial Regulation: 
+10FTHF6GLUtm,10fthf6glu_m,10fthf6glu_c,0,inf
+
+//R# = 108 7-glutamyl-10FTHF transport, lysosomal Regulation: 
+10FTHF7GLUtl,10fthf7glu_c,10fthf7glu_l,0,inf
+
+//R# = 109 7-glutamyl-10FTHF transport, mitochondrial Regulation: 
+10FTHF7GLUtm,10fthf7glu_m,10fthf7glu_c,0,inf
+
+//R# = 110 10-Formyltetrahydrofolate lysosomal transport via diffusion Regulation: 
+10FTHFtl,10fthf_c,10fthf_l,-inf,inf
+
+//R# = 111 L-2-aminoadipate shuttle (cytosol/mitochondria) Regulation: 89874
+2AMADPTm,L2aadp_c+akg_m,L2aadp_m+akg_c,-inf,inf
+
+//R# = 112 2-deoxy-D-ribose 1-phosphate phosphorylase Regulation: 
+2DR1PP,h2o_c+2dr1p_c,drib_c+pi_c,0,inf
+
+//R# = 113 2-Oxoadipate:lipoamde 2-oxidoreductase(decarboxylating and acceptor-succinylating) (mitochondria) Regulation: (1738 and 8050) and 1743 and 4967
+2OXOADOXm,coa_m+nad_m+2oxoadp_m,nadh_m+co2_m+glutcoa_m,0,inf
+
+//R# = 114 2-oxoadipate shuttle (cytosol/mitochondria) Regulation: 89874
+2OXOADPTm,akg_m+2oxoadp_c,akg_c+2oxoadp_m,-inf,inf
+
+//R# = 115 3,4-Dihydroxyphenylacetate:amet O-methyltransferase Regulation: 1312
+34DHPHAMT,amet_c+34dhpha_c,homoval_c+h_c+ahcys_c,0,inf
+
+//R# = 116 3,4-Dihydroxyphenylacetaldehyde:NAD+ oxidoreductase Regulation: 218 or 220 or 221 or 222
+34DHPLACOX,h2o_c+nad_c+34dhpac_c,nadh_c+34dhpha_c+2*h_c,0,inf
+
+//R# = 117 4-Hydroxyphenylpyruvate:oxygen oxidoreductase Regulation: 3242
+34HPPOR,34hpp_c+o2_c,hgentis_c+co2_c,0,inf
+
+//R# = 118 3-hydroxyisobutyryl-CoA hydrolase, mitochondrial Regulation: 
+3HBCOAHLm,h2o_m+3hibutcoa_m,coa_m+3hmp_m+h_m,0,inf
+
+//R# = 119 3-Hydroxy-L-tyrosine carboxy-lyase Regulation: 1644
+3HLYTCL,34dhphe_c+h_c,dopa_c+co2_c,0,inf
+
+//R# = 120 3-Methoxy-4-hydroxyphenylacetaldehyde:NAD+ oxidoreductase Regulation: 218 or 220 or 221 or 222
+3M4HDXPAC,3mox4hpac_c+h2o_c+nad_c,homoval_c+nadh_c+2*h_c,-inf,inf
+
+//R# = 121 3-methyl-2-oxobutanoate mitochondrial transport via proton symport Regulation: 
+3MOBt2im,3mob_c+h_c,3mob_m+h_m,0,inf
+
+//R# = 122 3-Methyl-2-oxopentanoate mitochondrial transport via proton symport Regulation: 
+3MOPt2im,3mop_c+h_c,h_m+3mop_m,0,inf
+
+//R# = 123 3-Methoxytyramine:oxygen oxidoreductase (deaminating) Regulation: 4128 or 4129
+3MOXTYROX,o2_c+h2o_c+3moxtyr_c,3mox4hpac_c+h2o2_c+nh4_c,0,inf
+
+//R# = 124 4-(2-Aminoethyl)-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing) Regulation: 4128 or 4129
+42A12BOOX,o2_c+h2o_c+dopa_c,h2o2_c+nh4_c+34dhpac_c,0,inf
+
+//R# = 125 4-aminobutanoate mitochondrial transport via diffusion Regulation: 
+4ABUTtm,4abut_c,4abut_m,-inf,inf
+
+//R# = 126 4-Hydroxyphenylacetaldehyde:NADP+ oxidoreductase Regulation: 218 or 220 or 221 or 222
+4HOXPACDOX_NADP,h2o_c+nadp_c+4hoxpacd_c,4hphac_c+2*h_c+nadph_c,-inf,inf
+
+//R# = 127 4-methyl-2-oxopentanoate mitochondrial transport  via proton symport Regulation: 
+4MOPt2im,4mop_c+h_c,4mop_m+h_m,0,inf
+
+//R# = 128 xenobiotic transport Regulation: 
+4NPHSFte,4nphsf_e,4nphsf_c,-inf,inf
+
+//R# = 129 4-Nitrophenol Sulfotransferase Regulation: 6817 or 6799
+4NPHSULT,paps_c+4nph_c,pap_c+4nphsf_c+h_c,0,inf
+
+//R# = 130 xenobiotic transport Regulation: 
+4NPHte,4nph_e,4nph_c,-inf,inf
+
+//R# = 131 5-Aminolevulinate mitochondrial transport Regulation: 
+5AOPtm,5aop_c,5aop_m,-inf,inf
+
+//R# = 132 5-Hydroxy-L-tryptophan decarboxy-lyase Regulation: 1644
+5HLTDL,5htrp_c+h_c,srtn_c+co2_c,0,inf
+
+//R# = 133 5-Hydroxyindoleacetaldehyde:NAD+ oxidoreductase Regulation: 224 or 216 or 223
+5HOXINDACTOX,5hoxindact_c+h2o_c+nad_c,nadh_c+2*h_c+5hoxindoa_c,0,inf
+
+//R# = 134 5-Hydroxytryptamine:oxygen oxidoreductase(deaminating)(flavin-containing) Regulation: 4128 or 4129
+5HOXINOXDA,o2_c+h2o_c+srtn_c,5hoxindact_c+h2o2_c+nh4_c,0,inf
+
+//R# = 135 5-Methyltetrahydrofolate transport via receptor binding and protolysis Regulation: 2348
+5MTHFt,5mthf_e,5mthf_c,-inf,inf
+
+//R# = 136 5-methyltetrahydrofolate transport via anion exchange Regulation: 6573
+5MTHFt2,oh1_c+5mthf_e,oh1_e+5mthf_c,-inf,inf
+
+//R# = 137 Acetoacetyl-CoA:acetate CoA-transferase Regulation: 65985
+AACOAT,coa_c+atp_c+acac_c,ppi_c+amp_c+aacoa_c,-inf,inf
+
+//R# = 138 L-aminoadipate-semialdehyde dehydrogenase (NADH), mitochondrial Regulation: 
+AASAD3m,L2aadp6sa_m+h2o_m+nad_m,L2aadp_m+nadh_m+2*h_m,0,inf
+
+//R# = 139 2-aminoadipate transaminase, irreversible Regulation: 51166
+AATAi,L2aadp_c+akg_c,glu_L_c+2oxoadp_c,0,inf
+
+//R# = 140 4-aminobutyrate transaminase, reversible (mitochondrial) Regulation: 18
+ABTArm,4abut_m+akg_m,glu_L_m+sucsal_m,-inf,inf
+
+//R# = 141 acetyl-CoA C-acetyltransferase Regulation: 39
+ACACT1,2*accoa_c,coa_c+aacoa_c,-inf,inf
+
+//R# = 142 acetyl-CoA C-acetyltransferase, mitochondrial Regulation: 38
+ACACT10m,coa_m+2maacoa_m,accoa_m+ppcoa_m,-inf,inf
+
+//R# = 143 acetyl-CoA C-acetyltransferase Regulation: 39
+ACACT1r,2*accoa_c,coa_c+aacoa_c,-inf,inf
+
+//R# = 144 acetyl-CoA C-acetyltransferase, mitochondrial Regulation: 3032 and 3030 and 38
+ACACT1rm,2*accoa_m,coa_m+aacoa_m,-inf,inf
+
+//R# = 145 acetyl-CoA carboxylase Regulation: 32 or 31
+ACCOAC,atp_c+accoa_c+hco3_c,malcoa_c+pi_c+h_c+adp_c,0,inf
+
+//R# = 146 ATP-Citrate lyase Regulation: 47
+ACITL,coa_c+atp_c+cit_c,oaa_c+pi_c+accoa_c+adp_c,0,inf
+
+//R# = 147 acyl-CoA dehydrogenase (2-methylbutanoyl-CoA), mitochondrial Regulation: 34 or 36
+ACOAD10m,fad_m+2mbcoa_m,2mb2coa_m+fadh2_m,0,inf
+
+//R# = 148 acyl-CoA dehydrogenase (isovaleryl-CoA), mitochondrial Regulation: 3712
+ACOAD8m,fad_m+ivcoa_m,fadh2_m+3mb2coa_m,0,inf
+
+//R# = 149 acyl-CoA dehydrogenase (isobutyryl-CoA), mitochondrial Regulation: 27034 or 34
+ACOAD9m,fad_m+ibcoa_m,fadh2_m+2mp2coa_m,0,inf
+
+//R# = 150 aconitase Regulation: 48
+ACONT,cit_c,icit_c,-inf,inf
+
+//R# = 151 Aconitate hydratase Regulation: 50
+ACONTm,cit_m,icit_m,-inf,inf
+
+//R# = 152 acetyl-CoA synthetase Regulation: 55902
+ACS,ac_c+coa_c+atp_c,ppi_c+accoa_c+amp_c,0,inf
+
+//R# = 153 S-Adenosyl-L-methionine:N-acetylserotonin O-methyltransferase Regulation: 438
+ACSOMT,amet_c+5hoxindoa_c,5moxact_c+h_c+ahcys_c,0,inf
+
+//R# = 153 acetate reversible transport via proton symport Regulation: 
+ACt2r,ac_e+h_e,ac_c+h_c,-inf,inf
+
+//R# = 154 Adenosine deaminase Regulation: 100
+ADA,adn_c+h2o_c+h_c,ins_c+nh4_c,0,inf
+
+//R# = 155 Adenosine deaminase, extracellular Regulation: 100
+ADAe,h2o_e+adn_e+h_e,ins_e+nh4_e,0,inf
+
+//R# = 156 adenine reversible transport, cytosol Regulation: 3177
+ADEt,ade_e,ade_c,-inf,inf
+
+//R# = 157 adenylate kinase Regulation: 203
+ADK1,atp_c+amp_c,2*adp_c,-inf,inf
+
+//R# = 158 adenylate kinase, mitochondrial Regulation: 204
+ADK1m,atp_m+amp_m,2*adp_m,-inf,inf
+
+//R# = 159 adentylate kinase (GTP) Regulation: 50808
+ADK3m,gtp_m+amp_m,gdp_m+adp_m,-inf,inf
+
+//R# = 160 adenylate cyclase Regulation: 112 or 109 or 111
+ADNCYC,atp_c,camp_c+ppi_c,0,inf
+
+//R# = 161 adenosine kinase Regulation: 132
+ADNK1,adn_c+atp_c,h_c+adp_c+amp_c,0,inf
+
+//R# = 162 adenosine facilated transport in cytosol Regulation: 2030
+ADNt,adn_e,adn_c,-inf,inf
+
+//R# = 163 ADPribose diphosphatase Regulation: 11164
+ADPRDP,adprib_c+h2o_c,2*h_c+amp_c+r5p_c,0,inf
+
+//R# = 164 adenine phosphoribosyltransferase Regulation: 353
+ADPT,prpp_c+ade_c,ppi_c+amp_c,0,inf
+
+//R# = 165 Adrenaline secretion via secretory vesicle (ATP driven) Regulation: 6571
+ADRNLPVESSEC,2*h2o_c+2*atp_c+3*adrnl_c,3*adrnl_e+2*pi_c+2*h_c+2*adp_c,0,inf
+
+//R# = 166 adenylyl-sulfate kinase Regulation: 9060 or 9061
+ADSK,atp_c+aps_c,paps_c+h_c+adp_c,0,inf
+
+//R# = 167 adenylosuccinate lyase Regulation: 158
+ADSL1,dcamp_c,amp_c+fum_c,0,inf
+
+//R# = 168 adenylosuccinate lyase Regulation: 158
+ADSL2,25aics_c,fum_c+aicar_c,0,inf
+
+//R# = 169 adenylosuccinate synthase Regulation: 122622
+ADSS,gtp_c+imp_c+asp_L_c,gdp_c+pi_c+2*h_c+dcamp_c,0,inf
+
+//R# = 170 adenosylhomocysteinase Regulation: 191
+AHC,h2o_c+ahcys_c,adn_c+hcys_L_c,-inf,inf
+
+//R# = 171 phosphoribosylaminoimidazolecarboxamide formyltransferase Regulation: 471
+AICART,10fthf_c+aicar_c,thf_c+fprica_c,-inf,inf
+
+//R# = 172 phosphoribosylaminoimidazole carboxylase Regulation: 10606
+AIRCr,co2_c+air_c,5aizc_c+h_c,-inf,inf
+
+//R# = 173 2-oxoglutarate dehydrogenase Regulation: (1738 and 8050) and 1743 and 4967
+AKGDm,coa_m+nad_m+akg_m,nadh_m+succoa_m+co2_m,0,inf
+
+//R# = 174 L-alanine/glutamine reversible exchange Regulation: 6520 and 56301
+ALAGLNexR,gln_L_c+ala_L_e,gln_L_e+ala_L_c,-inf,inf
+
+//R# = 175 5-aminolevulinate synthase Regulation: 23464 or 211 or 212
+ALASm,gly_m+succoa_m+h_m,coa_m+5aop_m+co2_m,0,inf
+
+//R# = 176 L-alanine transaminase Regulation: 84706 or 2875
+ALATA_L,ala_L_c+akg_c,pyr_c+glu_L_c,-inf,inf
+
+//R# = 177 alcohol dehydrogenase (methanol) Regulation: (126 and 124) or (125 and 124) or (125 and 126) or 284273 or 131 or 130 or 128 or 125 or 126 or 127 or 124 or 137872
+ALCD1,nad_c+meoh_c,fald_c+nadh_c+h_c,-inf,inf
+
+//R# = 178 alcohol dehydrogenase (D-1,2-propanediol) Regulation: (126 and 124) or (125 and 124) or (125 and 126) or 284273 or 131 or 130 or 128 or 125 or 126 or 127 or 124 or 137872
+ALCD21_D,nad_c+12ppd_R_c,lald_D_c+nadh_c+h_c,-inf,inf
+
+//R# = 179 alcohol dehydrogenase (L-1,2-propanediol) Regulation: (126 and 124) or (125 and 124) or (125 and 126) or 284273 or 131 or 130 or 128 or 125 or 126 or 127 or 124 or 137872
+ALCD21_L,12ppd_S_c+nad_c,lald_L_c+nadh_c+h_c,0,inf
+
+//R# = 180 aldehyde dehydrogenase (phenylacetaldehyde, NAD) Regulation: 218 or 220 or 221 or 222
+ALDD19x,h2o_c+nad_c+pacald_c,pac_c+nadh_c+2*h_c,0,inf
+
+//R# = 181 aldehyde dehydrogenase (phenylacetaldehyde, NADP) Regulation: 218 or 220 or 221 or 222
+ALDD19x_P,h2o_c+nadp_c+pacald_c,pac_c+2*h_c+nadph_c,0,inf
+
+//R# = 182 aldehyde dehydrogenase (indole-3-acetaldehyde, NAD) Regulation: 216 or 224 or 223
+ALDD20x,h2o_c+nad_c+id3acald_c,ind3ac_c+nadh_c+2*h_c,0,inf
+
+//R# = 183 aldehyde dehydrogenase (acetaldehyde, NAD) Regulation: 224 or 216 or 223
+ALDD2x,h2o_c+acald_c+nad_c,ac_c+nadh_c+2*h_c,0,inf
+
+//R# = 184 aldehyde dehydrogenase (acetaldehyde, NADP) Regulation: 224 or 223
+ALDD2y,h2o_c+nadp_c+acald_c,ac_c+2*h_c+nadph_c,0,inf
+
+//R# = 185 Arachidonate 12-lipoxygenase Regulation: 239
+ALOX12,o2_c+arachd_c,12HPET_c,0,inf
+
+//R# = 186 Arachidonate 15-lipoxygenase Regulation: 246 or 247
+ALOX15,o2_c+arachd_c,15HPET_c,0,inf
+
+//R# = 187 Arachidonate 5-lipoxygenase Regulation: 240
+ALOX5,o2_c+arachd_c,5HPET_c,0,inf
+
+//R# = 188 Arachidonate 5-lipoxygenase Regulation: 240
+ALOX52,5HPET_c,h2o_c+leuktrA4_c,0,inf
+
+//R# = 189 Aldose reductase Regulation: 231
+ALR,h2o_c+nadp_c+mthgxl_c,pyr_c+2*h_c+nadph_c,0,inf
+
+//R# = 190 aldose reductase (methylglyoxal) Regulation: 10327 or 8574 or 231
+ALR2,h_c+mthgxl_c+nadph_c,nadp_c+acetol_c,0,inf
+
+//R# = 191 aldose reductase (acetol) Regulation: 231 or 8574 or 10327
+ALR3,acetol_c+h_c+nadph_c,12ppd_S_c+nadp_c,0,inf
+
+//R# = 192 Adenosine monophosphate deaminase Regulation: 271
+AMPDA,h2o_c+h_c+amp_c,nh4_c+imp_c,0,inf
+
+//R# = 193 alanyl aminopeptidase (cys-gly) (e) Regulation: 290
+AMPTASECGe,h2o_e+cgly_e,cys_L_e+gly_e,0,inf
+
+//R# = 194 3-Aminopropanoate:2-oxoglutarate aminotransferase (m) Regulation: 18
+APAT2rm,ala_B_m+akg_m,glu_L_m+msa_m,-inf,inf
+
+//R# = 195 fatty acid transport via diffusion Regulation: 
+ARACHDt2,arachd_e,arachd_c,-inf,inf
+
+//R# = 196 intracellular transport Regulation: 
+ARACHDtr,arachd_c,arachd_r,-inf,inf
+
+//R# = 197 arginase Regulation: 383
+ARGN,h2o_c+arg_L_c,urea_c+orn_c,0,inf
+
+//R# = 198 argininosuccinate lyase Regulation: 435
+ARGSL,argsuc_c,fum_c+arg_L_c,-inf,inf
+
+//R# = 199 argininosuccinate synthase Regulation: 445
+ARGSS,atp_c+citr_L_c+asp_L_c,ppi_c+h_c+amp_c+argsuc_c,0,inf
+
+//R# = 200 L-arginine transport via diffusion (extracellular to cytosol) Regulation: 6541
+ARGtiDF,arg_L_e,arg_L_c,-inf,inf
+
+//R# = 201 L-ascorbate transport via facilitated diffusion Regulation: 
+ASCBt,ascb_L_e,ascb_L_c,-inf,inf
+
+//R# = 202 L-ascorbate transport via proton symport Regulation: 9962
+ASCBt4,na1_e+ascb_L_e,na1_c+ascb_L_c,-inf,inf
+
+//R# = 203 L-alanine/L-asparagine Na-dependent exchange (Asn-L in) Regulation: 6510
+ASNALANaEx,na1_e+ala_L_c+asn_L_e,na1_c+asn_L_c+ala_L_e,0,inf
+
+//R# = 204 L-asparaginase (mitochondrial) Regulation: 80150
+ASNNm,asn_L_m+h2o_m,nh4_m+asp_L_m,0,inf
+
+//R# = 205 L-serine/L-asparagine Na-dependent exchange (Asn-L in) Regulation: 6510
+ASNSERNaEx,na1_e+ser_L_c+asn_L_e,na1_c+asn_L_c+ser_L_e,0,inf
+
+//R# = 206 L-asparagine transport, mitochondrial Regulation: 
+ASNtm,asn_L_c,asn_L_m,0,inf
+
+//R# = 207 aspartate transaminase Regulation: 2805
+ASPTA,asp_L_c+akg_c,oaa_c+glu_L_c,-inf,inf
+
+//R# = 208 aspartate transaminase Regulation: 2806
+ASPTAm,asp_L_m+akg_m,glu_L_m+oaa_m,-inf,inf
+
+//R# = 209 L-aspartate transport via Na, H symport and K antiport Regulation: 6505
+ASPt6,3*na1_e+h_e+asp_L_e+k_c,3*na1_c+h_c+asp_L_c+k_e,-inf,inf
+
+//R# = 210 ATP diphosphohydrolase Regulation: 953 or 954 or 955 or 956 or 957
+ATPH2e,h2o_e+adp_e,pi_e+h_e+amp_e,0,inf
+
+//R# = 211 ATP synthase (four protons for one ATP) Regulation: 513 and 514 and 515 and 516 and 517 and 518 and 10632 and 521 and 522 and 10476 and 9551 and 498 and 4905 and 506 and 509
+ATPS4m,pi_m+4*h_c+adp_m,atp_m+h2o_m+3*h_m,0,inf
+
+//R# = 212 Beta-alanine reversible mitochondrial transport (diffusion) Regulation: 
+BALAtmr,ala_B_c,ala_B_m,-inf,inf
+
+//R# = 213 betaine-homocysteine S-methyltransferase Regulation: 635 or 23743
+BHMT,hcys_L_c+glyb_c,dmgly_c+met_L_c,0,inf
+
+//R# = 214 Nad(p)h biliverdin reductase Regulation: 644 or 645
+BILIRED,biliverd_c+h_c+nadph_c,bilirub_c+nadp_c,0,inf
+
+//R# = 215 bilirubin transport via bicarbonate countertransport Regulation: 10599
+BILIRUBt2,bilirub_e+hco3_c,bilirub_c+hco3_e,-inf,inf
+
+//R# = 216 3,5-bisphosphate nucleotidase Regulation: 10380
+BPNT,pap_c+h2o_c,pi_c+amp_c,0,inf
+
+//R# = 217 carnitine O-palmitoyltransferase Regulation: 1374
+C160CPT1,pmtcoa_c+crn_c,pmtcrn_c+coa_c,0,inf
+
+//R# = 218 C160 transport into the mitochondria Regulation: 1376
+C160CPT2,pmtcrn_m+coa_m,pmtcoa_m+crn_m,0,inf
+
+//R# = 219 C160 transport into the mitochondria Regulation: 788
+C160CRNt,pmtcrn_c,pmtcrn_m,0,inf
+
+//R# = 220 carnitine O-stearoyl transferase Regulation: 1374
+C180CPT1,stcoa_c+crn_c,coa_c+stcrn_c,0,inf
+
+//R# = 221 carnitine O-stearoyl transferase Regulation: 1376
+C180CPT2,stcrn_m+coa_m,stcoa_m+crn_m,0,inf
+
+//R# = 222 C180 transport into the mitochondria Regulation: 788
+C180CRNt,stcrn_c,stcrn_m,0,inf
+
+//R# = 223 carnitine octadecenoyl transferase Regulation: 1374
+C181CPT1,odecoa_c+crn_c,coa_c+odecrn_c,0,inf
+
+//R# = 224 carnitine octadecenoyl transferase Regulation: 1376
+C181CPT2,coa_m+odecrn_m,odecoa_m+crn_m,0,inf
+
+//R# = 225 C181 transport into the mitochondria Regulation: 788
+C181CRNt,odecrn_c,odecrn_m,0,inf
+
+//R# = 226 carnitine C20:4 transferase Regulation: 1374
+C204CPT1,arachdcoa_c+crn_c,coa_c+arachdcrn_c,0,inf
+
+//R# = 227 arachidonic acid transport into the mitochondria Regulation: 1376
+C204CPT2,arachdcrn_m+coa_m,arachdcoa_m+crn_m,0,inf
+
+//R# = 228 arachidonic acid transport into the mitochondria Regulation: 
+C204CRNt,arachdcrn_c,arachdcrn_m,0,inf
+
+//R# = 229 Ca ATPase Regulation: 490 or 493
+CAATPS,h2o_c+atp_c+2*ca2_c,2*ca2_e+pi_c+h_e+adp_c,0,inf
+
+//R# = 230 catalase Regulation: 847
+CATm,2*h2o2_m,o2_m+2*h2o_m,0,inf
+
+//R# = 231 catalase A, peroxisomal Regulation: 847
+CATp,2*h2o2_x,o2_x+2*h2o_x,0,inf
+
+//R# = 232 carbamoyl-phosphate synthase (ammonia) (mitochondria Regulation: 1373
+CBPSam,2*atp_m+nh4_m+hco3_m,cbp_m+pi_m+2*h_m+2*adp_m,0,inf
+
+//R# = 233 cGMP transport (ATP-dependent) Regulation: 10257 or 10057
+CGMPt,35cgmp_c+h2o_c+atp_c,35cgmp_e+pi_c+h_c+adp_c,0,inf
+
+//R# = 234 choline phosphate cytididyltransferase Regulation: 5130 or 9468
+CHLPCTD,cholp_c+ctp_c+h_c,ppi_c+cdpchol_c,0,inf
+
+//R# = 235 choline, sodium cotransport Regulation: 60482
+CHOLt4,na1_e+chol_e,na1_c+chol_c,-inf,inf
+
+//R# = 236 Choline uniport Regulation: 6584 or 6582
+CHOLtu,chol_e,chol_c,-inf,inf
+
+//R# = 237 citrulline mitochondrial transport via proton antiport Regulation: 10166
+CITRtm,citr_L_m,citr_L_c,-inf,inf
+
+//R# = 238 citrate transport via sodium symport Regulation: 9058
+CITt4_2,2*na1_e+cit_e,2*na1_c+cit_c,-inf,inf
+
+//R# = 239 citrate transport via sodium symport Regulation: 284111
+CITt4_4,4*na1_e+cit_e,4*na1_c+cit_c,-inf,inf
+
+//R# = 240 chloride transport via hydroxide countertransport (2:1) Regulation: 65010
+CLOHtex2,oh1_c+2*cl_e,2*cl_c+oh1_e,-inf,inf
+
+//R# = 241 CO2 transporter via diffusion Regulation: 
+CO2t,co2_e,co2_c,-inf,inf
+
+//R# = 242 CO transporter via diffusion Regulation: 
+COt,co_c,co_e,-inf,inf
+
+//R# = 243 coproporphyrinogen oxidase (O2 required) Regulation: 1371
+CPPPGO,o2_c+2*h_c+cpppg3_c,2*h2o_c+pppg9_c+2*co2_c,0,inf
+
+//R# = 244 Creatine transport (sodium symport) (2:1) Regulation: 6537 or 6535
+CREATt4_2r,2*na1_e+creat_e,2*na1_c+creat_c,-inf,inf
+
+//R# = 245 L-carnitine reversible transport Regulation: 6584
+CRNt,crn_e,crn_c,-inf,inf
+
+//R# = 246 L-carnitine transport out of mitochondria via diffusion Regulation: 788
+CRNtim,crn_m,crn_c,0,inf
+
+//R# = 247 L-carnitine inward uniport Regulation: 6583
+CRNtuIR,crn_e,crn_c,-inf,inf
+
+//R# = 248 L-carnitine inward transport by Na+ symport Regulation: 6584
+CRNtuNa,na1_e+crn_e,na1_c+crn_c,-inf,inf
+
+//R# = 249 carnitine O-acetyltransferase Regulation: 
+CSNATr,accoa_c+crn_c,coa_c+acrn_c,-inf,inf
+
+//R# = 250 citrate synthase Regulation: 1431
+CSm,h2o_m+oaa_m+accoa_m,coa_m+h_m+cit_m,0,inf
+
+//R# = 251 Cyanide sulfurtransferase, mitochondrial Regulation: 7263
+CYANSTm,cyan_m+tsul_m,tcynt_m+h_m+so3_m,0,inf
+
+//R# = 252 Cyanide transport via diffusion (extracellular to cytosol) Regulation: 
+CYANt,cyan_e,cyan_c,-inf,inf
+
+//R# = 253 Cyanide transport via diffusion (mitochondrial) Regulation: 
+CYANtm,cyan_c,cyan_m,-inf,inf
+
+//R# = 254 cytochrome c oxidase, mitochondrial Complex IV Regulation: 4512 and 4513 and 1346 and 1347 and 9167 and 1349 and 1350 and 9377 and 1351 and 125965 and 1345 and 4514 and 1329 and 341947 and 1327 and 170712 and 1337 and 1339 and 1340 and 84701
+CYOOm2,o2_m+4*focytC_m+8*h_m,2*h2o_m+4*h_c+4*ficytC_m,0,inf
+
+//R# = 255 ubiquinol-6 cytochrome c reductase, Complex III Regulation: 1537 and 29796 and 4519 and 27089 and 7381 and 7384 and 7385 and 7386 and 7388 and 10975
+CYOR_u10m,2*h_m+q10h2_m+2*ficytC_m,2*focytC_m+4*h_c+q10_m,0,inf
+
+//R# = 256 Glutathione:cystine oxidoreductase Regulation: 
+CYSGLTH,Lcystin_c+2*gthrd_c,2*cys_L_c+gthox_c,-inf,inf
+
+//R# = 257 cysteine transaminase Regulation: 2805
+CYSTA,cys_L_c+akg_c,mercppyr_c+glu_L_c,-inf,inf
+
+//R# = 258 L-cystine/L-glutamate exchanger Regulation: 6520 and 23657
+CYSTGLUex,Lcystin_e+glu_L_c,glu_L_e+Lcystin_c,0,inf
+
+//R# = 259 cytidine facilated transport in cytosol Regulation: 2030
+CYTDt,cytd_e,cytd_c,-inf,inf
+
+//R# = 260 cytidylate kinase (CMP) Regulation: 51727
+CYTK1,cmp_c+atp_c,cdp_c+adp_c,-inf,inf
+
+//R# = 261 cytidylate kinase (CMP,CTP) Regulation: 51727
+CYTK6,cmp_c+ctp_c,2*cdp_c,-inf,inf
+
+//R# = 262 cytidylate kinase (CMP,UTP) Regulation: 51727
+CYTK7,utp_c+cmp_c,cdp_c+udp_c,-inf,inf
+
+//R# = 263 Deoxyadenosine deaminase Regulation: 100
+DADA,h2o_c+dad_2_c+h_c,nh4_c+din_c,0,inf
+
+//R# = 264 dehydro-L-gulonate decarboxylase Regulation: 
+DGULND,h_c+3dhguln_c,co2_c+xylu_L_c,-inf,inf
+
+//R# = 265 dehydroascorbate transport (uniport) Regulation: 6515
+DHAAt1r,dhdascb_e,dhdascb_c,-inf,inf
+
+//R# = 266 dihydropyrimidinase (5,6-dihydrouracil) Regulation: 1808
+DHPM1,h2o_c+56dura_c,h_c+cala_c,0,inf
+
+//R# = 267 6,7-dihydropteridine reduction Regulation: 
+DHPR2,dhbpt_c+5mthf_c,mlthf_c+thbpt_c+h_c,0,inf
+
+//R# = 268 dimethylglycine dehydrogenase, mitochondrial Regulation: 29958
+DMGDHm,fad_m+h2o_m+dmgly_m,fald_m+sarcs_m+fadh2_m,0,inf
+
+//R# = 269 dimethylglycine transport via diffusion (cytosol to mitochondria) Regulation: 
+DMGtm,dmgly_c,dmgly_m,-inf,inf
+
+//R# = 270 dopamine beta-monooxygenase Regulation: 26002 or 1621
+DOPABMO,o2_c+dopa_c+ascb_L_c,h2o_c+nrpphr_c+dhdascb_c,0,inf
+
+//R# = 271 Dopamine:amet O-methyltransferase Regulation: 1312
+DOPAMT,amet_c+dopa_c,3moxtyr_c+h_c+ahcys_c,0,inf
+
+//R# = 272 Dopamine 3-0-sulfate transport (diffusion) Regulation: 
+DOPASFt,dopasf_c,dopasf_e,0,inf
+
+//R# = 273 Dopamine Sulfotransferase Regulation: 6817 or 6799
+DOPASULT,dopa_c+paps_c,pap_c+dopasf_c+h_c,0,inf
+
+//R# = 274 Dopamine secretion via secretory vesicle (ATP driven) Regulation: 6571
+DOPAVESSEC,2*h2o_c+3*dopa_c+2*atp_c,3*dopa_e+2*pi_c+2*h_c+2*adp_c,0,inf
+
+//R# = 275 Diphosphoglyceromutase Regulation: 5224 or 669 or 5223
+DPGM,13dpg_c,23dpg_c+h_c,-inf,inf
+
+//R# = 276 Diphosphoglycerate phosphatase Regulation: 5224 or 669 or 5223
+DPGase,h2o_c+23dpg_c,pi_c+3pg_c,0,inf
+
+//R# = 277 Deoxyribokinase Regulation: 64080
+DRBK,atp_c+drib_c,2dr5p_c+h_c+adp_c,0,inf
+
+//R# = 278 deoxyribose-phosphate aldolase Regulation: 
+DRPA,2dr5p_c,acald_c+g3p_c,0,inf
+
+//R# = 279 dihydrouracil dehydrogenase (NADP) Regulation: 1806
+DURAD,56dura_c+nadp_c,ura_c+h_c+nadph_c,-inf,inf
+
+//R# = 281 3-hydroxyacyl-CoA dehydratase (3-hydroxyisobutyryl-CoA) (mitochondria) Regulation: 3032 and 1892 and 3030
+ECOAH12m,h2o_m+2mp2coa_m,3hibutcoa_m,-inf,inf
+
+//R# = 282 3-hydroxyacyl-CoA dehydratase (3-hydroxybutanoyl-CoA) (mitochondria) Regulation: 3032 and 1892 and 549 and 3030
+ECOAH1m,3hbcoa_m,h2o_m+b2coa_m,-inf,inf
+
+//R# = 283 2-Methylprop-2-enoyl-CoA (2-Methylbut-2-enoyl-CoA), mitochondrial Regulation: 3032 and 1892 and 3030
+ECOAH9m,h2o_m+2mb2coa_m,3hmbcoa_m,-inf,inf
+
+//R# = 284 enolase Regulation: 2026 or 2027 or 2023
+ENO,2pg_c,pep_c+h2o_c,-inf,inf
+
+//R# = 285 Estrogen sulfotransferase Regulation: 6817
+ESTSULT,paps_c+estrone_c,pap_c+h_c+estrones_c,0,inf
+
+//R# = 286 electron transfer flavoprotein Regulation: 2108 and 2109
+ETF,etfox_m+fadh2_m,fad_m+etfrd_m,0,inf
+
+//R# = 287 Electron transfer flavoprotein-ubiquinone oxidoreductase Regulation: 2110
+ETFQO,etfrd_m+q10_m,etfox_m+q10h2_m,0,inf
+
+//R# = 288 C160 fatty acid activation Regulation: 2180 or 2181 or 51703
+FACOAL160i,coa_c+hdca_c+atp_c,ppi_c+pmtcoa_c+amp_c,0,inf
+
+//R# = 289 C180 fatty acid activation Regulation: 2180 or 2181 or 51703
+FACOAL180i,coa_c+atp_c+ocdca_c,ppi_c+amp_c+stcoa_c,0,inf
+
+//R# = 290 C181 fatty acid activation Regulation: 2180 or 2181
+FACOAL181i,ocdcea_c+coa_c+atp_c,ppi_c+amp_c+odecoa_c,0,inf
+
+//R# = 291 fatty-acid--CoA ligase Regulation: 2180
+FACOAL1821,coa_c+lnlc_c+atp_c,ppi_c+amp_c+lnlccoa_c,-inf,inf
+
+//R# = 292 arachidonic acid activation Regulation: 2180 or 2181 or 2182
+FACOAL204i,coa_c+atp_c+arachd_c,ppi_c+arachdcoa_c+amp_c,0,inf
+
+//R# = 293 formaldehyde dehydrogenase Regulation: 128
+FALDH,fald_c+nad_c+gthrd_c,nadh_c+Sfglutth_c+h_c,-inf,inf
+
+//R# = 294 formaldehyde transport via diffusion (mitochondrial) Regulation: 
+FALDtm,fald_m,fald_c,-inf,inf
+
+//R# = 295 Beta oxidation of long chain fatty acid Regulation: 34 or 35
+FAOXC160,7*fad_m+7*h2o_m+7*coa_m+7*nad_m+pmtcoa_m,7*nadh_m+8*accoa_m+7*fadh2_m+7*h_m,0,inf
+
+//R# = 296 Beta oxidation of long chain fatty acid Regulation: 34 or 35
+FAOXC16080m,4*fad_m+4*h2o_m+4*coa_m+4*nad_m+pmtcoa_m,4*nadh_m+4*accoa_m+4*fadh2_m+4*h_m+occoa_m,0,inf
+
+//R# = 297 Beta oxidation of long chain fatty acid Regulation: 34 or 35
+FAOXC180,fad_m+h2o_m+coa_m+nad_m+stcoa_m,nadh_m+pmtcoa_m+accoa_m+fadh2_m+h_m,0,inf
+
+//R# = 298 Beta oxidation  fatty acid Regulation: 34 or 35
+FAOXC1811603m,4*fad_m+5*h2o_m+5*coa_m+5*nad_m+odecoa_m,5*nadh_m+5*accoa_m+4*fadh2_m+5*h_m+occoa_m,0,inf
+
+//R# = 299 Beta oxidation of fatty acid Regulation: 34 or 35
+FAOXC182806m,3*fad_m+5*h2o_m+5*coa_m+5*nad_m+lnlccoa_m,5*nadh_m+5*accoa_m+3*fadh2_m+5*h_m+occoa_m,0,inf
+
+//R# = 300 Beta oxidation of long chain fatty acid Regulation: 34 or 35
+FAOXC204,5*fad_m+9*h2o_m+arachdcoa_m+9*coa_m+9*nad_m,9*nadh_m+10*accoa_m+5*fadh2_m+9*h_m,0,inf
+
+//R# = 301 Beta oxidation of med/long chain fatty acid Regulation: 34 or 35
+FAOXC80,3*fad_m+3*h2o_m+3*coa_m+3*nad_m+occoa_m,3*nadh_m+4*accoa_m+3*fadh2_m+3*h_m,0,inf
+
+//R# = 302 fatty acyl-CoA synthase (n-C10:0CoA) Regulation: 2194
+FAS100COA,malcoa_c+3*h_c+occoa_c+2*nadph_c,h2o_c+2*nadp_c+coa_c+dcacoa_c+co2_c,0,inf
+
+//R# = 303 fatty-acyl-CoA synthase (n-C12:0CoA) Regulation: 2194
+FAS120COA,malcoa_c+3*h_c+dcacoa_c+2*nadph_c,h2o_c+2*nadp_c+coa_c+ddcacoa_c+co2_c,0,inf
+
+//R# = 304 fatty-acyl-CoA synthase (n-C14:0CoA) Regulation: 2194
+FAS140COA,malcoa_c+ddcacoa_c+3*h_c+2*nadph_c,h2o_c+2*nadp_c+coa_c+tdcoa_c+co2_c,0,inf
+
+//R# = 305 fatty-acyl-CoA synthase (n-C16:0CoA) Regulation: 2194
+FAS160COA,malcoa_c+tdcoa_c+3*h_c+2*nadph_c,h2o_c+2*nadp_c+coa_c+pmtcoa_c+co2_c,0,inf
+
+//R# = 306 fatty-acyl-CoA synthase (n-C18:0CoA) Regulation: 2194
+FAS180COA,malcoa_c+pmtcoa_c+3*h_c+2*nadph_c,h2o_c+2*nadp_c+coa_c+stcoa_c+co2_c,0,inf
+
+//R# = 307 fatty acyl-CoA synthase (n-C8:0CoA), lumped reaction Regulation: 2194
+FAS80COA_L,3*malcoa_c+accoa_c+9*h_c+6*nadph_c,3*h2o_c+6*nadp_c+3*coa_c+occoa_c+3*co2_c,0,inf
+
+//R# = 308 fatty acid electroneutral transport Regulation: 11000 or 376497 or 10999
+FATP1t,na1_c+hdca_c,na1_e+hdca_e,-inf,inf
+
+//R# = 309 fatty acid electroneutral transport Regulation: 376497
+FATP2t,na1_c+ocdcea_c,na1_e+ocdcea_e,-inf,inf
+
+//R# = 310 fatty acid electroneutral transport Regulation: 376497
+FATP3t,na1_c+ocdca_c,na1_e+ocdca_e,-inf,inf
+
+//R# = 311 fatty acid electroneutral transport Regulation: 10998
+FATP5t,na1_c+arachd_c,na1_e+arachd_e,-inf,inf
+
+//R# = 312 fructose-bisphosphate aldolase Regulation: 226 or 230
+FBA,fdp_c,dhap_c+g3p_c,-inf,inf
+
+//R# = 313 D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase Regulation: 226 or 230
+FBA2,f1p_c,dhap_c+glyald_c,-inf,inf
+
+//R# = 314 fructose-bisphosphatase Regulation: 2203 or 8789
+FBP,h2o_c+fdp_c,f6p_c+pi_c,0,inf
+
+//R# = 315 Fructose-2,6-bisphosphate 2-phosphatase Regulation: 8789 or 5207 or 5208 or 5209 or 5210 or 2203
+FBP26,h2o_c+f26bp_c,f6p_c+pi_c,0,inf
+
+//R# = 316 Ferrochelatase, mitochondrial Regulation: 2235
+FCLTm,fe2_m+ppp9_m,2*h_m+pheme_m,0,inf
+
+//R# = 317 iron (II) transport Regulation: 
+FE2t,fe2_e,fe2_c,0,inf
+
+//R# = 318 iron (II) transport Regulation: 
+FE2tm,fe2_c+h_c,fe2_m+h_m,0,inf
+
+//R# = 319 folylpolyglutamate synthetase (10fthf), mitochondrial Regulation: 2356
+FPGS7m,4*atp_m+10fthf_m+4*glu_L_m,10fthf5glu_m+4*pi_m+4*h_m+4*adp_m,0,inf
+
+//R# = 320 folylpolyglutamate synthetase (10fthf), mitochondrial Regulation: 2356
+FPGS8m,atp_m+10fthf5glu_m+glu_L_m,10fthf6glu_m+pi_m+h_m+adp_m,0,inf
+
+//R# = 321 folylpolyglutamate synthetase (10fthf) Regulation: 2356
+FPGS9,10fthf6glu_c+atp_c+glu_L_c,pi_c+h_c+adp_c+10fthf7glu_c,0,inf
+
+//R# = 322 folylpolyglutamate synthetase (10fthf), mitochondrial Regulation: 2356
+FPGS9m,atp_m+glu_L_m+10fthf6glu_m,pi_m+h_m+adp_m+10fthf7glu_m,0,inf
+
+//R# = 323 D-fructose transport in via uniport Regulation: 155184 or 6514 or 66035 or 29988 or 6518
+FRUt1r,fru_e,fru_c,-inf,inf
+
+//R# = 324 D-fructose transport  via sodium cotransport Regulation: 200010
+FRUt4,na1_e+fru_e,na1_c+fru_c,-inf,inf
+
+//R# = 325 formate-tetrahydrofolate ligase Regulation: 4522
+FTHFL,for_c+thf_c+atp_c,10fthf_c+pi_c+adp_c,-inf,inf
+
+//R# = 326 fumarylacetoacetase Regulation: 2184
+FUMAC,h2o_c+4fumacac_c,h_c+fum_c+acac_c,0,inf
+
+//R# = 327 Fumarate:sulfite antiport, mitochondrial Regulation: 1468
+FUMSO3tm,fum_c+so3_m,so3_c+fum_m,-inf,inf
+
+//R# = 328 Fumarate:thiosulfate antiport, mitochondrial Regulation: 1468
+FUMTSULtm,fum_c+tsul_m,fum_m+tsul_c,-inf,inf
+
+//R# = 329 fumarase, mitochondrial Regulation: 2271
+FUMm,h2o_m+fum_m,mal_L_m,-inf,inf
+
+//R# = 330 fumarate transport, mitochondrial Regulation: 1468
+FUMtm,pi_m+fum_c,pi_c+fum_m,-inf,inf
+
+//R# = 331 glycerol-3-phosphate dehydrogenase (NAD) Regulation: 2819
+G3PD1,glyc3p_c+nad_c,nadh_c+dhap_c+h_c,-inf,inf
+
+//R# = 332 glycerol-3-phosphate dehydrogenase (FAD), mitochondrial Regulation: 2820
+G3PD2m,fad_m+glyc3p_c,fadh2_m+dhap_c,0,inf
+
+//R# = 333 L-glutamate 5-semialdehyde dehydratase, reversible, mitochondrial Regulation: 
+G5SADrm,glu5sa_m,h2o_m+1pyr5c_m+h_m,-inf,inf
+
+//R# = 334 glucose 6-phosphate dehydrogenase Regulation: 2539
+G6PDH2r,nadp_c+g6p_c,6pgl_c+h_c+nadph_c,-inf,inf
+
+//R# = 335 glucose-6-phosphate phosphatase, edoplasmic reticular Regulation: 57818 or 92579 or 2538
+G6PPer,h2o_r+g6p_r,pi_r+glc_D_r,0,inf
+
+//R# = 336 glucose 6-phosphate endoplasmic reticular transport via diffusion Regulation: 2542
+G6Pter,g6p_c,g6p_r,-inf,inf
+
+//R# = 337 guanidinoacetate N-methyltransferase (c) Regulation: 2593
+GACMTRc,amet_c+gudac_c,h_c+creat_c+ahcys_c,-inf,inf
+
+//R# = 338 galactokinase Regulation: 2584
+GALK,atp_c+gal_c,gal1p_c+h_c+adp_c,0,inf
+
+//R# = 339 galactose-1-phosphate uridylyltransferase Regulation: 2592
+GALT,utp_c+gal1p_c+h_c,udpgal_c+ppi_c,-inf,inf
+
+//R# = 340 UTP-glucose-1-phosphate uridylyltransferase Regulation: 7360
+GALU,utp_c+h_c+g1p_c,ppi_c+udpg_c,-inf,inf
+
+//R# = 341 galactose transport (uniport) Regulation: 6515
+GALt1r,gal_e,gal_c,-inf,inf
+
+//R# = 342 glyceraldehyde-3-phosphate dehydrogenase Regulation: 2597
+GAPD,nad_c+pi_c+g3p_c,nadh_c+13dpg_c+h_c,-inf,inf
+
+//R# = 343 phosphoribosylglycinamide formyltransferase Regulation: 2618
+GARFT,10fthf_c+gar_c,thf_c+fgam_c+h_c,-inf,inf
+
+//R# = 344 Gamma-glutamyl hydrolase (10FTHF5GLU), lysosomal Regulation: 8836
+GGH_10FTHF5GLUl,4*h2o_l+10fthf5glu_l,10fthf_l+4*glu_L_l,0,inf
+
+//R# = 345 Gamma-glutamyl hydrolase (10FTHF6GLU), lysosomal Regulation: 8836
+GGH_10FTHF6GLUl,h2o_l+10fthf6glu_l,10fthf5glu_l+glu_L_l,0,inf
+
+//R# = 346 Gamma-glutamyl hydrolase (10FTHF7GLU), lysosomal Regulation: 8836
+GGH_10FTHF7GLUl,h2o_l+10fthf7glu_l,glu_L_l+10fthf6glu_l,0,inf
+
+//R# = 347 gamma-glutamylcyclotransferase Regulation: 2655
+GGLUCT,gluala_e,5oxpro_c+ala_L_c,0,inf
+
+//R# = 348 glycogenin self-glucosylation Regulation: 2992 and 8908 and 2997 and 2998
+GGNG,Tyr_ggn_c+8*udpg_c,8*udp_c+8*h_c+ggn_c,0,inf
+
+//R# = 349 Gamma-glutamyltransferase 5 Regulation: 2687
+GGT5r,h2o_r+leuktrC4_r,glu_L_r+leuktrD4_r,-inf,inf
+
+//R# = 350 Gamma-glutamyltransferase Regulation: 
+GGT6,glu_L_c+leuktrE4_c,leuktrF4_c+h2o_c,-inf,inf
+
+//R# = 351 glycine hydroxymethyltransferase, reversible Regulation: 6470
+GHMT2r,ser_L_c+thf_c,mlthf_c+h2o_c+gly_c,-inf,inf
+
+//R# = 352 guanylate kinase (GMP:ATP) Regulation: 2987
+GK1,atp_c+gmp_c,gdp_c+adp_c,-inf,inf
+
+//R# = 353 1,4-alpha-glucan branching enzyme (glygn1 -> glygn2) Regulation: 2632
+GLBRAN,glygn1_c,glygn2_c,0,inf
+
+//R# = 354 glucuronate endoplasmic reticular transport Regulation: 
+GLCURter,glcur_c,glcur_r,0,inf
+
+//R# = 355 glucose transport (uniport) Regulation: 144195 or 56606 or 11182 or 6515
+GLCt1r,glc_D_e,glc_D_c,-inf,inf
+
+//R# = 356 glucose transport, endoplasmic reticulum Regulation: 
+GLCter,glc_D_c,glc_D_r,-inf,inf
+
+//R# = 357 glycogen debranching enzyme Regulation: 178
+GLDBRAN,h2o_c+dxtrn_c,glc_D_c+glygn3_c,0,inf
+
+//R# = 358 glycogen synthase (ggn -> glygn1) Regulation: 2992 and 8908 and 2997 and 2998
+GLGNS1,ggn_c+3*udpg_c,3*udp_c+3*h_c+glygn1_c,0,inf
+
+//R# = 359 glutamine synthetase Regulation: 2752
+GLNS,nh4_c+atp_c+glu_L_c,gln_L_c+pi_c+h_c+adp_c,0,inf
+
+//R# = 360 L-glutamine transport via electroneutral transporter Regulation: 
+GLNtm,gln_L_c,gln_L_m,0,inf
+
+//R# = 361 glycogen phosphorylase (glygn2 -> dxtrn) Regulation: 5834 or 5836 or 5837
+GLPASE1,glygn2_c+3*pi_c,dxtrn_c+3*g1p_c,0,inf
+
+//R# = 362 glycogen phosphorylase (amyls -> glc-D) Regulation: 5834 or 5836 or 5837
+GLPASE2,7*h2o_c+glygn3_c,Tyr_ggn_c+7*glc_D_c,0,inf
+
+//R# = 363 gamma-glutamylcysteine synthetase Regulation: 2729 and 2730
+GLUCYS,cys_L_c+atp_c+glu_L_c,glucys_c+pi_c+h_c+adp_c,0,inf
+
+//R# = 364 Glutamate Decarboxylase Regulation: 2571 or 2572
+GLUDC,h_c+glu_L_c,4abut_c+co2_c,0,inf
+
+//R# = 365 glutamate dehydrogenase (NAD) (mitochondrial) Regulation: 2746
+GLUDxm,h2o_m+glu_L_m+nad_m,nadh_m+nh4_m+h_m+akg_m,-inf,inf
+
+//R# = 366 glutaminase (mitochondrial) Regulation: 2744 or 27165
+GLUNm,h2o_m+gln_L_m,glu_L_m+nh4_m,0,inf
+
+//R# = 367 glutamine phosphoribosyldiphosphate amidotransferase Regulation: 5471
+GLUPRT,gln_L_c+h2o_c+prpp_c,ppi_c+pram_c+glu_L_c,0,inf
+
+//R# = 368 glutaryl-CoA dehydrogenase (mitochondria) Regulation: 2639
+GLUTCOADHm,fad_m+h_m+glutcoa_m,b2coa_m+fadh2_m+co2_m,0,inf
+
+//R# = 369 Glutamate transport via Na, H symport and K antiport Regulation: 6505
+GLUt6,3*na1_e+glu_L_e+h_e+k_c,3*na1_c+h_c+glu_L_c+k_e,0,inf
+
+//R# = 370 Glutamate transport, lysosomal Regulation: 
+GLUt7l,glu_L_l,glu_L_c,0,inf
+
+//R# = 371 intracellular transport Regulation: 
+GLUtr,glu_L_c,glu_L_r,-inf,inf
+
+//R# = 372 glycine amidinotransferase (c) Regulation: 2628
+GLYAMDTRc,gly_c+arg_L_c,gudac_c+orn_c,-inf,inf
+
+//R# = 373 Betaine transport (sodium symport) (2:1) Regulation: 6539
+GLYBt4_2r,2*na1_e+glyb_e,2*na1_c+glyb_c,-inf,inf
+
+//R# = 374 glycerol kinase Regulation: 2712 or 2710
+GLYK,glyc_c+atp_c,glyc3p_c+h_c+adp_c,0,inf
+
+//R# = 375 hydroxyacylglutathione hydrolase Regulation: 3029
+GLYOX,h2o_c+lgt_S_c,lac_D_c+h_c+gthrd_c,0,inf
+
+//R# = 376 GMP reductase Regulation: 51292 or 2766
+GMPR,2*h_c+gmp_c+nadph_c,nadp_c+nh4_c+imp_c,0,inf
+
+//R# = 377 phosphogluconate dehydrogenase Regulation: 5226
+GND,nadp_c+6pgc_c,co2_c+nadph_c+ru5p_D_c,0,inf
+
+//R# = 378 Glycerophosphodiester phosphodiesterase (Glycerophosphocholine) Regulation: 
+GPDDA1,h2o_c+g3pc_c,chol_c+glyc3p_c+h_c,0,inf
+
+//R# = 379 guanosine facilated transport in cytosol Regulation: 2030
+GSNt,gsn_e,gsn_c,-inf,inf
+
+//R# = 380 glutathione oxidoreductase Regulation: 2936
+GTHO,h_c+gthox_c+nadph_c,nadp_c+2*gthrd_c,0,inf
+
+//R# = 381 glutathione oxidoreductase Regulation: 2936
+GTHOm,h_m+gthox_m+nadph_m,nadp_m+2*gthrd_m,0,inf
+
+//R# = 382 glutathione peroxidase Regulation: 2876 or 5052 or 7001 or 2879
+GTHP,h2o2_c+2*gthrd_c,2*h2o_c+gthox_c,-inf,inf
+
+//R# = 383 glutathione peroxidase (e) Regulation: 257202 or 2878
+GTHPe,h2o2_e+2*gthrd_e,2*h2o_e+gthox_e,-inf,inf
+
+//R# = 384 glutathione peroxidase, mitochondria Regulation: 2879 or 10935
+GTHPm,h2o2_m+2*gthrd_m,2*h2o_m+gthox_m,-inf,inf
+
+//R# = 385 glutathione transport via diffusion Regulation: 
+GTHRDtr,gthrd_c,gthrd_r,-inf,inf
+
+//R# = 386 glutathione synthetase Regulation: 2937
+GTHS,atp_c+glucys_c+gly_c,pi_c+h_c+adp_c+gthrd_c,0,inf
+
+//R# = 387 g-glutamyltransferase (e) Regulation: 2678
+GTMLTe,ala_L_c+gthrd_c,cgly_e+gluala_e,0,inf
+
+//R# = 388 guanylate cyclase Regulation: (2977 and 2983) or (2982 and 2974) or (2977 and 2974) or (2982 and 2983) or 2984 or 2986 or 4881 or 4882 or 3000
+GUACYC,gtp_c,35cgmp_c+ppi_c,0,inf
+
+//R# = 389 guanine phosphoribosyltransferase Regulation: 3251
+GUAPRT,prpp_c+gua_c,ppi_c+gmp_c,0,inf
+
+//R# = 390 L-gulonate 3-dehydrogenase Regulation: 
+GULN3D,guln_c+nad_c,nadh_c+h_c+3dhguln_c,-inf,inf
+
+//R# = 391 gulonate dehydrogenase, endoplasmic reticulum Regulation: 
+GULNDer,glcur_r+h_r+nadph_r,nadp_r+guln_r,-inf,inf
+
+//R# = 392 L-gulonate endoplasmic reticular export Regulation: 
+GULNter,guln_r,guln_c,0,inf
+
+//R# = 393 carboxylic acid dissociation Regulation: 760 or 377677 or 759
+H2CO3D,h2o_c+co2_c,h2co3_c,-inf,inf
+
+//R# = 394 carboxylic acid dissociation Regulation: 
+H2CO3D2,hco3_c+h_c,h2co3_c,-inf,inf
+
+//R# = 395 hydrogen peroxide transport via diffusion Regulation: 
+H2O2t,h2o2_e,h2o2_c,-inf,inf
+
+//R# = 396 hydrogen peroxide mitochondrial transport Regulation: 
+H2O2tm,h2o2_c,h2o2_m,-inf,inf
+
+//R# = 397 H2O transport, lysosomal Regulation: 
+H2Otly,h2o_c,h2o_l,-inf,inf
+
+//R# = 398 H2O transport, peroxisomal Regulation: 
+H2Otp,h2o_c,h2o_x,-inf,inf
+
+//R# = 399 3-hydroxyacyl-CoA dehydrogenase (acetoacetyl-CoA) (mitochondria) Regulation: 3032 and 3033 and 3028 and 3030
+HACD1m,nadh_m+h_m+aacoa_m,nad_m+3hbcoa_m,-inf,inf
+
+//R# = 400 3-hydroxyacyl-CoA dehydrogenase (2-Methylacetoacetyl-CoA), mitochondrial Regulation: 3028
+HACD9m,nad_m+3hmbcoa_m,nadh_m+h_m+2maacoa_m,-inf,inf
+
+//R# = 401 HCO3 equilibration reaction Regulation: 
+HCO3Em,h2o_m+co2_m,hco3_m+h_m,-inf,inf
+
+//R# = 402 bicarbonate transport (Cl-/HCO3- exchange) Regulation: 6521 or 6522
+HCO3_CLt,cl_c+hco3_e,hco3_c+cl_e,-inf,inf
+
+//R# = 403 bicarbonate transport (Na/HCO3 cotransport) Regulation: 9497
+HCO3_NAt,na1_e+hco3_e,na1_c+hco3_c,-inf,inf
+
+//R# = 404 hexokinase (D-glucose:ATP) Regulation: 3098 or 3099 or 3101
+HEX1,atp_c+glc_D_c,h_c+adp_c+g6p_c,0,inf
+
+//R# = 405 hexokinase (D-fructose:ATP) Regulation: 3098 or 3099 or 3101
+HEX7,atp_c+fru_c,f6p_c+h_c+adp_c,0,inf
+
+//R# = 406 Homogentisate:oxygen 1,2-oxidoreductase (decyclizing) Regulation: 3081
+HGNTOR,o2_c+hgentis_c,h_c+4mlacac_c,0,inf
+
+//R# = 407 3-hydroxyisobutyrate dehydrogenase, mitochondrial Regulation: 11112
+HIBDm,3hmp_m+nad_m,nadh_m+h_m+2mop_m,-inf,inf
+
+//R# = 408 histidine decarboxylase Regulation: 3067 or 1644
+HISDC,h_c+his_L_c,hista_c+co2_c,0,inf
+
+//R# = 409 Histamine secretion via secretory vesicle (ATP driven) Regulation: 6571
+HISTAVESSEC,2*h2o_c+2*atp_c+3*hista_c,2*pi_c+2*h_c+2*adp_c+3*hista_e,0,inf
+
+//R# = 410 L-histidine transport in via sodium symport Regulation: 11254 or 54407
+HISt4,na1_e+his_L_e,na1_c+his_L_c,0,inf
+
+//R# = 411 L-histidine transport via diffusion (extracellular to cytosol) Regulation: 55089
+HIStiDF,his_L_e,his_L_c,0,inf
+
+//R# = 412 hydroxymethylbilane synthase Regulation: 3145
+HMBS,h2o_c+4*ppbng_c,4*nh4_c+hmbil_c,0,inf
+
+//R# = 413 hydroxymethylglutaryl-CoA lyase Regulation: 3155
+HMGLm,hmgcoa_m,acac_m+accoa_m,0,inf
+
+//R# = 414 Heme oxygenase 1 Regulation: 3162 or 3163
+HOXG,3*o2_c+5*h_c+pheme_c+3*nadph_c,biliverd_c+3*h2o_c+3*nadp_c+fe2_c+co_c,0,inf
+
+//R# = 415 hydroxyphenylacetate transport via diffusion Regulation: 
+HPACtr,4hphac_c,4hphac_e,-inf,inf
+
+//R# = 416 12-HPET oxidoreductase Regulation: 
+HPETOX,12HPET_c+2*gthrd_c,h2o_c+12harachd_c+gthox_c,-inf,inf
+
+//R# = 417 hypoxanthine phosphoribosyltransferase (Hypoxanthine) Regulation: 3251
+HXPRT,hxan_c+prpp_c,ppi_c+imp_c,0,inf
+
+//R# = 418 Hypoxanthine transport Regulation: 3177
+HYXNt,hxan_e,hxan_c,-inf,inf
+
+//R# = 419 H transporter, endoplasmic reticulum Regulation: 
+Htr,h_c,h_r,-inf,inf
+
+//R# = 420 H transporter, peroxisome Regulation: 
+Htx,h_c,h_x,-inf,inf
+
+//R# = 421 Isocitrate dehydrogenase (NAD+) Regulation: 3419 and 3420 and 3421
+ICDHxm,nad_m+icit_m,nadh_m+co2_m+akg_m,-inf,inf
+
+//R# = 422 isocitrate dehydrogenase (NADP) Regulation: 3417
+ICDHy,nadp_c+icit_c,co2_c+akg_c+nadph_c,0,inf
+
+//R# = 423 Isocitrate dehydrogenase (NADP+) Regulation: 3418
+ICDHyrm,nadp_m+icit_m,co2_m+akg_m+nadph_m,-inf,inf
+
+//R# = 424 isoleucine transaminase Regulation: 586
+ILETA,ile_L_c+akg_c,3mop_c+glu_L_c,-inf,inf
+
+//R# = 425 L-isoleucine transport in via sodium symport Regulation: 11254
+ILEt4,na1_e+ile_L_e,na1_c+ile_L_c,-inf,inf
+
+//R# = 426 L-isoleucine transport via diffusion (extracellular to cytosol) Regulation: 8501 or 124935
+ILEtec,ile_L_e,ile_L_c,-inf,inf
+
+//R# = 427 IMP cyclohydrolase Regulation: 471
+IMPC,h2o_c+imp_c,fprica_c,-inf,inf
+
+//R# = 428 IMP dehydrogenase Regulation: 3614 or 3615
+IMPD,h2o_c+nad_c+imp_c,xmp_c+nadh_c+h_c,0,inf
+
+//R# = 429 inositol oxygenase Regulation: 55586
+INOSTO,o2_c+inost_c,glcur_c+h2o_c+h_c,0,inf
+
+//R# = 430 inositol transport via sodium symport Regulation: 6526
+INSTt4,na1_e+inost_e,na1_c+inost_c,-inf,inf
+
+//R# = 431 inositol transport via sodium symport Regulation: 115584
+INSTt4_2,2*na1_e+inost_e,2*na1_c+inost_c,-inf,inf
+
+//R# = 432 b-ketoacyl synthetase (palmitate, n-C16:0) Regulation: 2194
+KAS8,7*malcoa_c+accoa_c+20*h_c+14*nadph_c,6*h2o_c+14*nadp_c+8*coa_c+hdca_c+7*co2_c,0,inf
+
+//R# = 433 ketohexokinase Regulation: 3795
+KHK,atp_c+fru_c,f1p_c+h_c+adp_c,0,inf
+
+//R# = 434 L-lactate reversible transport via proton symport Regulation: 9194 or 9123
+L_LACt2r,lac_L_e+h_e,lac_L_c+h_c,-inf,inf
+
+//R# = 435 D-Lactaldehyde:NADP+ 1-oxidoreductase Regulation: 10327 or 8574 or 231
+LALDO2,h_c+mthgxl_c+nadph_c,lald_D_c+nadp_c,0,inf
+
+//R# = 436 D-Lactaldehyde:NAD+ 1-oxidoreductase Regulation: 8574
+LALDO2x,nadh_c+h_c+mthgxl_c,lald_D_c+nad_c,0,inf
+
+//R# = 437 lactaldehyde dehydrogenase Regulation: 224 or 216 or 223
+LCADi,h2o_c+lald_L_c+nad_c,nadh_c+lac_L_c+2*h_c,0,inf
+
+//R# = 438 lactaldehyde dehydrogenase Regulation: 224 or 216 or 223
+LCADi_D,h2o_c+lald_D_c+nad_c,nadh_c+lac_D_c+2*h_c,0,inf
+
+//R# = 439 D-lactate dehydrogenase Regulation: 197257
+LDH_D,nad_c+lac_D_c,pyr_c+nadh_c+h_c,-inf,inf
+
+//R# = 440 L-lactate dehydrogenase Regulation: (3945 and 3939) or 3939 or 3945 or 3948 or 92483 or 55293 or 160287
+LDH_L,nad_c+lac_L_c,pyr_c+nadh_c+h_c,-inf,inf
+
+//R# = 441 leukotriene intracellular transport Regulation: 
+LEUKTRA4tr,leuktrA4_c,leuktrA4_r,-inf,inf
+
+//R# = 442 leukotriene intracellular transport Regulation: 
+LEUKTRD4tr,leuktrD4_c,leuktrD4_r,-inf,inf
+
+//R# = 443 leukotrieneF4 transmembrane (homo sapiens) transport Regulation: 
+LEUKTRF4t,leuktrF4_e,leuktrF4_c,-inf,inf
+
+//R# = 444 L-leucine transport in via sodium symport Regulation: 6520 or 6541
+LEUt4,na1_e+leu_L_e,na1_c+leu_L_c,-inf,inf
+
+//R# = 445 lactoylglutathione lyase Regulation: 2739
+LGTHL,mthgxl_c+gthrd_c,lgt_S_c,0,inf
+
+//R# = 446 carnitine O-palmitoyltransferase Regulation: 1374
+LNLCCPT1,crn_c+lnlccoa_c,coa_c+lnlccrn_c,0,inf
+
+//R# = 447 carnitine transferase Regulation: 1376
+LNLCCPT2,coa_m+lnlccrn_m,crn_m+lnlccoa_m,0,inf
+
+//R# = 448 transport into the mitochondria (carnitine) Regulation: 788
+LNLCCRNt,lnlccrn_c,lnlccrn_m,0,inf
+
+//R# = 449 Linoleic acid (n-C18:2) transport in via diffusion Regulation: 
+LNLCt,lnlc_e,lnlc_c,-inf,inf
+
+//R# = 450 Lumped superoxide production Regulation: 
+LSOProd,o2_m+focytC_m,o2s_m+ficytC_m,0,inf
+
+//R# = 451 Leukotriene C4 synthase Regulation: 4056 or 4258 or 4259
+LTC4Sr,leuktrA4_r+gthrd_r,leuktrC4_r,0,inf
+
+//R# = 452 Leukotriene D4 dipeptidase Regulation: 
+LTD4DP,h2o_c+leuktrD4_c,gly_c+leuktrE4_c,-inf,inf
+
+//R# = 453 L-Tryptophan decarboxy-lyase Regulation: 1644
+LTDCL,trp_L_c+h_c,co2_c+trypta_c,0,inf
+
+//R# = 454 L-lysine transport in via sodium symport Regulation: 6584 or 11254
+LYSt4,na1_e+lys_L_e,na1_c+lys_L_c,0,inf
+
+//R# = 455 L-lysine transport via diffusion (extracellular to cytosol) Regulation: 6541
+LYStiDF,lys_L_e,lys_L_c,0,inf
+
+//R# = 456 Lysine mitochondrial transport via ornithine carrier Regulation: 10166
+LYStm,lys_L_c+h_m,lys_L_m+h_c,-inf,inf
+
+//R# = 457 maleylacetoacetate isomerase Regulation: 2954
+MACACI,4mlacac_c,4fumacac_c,0,inf
+
+//R# = 458 Malate:sulfite antiport, mitochondrial Regulation: 1468
+MALSO3tm,mal_L_c+so3_m,mal_L_m+so3_c,-inf,inf
+
+//R# = 459 Malate:thiosulfate antiport, mitochondrial Regulation: 1468
+MALTSULtm,mal_L_c+tsul_m,mal_L_m+tsul_c,-inf,inf
+
+//R# = 460 malate transport, mitochondrial Regulation: 1468
+MALtm,mal_L_c+pi_m,mal_L_m+pi_c,-inf,inf
+
+//R# = 461 methylcrotonoyl-CoA carboxylase, mitochondrial Regulation: 56922 and 64087
+MCCCrm,atp_m+hco3_m+3mb2coa_m,3mgcoa_m+pi_m+h_m+adp_m,-inf,inf
+
+//R# = 462 3-mercaptopyruvate sulfurtransferase Regulation: 4357
+MCPST,cyan_c+mercppyr_c,pyr_c+tcynt_c+h_c,0,inf
+
+//R# = 463 malate dehydrogenase Regulation: 4190
+MDH,mal_L_c+nad_c,nadh_c+oaa_c+h_c,-inf,inf
+
+//R# = 464 malate dehydrogenase, mitochondrial Regulation: 4191
+MDHm,mal_L_m+nad_m,nadh_m+oaa_m+h_m,-inf,inf
+
+//R# = 465 malic enzyme (NAD), mitochondrial Regulation: 4200
+ME1m,mal_L_m+nad_m,nadh_m+pyr_m+co2_m,0,inf
+
+//R# = 466 malic enzyme (NADP), mitochondrial Regulation: 4200
+ME2m,mal_L_m+nadp_m,pyr_m+co2_m+nadph_m,0,inf
+
+//R# = 467 methionine adenosyltransferase Regulation: (27430 and 4144) or 4143
+METAT,h2o_c+atp_c+met_L_c,amet_c+ppi_c+pi_c,0,inf
+
+//R# = 468 Methionine/Leucine exchange (Met in) Regulation: 6520 and 8140
+METLEUex,leu_L_c+met_L_e,leu_L_e+met_L_c,-inf,inf
+
+//R# = 469 L-methionine transport in via sodium symport Regulation: 6584 or 81539 or 11254 or 54407
+METt4,na1_e+met_L_e,na1_c+met_L_c,-inf,inf
+
+//R# = 470 L-methionine transport via diffusion (extracellular to cytosol) Regulation: 8501 or 124935
+METtec,met_L_e,met_L_c,-inf,inf
+
+//R# = 471 methylglutaconyl-CoA hydratase (reversible), mitochondrial Regulation: 549
+MGCHrm,h2o_m+3mgcoa_m,hmgcoa_m,-inf,inf
+
+//R# = 472 methylglyoxal synthase Regulation: 
+MGSA,dhap_c,pi_c+mthgxl_c,0,inf
+
+//R# = 473 methyglyoxylate synthase 2 (from g3p) Regulation: 
+MGSA2,g3p_c,pi_c+mthgxl_c,0,inf
+
+//R# = 474 inositol-1,4,5-trisphosphate 5-phosphatase Regulation: 3632 or 3633 or 3635
+MI145PP,h2o_c+mi145p_c,pi_c+mi14p_c,0,inf
+
+//R# = 475 inositol-1,4-bisphosphate 1-phosphatase Regulation: 3628
+MI14PP,h2o_c+mi14p_c,mi4p_D_c+pi_c,0,inf
+
+//R# = 476 myo-inositol 1-phosphatase Regulation: 3612
+MI1PP,mi1p_D_c+h2o_c,inost_c+pi_c,0,inf
+
+//R# = 477 myo-inositol 4-phosphatase Regulation: 3612
+MI4PP,h2o_c+mi4p_D_c,inost_c+pi_c,0,inf
+
+//R# = 478 methylmalonyl-CoA epimerase/racemase Regulation: 84693
+MMEm,mmcoa_R_m,mmcoa_S_m,-inf,inf
+
+//R# = 479 methylmalonyl-CoA mutase Regulation: 4594
+MMMm,mmcoa_R_m,succoa_m,-inf,inf
+
+//R# = 480 methylmalonate-semialdehyde dehydrogenase (malonic semialdehyde), mitochondrial Regulation: 4329
+MMSAD3m,coa_m+nad_m+msa_m,nadh_m+accoa_m+co2_m,0,inf
+
+//R# = 481 malonate-semialdehyde dehydrogenase (acetylating), mitochondrial Regulation: 
+MMTSADm,coa_m+nad_m+2mop_m,nadh_m+mmcoa_R_m+h_m,0,inf
+
+//R# = 482 methenyltetrahydrofolate cyclohydrolase Regulation: 4522
+MTHFC,h2o_c+methf_c,10fthf_c+h_c,-inf,inf
+
+//R# = 483 methenyltetrahydrifikate cyclohydrolase, mitochondrial Regulation: 10797 or 25902
+MTHFCm,h2o_m+methf_m,10fthf_m+h_m,-inf,inf
+
+//R# = 484 methylenetetrahydrofolate dehydrogenase (NADP) Regulation: 4522
+MTHFD,mlthf_c+nadp_c,methf_c+nadph_c,-inf,inf
+
+//R# = 485 methylenetetrahydrofolate dehydrogenase (NAD), mitochondrial Regulation: 10797
+MTHFD2m,nad_m+mlthf_m,nadh_m+methf_m,-inf,inf
+
+//R# = 486 methylenetetrahydrofolate dehydrogenase (NADP), mitochondrial Regulation: 10797 or 25902
+MTHFDm,nadp_m+mlthf_m,methf_m+nadph_m,-inf,inf
+
+//R# = 487 5,10-methylenetetrahydrofolatereductase (NADPH) Regulation: 4524
+MTHFR3,mlthf_c+2*h_c+nadph_c,nadp_c+5mthf_c,0,inf
+
+//R# = 488 NADH dehydrogenase, mitochondrial Regulation: 51079 and 374291 and 55967 and 7991 and 4536 and 4537 and 4538 and 4539 and 4540 and 4541 and 4535 and 126328 and 4694 and 4695 and 4696 and 4697 and 4698 and 4700 and 4701 and 4702 and 4704 and 4705 and 4706 and 4707 and 4708 and 4709 and 4710 and 4711 and 4712 and 4713 and 4714 and 4715 and 4716 and 4717 and 4718 and 4719 and 4720 and 4722 and 4723 and 4724 and 4725 and 4726 and 4728 and 4729 and 4731
+NADH2_u10m,nadh_m+5*h_m+q10_m,nad_m+4*h_c+q10h2_m,0,inf
+
+//R# = 489 NAD nucleosidase Regulation: 
+NADN,h2o_c+nad_c,adprib_c+ncam_c+h_c,0,inf
+
+//R# = 490 NAD nucleosidase,extracellular Regulation: 952
+NADNe,h2o_e+nad_e,adprib_e+ncam_e+h_e,0,inf
+
+//R# = 491 NADPH transporter, endoplasmic reticulum Regulation: 
+NADPHtru,nadph_c,nadph_r,0,inf
+
+//R# = 492 NADP transporter, endoplasmic reticulum Regulation: 
+NADPtru,nadp_r,nadp_c,0,inf
+
+//R# = 493 nucleoside-diphosphatase (GDP), extracellular Regulation: 124583
+NDP3ex,h2o_e+gdp_e,pi_e+h_e+gmp_e,0,inf
+
+//R# = 494 nucleoside-diphosphate kinase (ATP:GDP) Regulation: (4831 and 4830) or 4832 or 10201 or 29922
+NDPK1,gdp_c+atp_c,gtp_c+adp_c,-inf,inf
+
+//R# = 495 nucleoside-diphosphate kinase (ATP:GDP), mitochondrial Regulation: 4833
+NDPK1m,atp_m+gdp_m,gtp_m+adp_m,-inf,inf
+
+//R# = 496 nucleoside-diphosphate kinase (ATP:UDP) Regulation: (4831 and 4830) or 4832 or 10201 or 29922
+NDPK2,atp_c+udp_c,utp_c+adp_c,-inf,inf
+
+//R# = 497 nucleoside-diphosphate kinase (ATP:CDP) Regulation: (4831 and 4830) or 4832 or 10201 or 29922
+NDPK3,atp_c+cdp_c,ctp_c+adp_c,-inf,inf
+
+//R# = 498 nicotinamide-nucleotide adenylyltransferase Regulation: 23057 or 349565
+NMNATr,nmn_c+atp_c+h_c,ppi_c+nad_c,-inf,inf
+
+//R# = 499 noradrenaline N-methyltransferase Regulation: 5409
+NORANMT,amet_c+nrpphr_c,h_c+adrnl_c+ahcys_c,0,inf
+
+//R# = 500 Nitric Oxide Synthase (intermediate forming) Regulation: 4843 or 4846
+NOS1,o2_c+h_c+arg_L_c+nadph_c,h2o_c+nwharg_c+nadp_c,0,inf
+
+//R# = 501 Nitric Oxide Synthase (NO forming) Regulation: 4843 or 4846
+NOS2,2*o2_c+2*nwharg_c+nadph_c,2*h2o_c+nadp_c+2*no_c+2*citr_L_c+h_c,0,inf
+
+//R# = 502 NO transport (diffusion) Regulation: 
+NOt,no_e,no_c,-inf,inf
+
+//R# = 503 norepinephrine sulfate transport (diffusion) Regulation: 
+NRPPHRSFt,nrpphrsf_c,nrpphrsf_e,0,inf
+
+//R# = 504 Norepinephrine Sulfotransferase Regulation: 6818
+NRPPHRSULT,nrpphr_c+paps_c,pap_c+nrpphrsf_c+h_c,0,inf
+
+//R# = 505 5-nucleotidase (XMP) Regulation: 22978
+NTD10,h2o_c+xmp_c,xtsn_c+pi_c,0,inf
+
+//R# = 506 5-nucleotidase (IMP) Regulation: 93034 or 22978
+NTD11,h2o_c+imp_c,ins_c+pi_c,0,inf
+
+//R# = 507 5-nucleotidase (UMP) Regulation: 51251
+NTD2,ump_c+h2o_c,uri_c+pi_c,0,inf
+
+//R# = 508 5-nucleotidase (CMP) Regulation: 51251
+NTD4,cmp_c+h2o_c,pi_c+cytd_c,0,inf
+
+//R# = 509 5-nucleotidase (AMP), extracellular Regulation: 4907
+NTD7e,h2o_e+amp_e,pi_e+adn_e,0,inf
+
+//R# = 510 5-nucleotidase (GMP), extracellular Regulation: 4907
+NTD9e,h2o_e+gmp_e,gsn_e+pi_e,0,inf
+
+//R# = 511 Na+/K+ exchanging ATPase Regulation: (481 and 478) or (477 and 23439) or (476 and 483) or (481 and 480) or (482 and 478) or (482 and 476) or (482 and 477) or (481 and 476) or (23439 and 476) or (23439 and 480) or (481 and 477)
+NaKt,3*na1_c+h2o_c+atp_c+2*k_e,3*na1_e+pi_c+h_c+adp_c+2*k_c,0,inf
+
+//R# = 512 superoxide anion transport via diffusion (extracellular) Regulation: 
+O2St,o2s_c,o2s_e,-inf,inf
+
+//R# = 513 superoxide anion transport via diffusion (mitochondria) Regulation: 
+O2Stm,o2s_c,o2s_m,-inf,inf
+
+//R# = 514 superoxide anion transport via diffusion (peroxisome) Regulation: 
+O2Stx,o2s_c,o2s_x,-inf,inf
+
+//R# = 515 o2 transport (diffusion) Regulation: 
+O2t,o2_e,o2_c,-inf,inf
+
+//R# = 516 O2  transport, endoplasmic reticulum Regulation: 
+O2ter,o2_c,o2_r,-inf,inf
+
+//R# = 517 O2 transport (diffusion) Regulation: 
+O2tm,o2_c,o2_m,-inf,inf
+
+//R# = 518 ornithine carbamoyltransferase, irreversible Regulation: 5009
+OCBTm,cbp_m+orn_m,pi_m+citr_L_m+h_m,0,inf
+
+//R# = 519 fatty acid transport via diffusion Regulation: 
+OCDCAtr,ocdca_e,ocdca_c,-inf,inf
+
+//R# = 520 fatty acid transport via diffusion Regulation: 
+OCDCEAtr,ocdcea_e,ocdcea_c,-inf,inf
+
+//R# = 521 3-oxoacid CoA-transferase Regulation: 5019
+OCOAT1m,acac_m+succoa_m,succ_m+aacoa_m,-inf,inf
+
+//R# = 522 2-oxoisovalerate dehydrogenase (acylating; 4-methyl-2-oxopentaoate), mitochondrial Regulation: (594 and 593) and 1629 and 1738
+OIVD1m,4mop_m+coa_m+nad_m,nadh_m+ivcoa_m+co2_m,0,inf
+
+//R# = 523 2-oxoisovalerate dehydrogenase (acylating; 3-methyl-2-oxobutanoate), mitochondrial Regulation: (594 and 593) and 1629 and 1738
+OIVD2m,coa_m+nad_m+3mob_m,nadh_m+ibcoa_m+co2_m,0,inf
+
+//R# = 524 2-oxoisovalerate dehydrogenase (acylating; 3-methyl-2-oxopentanoate), mitochondrial Regulation: (594 and 593) and 1629 and 1738
+OIVD3m,coa_m+nad_m+3mop_m,nadh_m+co2_m+2mbcoa_m,0,inf
+
+//R# = 525 5-Oxoproline amidohydrolase (ATP-hydrolysing) (ir) Regulation: 26873
+OPAHir,2*h2o_c+5oxpro_c+atp_c,pi_c+h_c+glu_L_c+adp_c,0,inf
+
+//R# = 526 ornithine transaminase reversible (m) Regulation: 4942
+ORNTArm,akg_m+orn_m,glu_L_m+glu5sa_m,-inf,inf
+
+//R# = 527 ornithine mitochondrial transport via proton antiport Regulation: 10166
+ORNt3m,h_c+orn_m,h_m+orn_c,-inf,inf
+
+//R# = 528 ornithine mitochondrial transport exchange with citruline Regulation: 10166
+ORNt4m,citr_L_c+h_c+orn_m,citr_L_m+h_m+orn_c,-inf,inf
+
+//R# = 529 ornithine transport via diffusion (extracellular to cytosol) Regulation: 6541
+ORNtiDF,orn_e,orn_c,0,inf
+
+//R# = 530 pyrroline-5-carboxylate reductase (m) Regulation: 5831
+P5CRm,1pyr5c_m+2*h_m+nadph_m,pro_L_m+nadp_m,0,inf
+
+//R# = 531 pyrroline-5-carboxylate reductase (m) Regulation: 5831
+P5CRxm,nadh_m+1pyr5c_m+2*h_m,pro_L_m+nad_m,0,inf
+
+//R# = 532 phenylacetate-CoA ligase Regulation: 
+PACCOAL,pac_c+coa_c+atp_c,phaccoa_c+ppi_c+amp_c,0,inf
+
+//R# = 533 3,5-cyclic-nucleotide phosphodiesterase Regulation: 5144 or 5139
+PDE1,h2o_c+camp_c,h_c+amp_c,0,inf
+
+//R# = 534 3,5-cyclic-nucleotide phosphodiesterase Regulation: (5145 and 5146 and 5147 and 5158 and 5148) or (5145 and 5158 and 5149) or 5152 or 5153 or 5148 or 8654 or 5136 or 5137 or 5138 or 5139 or 5140 or 5146 or 5147 or 50940 or 10846
+PDE4,35cgmp_c+h2o_c,h_c+gmp_c,0,inf
+
+//R# = 535 pyruvate dehydrogenase Regulation: ((1738 and 8050) and (5161 and 5162) and 1737) or ((1738 and 8050) and (5160 and 5162) and 1737)
+PDHm,coa_m+nad_m+pyr_m,nadh_m+accoa_m+co2_m,0,inf
+
+//R# = 536 Phenethylamine oxidase Regulation: 4128 or 4129
+PEAMNO,o2_c+h2o_c+peamn_c,h2o2_c+nh4_c+pacald_c,0,inf
+
+//R# = 537 phosphofructokinase Regulation: (5214 and 5211) or (5214 and 5213) or (5211 and 5213) or 5211 or 5213 or 5214
+PFK,f6p_c+atp_c,h_c+adp_c+fdp_c,0,inf
+
+//R# = 538 6-phosphofructo-2-kinase Regulation: 5208 or 5209 or 5210 or 5207
+PFK26,f6p_c+atp_c,h_c+adp_c+f26bp_c,0,inf
+
+//R# = 539 Prostaglandin-H2 D-isomerase [Precursor] Regulation: 5730 or 27306
+PGDI,prostgh2_c,prostgd2_c,-inf,inf
+
+//R# = 540 glucose-6-phosphate isomerase Regulation: 2821
+PGI,g6p_c,f6p_c,-inf,inf
+
+//R# = 541 phosphoglycerate kinase Regulation: 5232 or 5230
+PGK,atp_c+3pg_c,13dpg_c+adp_c,-inf,inf
+
+//R# = 542 6-phosphogluconolactonase Regulation: 25796
+PGL,h2o_c+6pgl_c,6pgc_c+h_c,0,inf
+
+//R# = 543 phosphoglycerate mutase Regulation: 5224 or 669 or 5223
+PGM,2pg_c,3pg_c,-inf,inf
+
+//R# = 544 phosphoglucomutase Regulation: 55276 or 5236
+PGMT,g1p_c,g6p_c,-inf,inf
+
+//R# = 545 Prostaglandin G/H synthase Regulation: 5742 or 5743
+PGS,2*o2_c+h_c+arachd_c+nadph_c,h2o_c+prostgh2_c+nadp_c,0,inf
+
+//R# = 546 Prostaglandin G/H synthase (Cyclooxygenase) Regulation: 5742 or 5743
+PGS_COX,2*o2_c+h_c+arachd_c,prostgg2_c,0,inf
+
+//R# = 547 Prostaglandin G/H synthase (peroxidase) Regulation: 5742 or 5743
+PGS_PO,prostgg2_c+nadph_c,h2o_c+prostgh2_c+nadp_c,0,inf
+
+//R# = 548 Prostaglandin G/H synthase Regulation: 5742 or 5743
+PGSr,2*o2_r+h_r+arachd_r+nadph_r,h2o_r+nadp_r+prostgh2_r,0,inf
+
+//R# = 549 Phenylacetyl-CoA:L-glutamine alpha-N-phenylacetyltransferase Regulation: 
+PHACCOAGLNAC,gln_L_c+phaccoa_c,coa_c+pheacgln_c,0,inf
+
+//R# = 550 PHEACGLN extracellular transport via diffusion Regulation: 
+PHEACGLNt,pheacgln_c,pheacgln_e,-inf,inf
+
+//R# = 551 heme transport Regulation: 113235
+PHEMEt,pheme_e,pheme_c,-inf,inf
+
+//R# = 552 Heme transport to cytosol Regulation: 
+PHEMEtm,pheme_m,pheme_c,-inf,inf
+
+//R# = 553 L-phenylalanine transport in via sodium symport Regulation: 6541
+PHEt4,na1_e+phe_L_e,na1_c+phe_L_c,-inf,inf
+
+//R# = 554 L-phenylalanine transport via diffusion (extracellular to cytosol) Regulation: 124935 or 117247
+PHEtec,phe_L_e,phe_L_c,-inf,inf
+
+//R# = 555 L-Phenylalanine carboxy-lyase Regulation: 1644
+PHYCBOXL,phe_L_c+h_c,peamn_c+co2_c,0,inf
+
+//R# = 556 phosphate mitochondrial transport via proton symport Regulation: 
+PIt2m_2,pi_c+2*h_c,pi_m+2*h_m,-inf,inf
+
+//R# = 557 phosphate transport, endoplasmic reticulum Regulation: 2544
+PIter,pi_r,pi_c,-inf,inf
+
+//R# = 558 purine-nucleoside phosphorylase Regulation: 4860
+PNP,rnam_c+pi_c,ncam_c+r1p_c+h_c,-inf,inf
+
+//R# = 559 inorganic diphosphatase Regulation: 5464
+PPA,h2o_c+ppi_c,2*pi_c+h_c,0,inf
+
+//R# = 560 porphobilinogen synthase Regulation: 210
+PPBNGS,2*5aop_c,2*h2o_c+ppbng_c+h_c,0,inf
+
+//R# = 561 Propionyl-CoA carboxylase, mitochondrial Regulation: 5096 and 5095
+PPCOACm,atp_m+hco3_m+ppcoa_m,pi_m+h_m+adp_m+mmcoa_S_m,0,inf
+
+//R# = 562 Propane-1,2-diol:NAD+ 1-oxidoreductase Regulation: 8574
+PPDOx,lald_D_c+nadh_c+h_c,nad_c+12ppd_R_c,-inf,inf
+
+//R# = 563 Propane-1,2-diol:NADP+ 1-oxidoreductase Regulation: 10327 or 8574 or 231
+PPDOy,lald_D_c+h_c+nadph_c,nadp_c+12ppd_R_c,0,inf
+
+//R# = 564 phosphopentomutase Regulation: 5236
+PPM,r1p_c,r5p_c,-inf,inf
+
+//R# = 565 protoporphyrinogen IX mitochondrial transport Regulation: 
+PPPG9tm,pppg9_c,pppg9_m,-inf,inf
+
+//R# = 566 protoporphyrinogen oxidase, mitochondrial Regulation: 5498
+PPPGOm,3*o2_m+2*pppg9_m,6*h2o_m+2*ppp9_m,0,inf
+
+//R# = 567 phosphoribosylglycinamide synthase Regulation: 2618
+PRAGSr,pram_c+atp_c+gly_c,pi_c+gar_c+h_c+adp_c,-inf,inf
+
+//R# = 568 phosphoribosylaminoimidazole synthase Regulation: 2618
+PRAIS,atp_c+fpram_c,pi_c+2*h_c+adp_c+air_c,0,inf
+
+//R# = 569 phosphoribosylaminoimidazolesuccinocarboxamide synthase Regulation: 10606
+PRASCS,5aizc_c+atp_c+asp_L_c,pi_c+h_c+adp_c+25aics_c,-inf,inf
+
+//R# = 570 Peroxidase (multiple substrates) Regulation: 8288
+PRDX,h2o2_c+meoh_c,fald_c+2*h2o_c,0,inf
+
+//R# = 571 phosphoribosylformylglycinamidine synthase Regulation: 5198
+PRFGS,gln_L_c+h2o_c+fgam_c+atp_c,pi_c+h_c+glu_L_c+adp_c+fpram_c,0,inf
+
+//R# = 572 prostaglandin transport via bicarbonate countertransport Regulation: 6578
+PROSTGD2t,hco3_c+prostgd2_e,hco3_e+prostgd2_c,-inf,inf
+
+//R# = 573 Proline transport (sodium symport) (2:1) Regulation: 6534
+PROt4_2r,2*na1_e+pro_L_e,2*na1_c+pro_L_c,-inf,inf
+
+//R# = 574 L-proline transport, mitochondrial Regulation: 
+PROtm,pro_L_c,pro_L_m,-inf,inf
+
+//R# = 575 phosphoribosylpyrophosphate synthetase Regulation: 5634 or 221823 or 5631
+PRPPS,atp_c+r5p_c,prpp_c+h_c+amp_c,-inf,inf
+
+//R# = 576 purine-nucleoside phosphorylase (Adenosine) Regulation: 4860
+PUNP1,adn_c+pi_c,r1p_c+ade_c,-inf,inf
+
+//R# = 577 purine-nucleoside phosphorylase (Deoxyadenosine) Regulation: 4860
+PUNP2,dad_2_c+pi_c,2dr1p_c+ade_c,-inf,inf
+
+//R# = 578 purine-nucleoside phosphorylase (Guanosine) Regulation: 4860
+PUNP3,pi_c+gsn_c,gua_c+r1p_c,-inf,inf
+
+//R# = 579 purine-nucleoside phosphorylase (Inosine) Regulation: 4860
+PUNP5,ins_c+pi_c,hxan_c+r1p_c,-inf,inf
+
+//R# = 580 purine-nucleoside phosphorylase (Deoxyinosine) Regulation: 4860
+PUNP6,pi_c+din_c,hxan_c+2dr1p_c,-inf,inf
+
+//R# = 581 purine-nucleoside phosphorylase (Xanthosine) Regulation: 4860
+PUNP7,xtsn_c+pi_c,r1p_c+xan_c,-inf,inf
+
+//R# = 582 pyruvate kinase Regulation: 5313 or 5315
+PYK,pep_c+h_c+adp_c,pyr_c+atp_c,0,inf
+
+//R# = 583 pyrimidine-nucleoside phosphorylase (uracil) Regulation: 7378 or 151531
+PYNP2r,uri_c+pi_c,ura_c+r1p_c,-inf,inf
+
+//R# = 584 pyruvate reversible transport via proton symport Regulation: 9194 or 9123
+PYRt2r,pyr_e+h_e,pyr_c+h_c,-inf,inf
+
+//R# = 585 ribosylnicotinamide kinase Regulation: 54981
+RNMK,rnam_c+atp_c,nmn_c+h_c+adp_c,0,inf
+
+//R# = 586 ribose-5-phosphate isomerase Regulation: 22934
+RPI,r5p_c,ru5p_D_c,-inf,inf
+
+//R# = 587 saccharopine dehydrogenase (NADP, L-lysine forming), mitochondrial Regulation: 10157
+SACCD3m,lys_L_m+h_m+akg_m+nadph_m,h2o_m+nadp_m+saccrp_L_m,0,inf
+
+//R# = 588 saccharopine dehydrogenase (NAD, L-glutamate forming), mitochondrial Regulation: 10157
+SACCD4m,h2o_m+nadp_m+saccrp_L_m,L2aadp6sa_m+glu_L_m+h_m+nadph_m,0,inf
+
+//R# = 589 sulfate adenylyltransferase Regulation: 9060 or 9061
+SADT,so4_c+atp_c+h_c,ppi_c+aps_c,0,inf
+
+//R# = 590 Sarcosine dehydrogenase (m) Regulation: 1757
+SARDHm,fad_m+sarcs_m+thf_m,mlthf_m+gly_m+fadh2_m,0,inf
+
+//R# = 591 D-sorbitol dehydrogenase (D-fructose producing) Regulation: 6652
+SBTD_D2,nad_c+sbt_D_c,nadh_c+fru_c+h_c,0,inf
+
+//R# = 592 D-sorbitol reductase Regulation: 10327 or 8574 or 231
+SBTR,glc_D_c+h_c+nadph_c,nadp_c+sbt_D_c,0,inf
+
+//R# = 593 L-Serine/Glutamine reversible exchange Regulation: 6520 and 56301
+SERGLNexR,gln_L_c+ser_L_e,gln_L_e+ser_L_c,-inf,inf
+
+//R# = 594 S-Formylglutathione hydralase Regulation: 2098
+SFGTH,h2o_c+Sfglutth_c,for_c+h_c+gthrd_c,-inf,inf
+
+//R# = 595 sphingomyelinase Regulation: 
+SMPD4,h2o_c+spc_hs_c,sphings_c+cholp_c+h_c,0,inf
+
+//R# = 596 sulfate transport via chloride countertransport (2:1) Regulation: 65010
+SO4CLtex2,2*so4_e+cl_c,2*so4_c+cl_e,-inf,inf
+
+//R# = 597 sulfate transport via bicarbonate countertransport Regulation: 284129 or 115111 or 115019 or 1836 or 10861 or 116369 or 1811
+SO4HCOtex,so4_e+2*hco3_c,so4_c+2*hco3_e,-inf,inf
+
+//R# = 598 sulfate transport via sodium symport Regulation: 26266
+SO4t4_2,2*na1_e+so4_e,2*na1_c+so4_c,-inf,inf
+
+//R# = 599 sulfate transport via sodium symport Regulation: 6561
+SO4t4_3,3*na1_e+so4_e,3*na1_c+so4_c,-inf,inf
+
+//R# = 600 sphingosylphosphorylcholine transport (diffusion) Regulation: 
+SPC_HSt,spc_hs_c,spc_hs_e,-inf,inf
+
+//R# = 601 sphingosine kinase 2 Regulation: 56848
+SPHK21c,sphings_c+atp_c,h_c+adp_c+sphs1p_c,0,inf
+
+//R# = 602 sphingosine-1-phosphate transport Regulation: 
+SPHS1Pte,sphs1p_c,sphs1p_e,-inf,inf
+
+//R# = 603 superoxide dismutase Regulation: 6647
+SPODM,2*o2s_c+2*h_c,o2_c+h2o2_c,0,inf
+
+//R# = 604 superoxide dismutase Regulation: 6648
+SPODMm,2*o2s_m+2*h_m,o2_m+h2o2_m,0,inf
+
+//R# = 605 superoxide dismutase, peroxisome Regulation: 6647
+SPODMx,2*o2s_x+2*h_x,o2_x+h2o2_x,0,inf
+
+//R# = 606 Seratonin reversible transport in via sodium symport/potassium antiport (1:2) Regulation: 6532
+SRTNt6_2r,2*na1_e+srtn_e+2*k_c,2*na1_c+srtn_c+2*k_e,-inf,inf
+
+//R# = 607 succinate-semialdehyde dehydrogenase (NAD) reversible (mitochondrial) Regulation: 7915
+SSALxm,h2o_m+nad_m+sucsal_m,nadh_m+2*h_m+succ_m,0,inf
+
+//R# = 608 Steryl-sulfatase Regulation: 412
+STS2,h2o_c+estrones_c,so4_c+estrone_c+h_c,0,inf
+
+//R# = 609 succinate transport, mitochondrial Regulation: 1468
+SUCCt2m,pi_m+succ_c,pi_c+succ_m,-inf,inf
+
+//R# = 610 succinate transport via sodium symport Regulation: 9058
+SUCCt4_2,2*na1_e+succ_e,2*na1_c+succ_c,-inf,inf
+
+//R# = 611 succinate transport via sodium symport Regulation: 64849
+SUCCt4_3,3*na1_e+succ_e,3*na1_c+succ_c,-inf,inf
+
+//R# = 612 succinate dehydrogenase Regulation: 6392 and 6389 and 6390 and 6391
+SUCD1m,fad_m+succ_m,fadh2_m+fum_m,-inf,inf
+
+//R# = 613 Succinate--CoA ligase (GDP-forming) Regulation: 8801 and 8802
+SUCOAS1m,gtp_m+coa_m+succ_m,gdp_m+pi_m+succoa_m,-inf,inf
+
+//R# = 614 sulfite oxidase Regulation: 6821
+SULFOX,h2o_c+so3_c+2*ficytC_m,so4_c+2*focytC_m+2*h_c,0,inf
+
+//R# = 615 transaldolase Regulation: 6888
+TALA,s7p_c+g3p_c,f6p_c+e4p_c,-inf,inf
+
+//R# = 616 Thiocyanate transport via diffusion (cytosol to extracellular) Regulation: 
+TCYNTt,tcynt_c,tcynt_e,0,inf
+
+//R# = 617 Thiocyanate transport via diffusion (mitochondrial) Regulation: 
+TCYNTtm,tcynt_m,tcynt_c,0,inf
+
+//R# = 618 Tetrahydrobiopterin-4a-carbinolamine dehydratase Regulation: 5092
+THBPT4ACAMDASE,thbpt4acam_c,h2o_c+dhbpt_c,0,inf
+
+//R# = 619 5,6,7,8-Tetrahydrofolate transport, diffusion, mitochondrial Regulation: 
+THFtm,thf_c,thf_m,-inf,inf
+
+//R# = 620 thymidine transport in via sodium symport Regulation: 9154 or 64078
+THMDt4,na1_e+thymd_e,na1_c+thymd_c,0,inf
+
+//R# = 621 thymidine transport (1:2 Na/Thymd cotransport) Regulation: 64078
+THMDt5,2*na1_e+thymd_e,2*na1_c+thymd_c,0,inf
+
+//R# = 622 thymd transport Regulation: 2030
+THYMDt1,thymd_e,thymd_c,0,inf
+
+//R# = 623 thymine reversible transport via facilated diffusion Regulation: 3177
+THYMt,thym_e,thym_c,-inf,inf
+
+//R# = 624 transketolase Regulation: 7086
+TKT1,xu5p_D_c+r5p_c,s7p_c+g3p_c,-inf,inf
+
+//R# = 625 transketolase Regulation: 7086
+TKT2,xu5p_D_c+e4p_c,f6p_c+g3p_c,-inf,inf
+
+//R# = 626 thymidine phosphorylase Regulation: 1890
+TMDPP,thymd_c+pi_c,2dr1p_c+thym_c,-inf,inf
+
+//R# = 627 triose-phosphate isomerase Regulation: 7167
+TPI,dhap_c,g3p_c,-inf,inf
+
+//R# = 628 triokinase Regulation: 
+TRIOK,atp_c+glyald_c,h_c+adp_c+g3p_c,0,inf
+
+//R# = 629 L-Tryptophan,tetrahydrobiopterin:oxygen oxidoreductase (5-hydroxylating) Regulation: 121278 or 7166
+TRPHYDRO2,trp_L_c+o2_c+thbpt_c,5htrp_c+thbpt4acam_c,0,inf
+
+//R# = 630 L-tryptophan transport Regulation: 117247
+TRPt,trp_L_e,trp_L_c,-inf,inf
+
+//R# = 631 L-tryptophan transport in via sodium symport Regulation: 11254
+TRPt4,trp_L_e+na1_e,trp_L_c+na1_c,-inf,inf
+
+//R# = 632 Tryptamine:oxygen oxidoreductase(deaminating)(flavin-containing) Regulation: 4128 or 4129
+TRYPTAOX,o2_c+h2o_c+trypta_c,h2o2_c+nh4_c+id3acald_c,0,inf
+
+//R# = 633 thiosulfate transport via sodium symport Regulation: 6561
+TSULt4_3,3*na1_e+tsul_e,3*na1_c+tsul_c,-inf,inf
+
+//R# = 634 thromboxane A2 transport Regulation: 
+TXA2te,txa2_e,txa2_c,-inf,inf
+
+//R# = 635 thromboxane A2 intracellular transport Regulation: 
+TXA2tr,txa2_c,txa2_r,-inf,inf
+
+//R# = 636 Thromboxane-A synthase Regulation: 6916
+TXASr,prostgh2_r,txa2_r,0,inf
+
+//R# = 637 Thromboxane-B synthase Regulation: 
+TXBS,txa2_c+h2o_c+h_c,txb2_c,0,inf
+
+//R# = 638 Tyramine O-sulfate transport (diffusion) Regulation: 
+TYMSFt,tymsf_c,tymsf_e,0,inf
+
+//R# = 639 Tyramine Sulfotransferase Regulation: 6817
+TYMSULT,paps_c+tym_c,pap_c+tymsf_c+h_c,0,inf
+
+//R# = 640 tyrosine 3-monooxygenase Regulation: 7054
+TYR3MO2,o2_c+thbpt_c+tyr_L_c,thbpt4acam_c+34dhphe_c,0,inf
+
+//R# = 641 L-Tyrosine carboxy-lyase Regulation: 1644
+TYRCBOX,tyr_L_c+h_c,tym_c+co2_c,0,inf
+
+//R# = 642 Tyrosine:dopa oxidase Regulation: 7299
+TYRDOPO,o2_c+2*tyr_L_c,2*34dhphe_c,0,inf
+
+//R# = 643 Tyramine:oxygen oxidoreductase(deaminating)(flavin-containing) (cytosol) Regulation: 4128 or 4129
+TYROXDAc,o2_c+h2o_c+tym_c,h2o2_c+nh4_c+4hoxpacd_c,0,inf
+
+//R# = 644 tyrosine transaminase Regulation: 2805
+TYRTA,tyr_L_c+akg_c,34hpp_c+glu_L_c,-inf,inf
+
+//R# = 645 L-tyrosine transport Regulation: 117247
+TYRt,tyr_L_e,tyr_L_c,-inf,inf
+
+//R# = 646 L-tyrosine transport in via sodium symport Regulation: 11254
+TYRt4,na1_e+tyr_L_e,na1_c+tyr_L_c,-inf,inf
+
+//R# = 647 UDPglucose 4-epimerase Regulation: 2582
+UDPG4E,udpg_c,udpgal_c,-inf,inf
+
+//R# = 648 UDPglucose--hexose-1-phosphate uridylyltransferase Regulation: 2592
+UGLT,gal1p_c+udpg_c,udpgal_c+g1p_c,-inf,inf
+
+//R# = 649 UMP kinase Regulation: 51727
+UMPK,ump_c+atp_c,udp_c+adp_c,-inf,inf
+
+//R# = 650 UMP kinase (CTP) Regulation: 51727
+UMPK2,ump_c+ctp_c,cdp_c+udp_c,-inf,inf
+
+//R# = 651 UMP kinase (UTP) Regulation: 51727
+UMPK3,ump_c+utp_c,2*udp_c,-inf,inf
+
+//R# = 652 UMP kinase (GTP) Regulation: 51727
+UMPK4,ump_c+gtp_c,gdp_c+udp_c,-inf,inf
+
+//R# = 653 uroporphyrinogen-III synthase Regulation: 7390
+UPP3S,hmbil_c,h2o_c+uppg3_c,0,inf
+
+//R# = 654 uroporphyrinogen decarboxylase (uroporphyrinogen III) Regulation: 7389
+UPPDC1,uppg3_c+4*h_c,4*co2_c+cpppg3_c,0,inf
+
+//R# = 655 b-ureidopropionase Regulation: 51733
+UPPN,h2o_c+2*h_c+cala_c,ala_B_c+nh4_c+co2_c,0,inf
+
+//R# = 656 urate export from cytosol Regulation: 
+URATEt,urate_c,urate_e,-inf,inf
+
+//R# = 657 urate export from peroxisome Regulation: 
+URATEtx,urate_x,urate_c,-inf,inf
+
+//R# = 658 uracil transport via facilated diffusion Regulation: 3177
+URAt,ura_e,ura_c,-inf,inf
+
+//R# = 659 Urea transport via facilitate diffusion Regulation: 6528 or 8170 or 6563 or 6523
+UREAt,urea_e,urea_c,-inf,inf
+
+//R# = 660 urea, water cotransport Regulation: 6523
+UREAt5,urea_e+h2o_e,urea_c+h2o_c,-inf,inf
+
+//R# = 661 uridine kinase (ATP:Uridine) Regulation: 83549
+URIK1,uri_c+atp_c,ump_c+h_c+adp_c,0,inf
+
+//R# = 662 uridine facilated transport in cytosol Regulation: 2030
+URIt,uri_e,uri_c,-inf,inf
+
+//R# = 663 uridine transport in via sodium symport Regulation: 9153 or 9154 or 64078
+URIt4,uri_e+na1_e,uri_c+na1_c,-inf,inf
+
+//R# = 664 uridine transport in via sodium symport (1:2) Regulation: 64078
+URIt5,uri_e+2*na1_e,uri_c+2*na1_c,-inf,inf
+
+//R# = 665 valine transaminase Regulation: 586
+VALTA,val_L_c+akg_c,3mob_c+glu_L_c,-inf,inf
+
+//R# = 666 L-valine transport in via sodium symport Regulation: 11254
+VALt4,val_L_e+na1_e,val_L_c+na1_c,-inf,inf
+
+//R# = 667 L-valine transport via diffusion (extracellular to cytosol) Regulation: 8501 or 124935
+VALtec,val_L_e,val_L_c,-inf,inf
+
+//R# = 668 xanthine diffusion in peroxisome Regulation: 
+XANtx,xan_c,xan_x,-inf,inf
+
+//R# = 669 xanthine  oxidase,peroxisomal Regulation: 7498
+XAOx,o2_x+h2o_x+xan_x,h2o2_x+urate_x,-inf,inf
+
+//R# = 670 xylulokinase Regulation: 9942
+XYLK,atp_c+xylu_D_c,xu5p_D_c+h_c+adp_c,0,inf
+
+//R# = 671 xylitol dehydrogenase (D-xyulose-forming) Regulation: 
+XYLTD_Dr,xylt_c+nad_c,nadh_c+h_c+xylu_D_c,-inf,inf
+
+//R# = 672 xylulose reductase Regulation: 51181
+XYLUR,h_c+nadph_c+xylu_L_c,nadp_c+xylt_c,-inf,inf
+
+//R# = 673 sink etha Regulation: 
+sink_etha,etha_c,[],-inf,inf
+
+//R# = 674 EX 3mob(e) Regulation: 
+EX_3mob_e,3mob_c,[],-inf,inf
+
+//R# = 675 EX 5oxpro(e) Regulation: 
+EX_5oxpro_e,5oxpro_c,[],-inf,inf
+
+//R# = 676 EX acrn(e) Regulation: 
+EX_acrn_e,acrn_c,[],-inf,inf
+
+//R# = 677 EX ahcys(e) Regulation: 
+EX_ahcys_e,ahcys_c,[],-inf,inf
+
+//R# = 678 EX cdpea(e) Regulation: 
+EX_cdpea_e,cdpea_c,[],-inf,inf
+
+//R# = 679 EX cholp(e) Regulation: 
+EX_cholp_e,cholp_c,[],-inf,inf
+
+//R# = 680 EX citr-L(e) Regulation: 
+EX_citr_L_e,citr_L_c,[],-inf,inf
+
+//R# = 681 EX fum(e) Regulation: 
+EX_fum_e,fum_c,[],-inf,inf
+
+//R# = 682 EX pmtcrn(e) Regulation: 
+EX_pmtcrn_e,pmtcrn_c,[],-inf,inf
+
+//R# = 683 GPAM hs 16 0 Regulation: 57678
+GPAM_hs_16_0,glyc3p_c+pmtcoa_c,coa_c+alpha_hs_16_0_c,0,inf
+
+//R# = 684 LPS3 hs 16 0 Regulation: 11343
+LPS3_hs_16_0,h2o_c+mag_hs_16_0_c,glyc_c+hdca_c+h_c,0,inf
+
+//R# = 685 LPASE 16 0 Regulation: 5321 or 1178 or 29124
+LPASE_16_0,h2o_c+lpchol_hs_16_0_c,hdca_c+h_c+g3pc_c,0,inf
+
+//R# = 686 GPAM hs 18 0 Regulation: 57678
+GPAM_hs_18_0,glyc3p_c+stcoa_c,coa_c+alpha_hs_18_0_c,0,inf
+
+//R# = 687 LPS3 hs 18 0 Regulation: 11343
+LPS3_hs_18_0,h2o_c+mag_hs_18_0_c,glyc_c+h_c+ocdca_c,0,inf
+
+//R# = 688 LPASE 18 0 Regulation: 5321 or 1178 or 29124
+LPASE_18_0,h2o_c+lpchol_hs_18_0_c,h_c+ocdca_c+g3pc_c,0,inf
+
+//R# = 689 GPAM hs 18 1 Regulation: 57678
+GPAM_hs_18_1,glyc3p_c+odecoa_c,coa_c+alpha_hs_18_1_c,0,inf
+
+//R# = 690 LPS3 hs 18 1 Regulation: 11343
+LPS3_hs_18_1,h2o_c+mag_hs_18_1_c,ocdcea_c+glyc_c+h_c,0,inf
+
+//R# = 691 LPASE 18 1 Regulation: 5321 or 1178 or 29124
+LPASE_18_1,h2o_c+lpchol_hs_18_1_c,ocdcea_c+h_c+g3pc_c,0,inf
+
+//R# = 692 GPAM hs 18 2 Regulation: 57678
+GPAM_hs_18_2,glyc3p_c+lnlccoa_c,coa_c+alpha_hs_18_2_c,0,inf
+
+//R# = 693 LPS3 hs 18 2 Regulation: 11343
+LPS3_hs_18_2,h2o_c+mag_hs_18_2_c,glyc_c+lnlc_c+h_c,0,inf
+
+//R# = 694 LPASE 18 2 Regulation: 5321 or 1178 or 29124
+LPASE_18_2,h2o_c+lpchol_hs_18_2_c,lnlc_c+h_c+g3pc_c,0,inf
+
+//R# = 695 GPAM hs 20 4 Regulation: 57678
+GPAM_hs_20_4,glyc3p_c+arachdcoa_c,coa_c+alpha_hs_20_4_c,0,inf
+
+//R# = 696 LPS3 hs 20 4 Regulation: 11343
+LPS3_hs_20_4,h2o_c+mag_hs_20_4_c,glyc_c+h_c+arachd_c,0,inf
+
+//R# = 697 LPASE 20 4 Regulation: 5321 or 1178 or 29124
+LPASE_20_4,h2o_c+lpchol_hs_20_4_c,h_c+arachd_c+g3pc_c,0,inf
+
+//R# = 698 AGPAT1 16 0 16 0 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_16_0_16_0,pmtcoa_c+alpha_hs_16_0_c,coa_c+pa_hs_16_0_16_0_c,0,inf
+
+//R# = 699 PPAP 16 0 16 0 Regulation: 8611 or 8612 or 8613
+PPAP_16_0_16_0,h2o_c+pa_hs_16_0_16_0_c,dag_hs_16_0_16_0_c+pi_c,0,inf
+
+//R# = 700 CEPTE 16 0 16 0 Regulation: 10390
+CEPTE_16_0_16_0,dag_hs_16_0_16_0_c+cdpea_c,cmp_c+pe_hs_16_0_16_0_c+h_c,0,inf
+
+//R# = 701 PSSA2 hs 16 0 16 0 Regulation: 81490
+PSSA2_hs_16_0_16_0,ser_L_c+pe_hs_16_0_16_0_c,ps_hs_16_0_16_0_c+etha_c,-inf,inf
+
+//R# = 702 PSSA1 hs 16 0 16 0 Regulation: 9791
+PSSA1_hs_16_0_16_0,chol_c+ps_hs_16_0_16_0_c,ser_L_c+pchol_hs_16_0_16_0_c,-inf,inf
+
+//R# = 703 CEPTC 16 0 16 0 Regulation: 56994 or 10390
+CEPTC_16_0_16_0,dag_hs_16_0_16_0_c+cdpchol_c,cmp_c+h_c+pchol_hs_16_0_16_0_c,0,inf
+
+//R# = 704 PLA2 2 16 0 16 0 Regulation: 5320 or 8398
+PLA2_2_16_0_16_0,h2o_c+pchol_hs_16_0_16_0_c,lpchol_hs_16_0_c+hdca_c+h_c,0,inf
+
+//R# = 705 DAGK hs 16 0 16 0 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_16_0_16_0,pa_hs_16_0_16_0_c+h_c+adp_c,dag_hs_16_0_16_0_c+atp_c,-inf,inf
+
+//R# = 706 LPS2 16 0 16 0 Regulation: 4023
+LPS2_16_0_16_0,h2o_c+dag_hs_16_0_16_0_c,hdca_c+mag_hs_16_0_c+h_c,0,inf
+
+//R# = 707 CDS 16 0 16 0 Regulation: 1040
+CDS_16_0_16_0,ctp_c+pa_hs_16_0_16_0_c+h_c,ppi_c+cdpdag_hs_16_0_16_0_c,0,inf
+
+//R# = 708 CDIPTr 16 0 16 0 Regulation: 10423
+CDIPTr_16_0_16_0,inost_c+cdpdag_hs_16_0_16_0_c,cmp_c+h_c+pail_hs_16_0_16_0_c,0,inf
+
+//R# = 709 PIPLC 16 0 16 0 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_16_0_16_0,h2o_c+pail_hs_16_0_16_0_c,mi1p_D_c+dag_hs_16_0_16_0_c+h_c,0,inf
+
+//R# = 710 PIK4 16 0 16 0 Regulation: 5297 or 5298 or 55361
+PIK4_16_0_16_0,atp_c+pail_hs_16_0_16_0_c,pail4p_hs_16_0_16_0_c+h_c+adp_c,0,inf
+
+//R# = 711 PI4PLC 16 0 16 0 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_16_0_16_0,pail4p_hs_16_0_16_0_c+h2o_c,dag_hs_16_0_16_0_c+h_c+mi14p_c,0,inf
+
+//R# = 712 PI4P3K 16 0 16 0 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_16_0_16_0,pail4p_hs_16_0_16_0_c+atp_c,h_c+adp_c+pail34p_hs_16_0_16_0_c,0,inf
+
+//R# = 713 PI34P5K 16 0 16 0 Regulation: 8394 or 8395 or 23396
+PI34P5K_16_0_16_0,atp_c+pail34p_hs_16_0_16_0_c,pail345p_hs_16_0_16_0_c+h_c+adp_c,0,inf
+
+//R# = 714 PI4P5K 16 0 16 0 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_16_0_16_0,pail45p_hs_16_0_16_0_c+atp_c,pail345p_hs_16_0_16_0_c+h_c+adp_c,0,inf
+
+//R# = 715 PI345P3P 16 0 16 0 Regulation: 5728
+PI345P3P_16_0_16_0,h2o_c+pail345p_hs_16_0_16_0_c,pail45p_hs_16_0_16_0_c+pi_c,0,inf
+
+//R# = 716 PI45PLC 16 0 16 0 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_16_0_16_0,pail45p_hs_16_0_16_0_c+h2o_c,dag_hs_16_0_16_0_c+h_c+mi145p_c,0,inf
+
+//R# = 717 AGPAT1 16 0 18 0 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_16_0_18_0,stcoa_c+alpha_hs_16_0_c,pa_hs_16_0_18_0_c+coa_c,0,inf
+
+//R# = 718 PPAP 16 0 18 0 Regulation: 8611 or 8612 or 8613
+PPAP_16_0_18_0,h2o_c+pa_hs_16_0_18_0_c,pi_c+dag_hs_16_0_18_0_c,0,inf
+
+//R# = 719 CEPTE 16 0 18 0 Regulation: 10390
+CEPTE_16_0_18_0,cdpea_c+dag_hs_16_0_18_0_c,pe_hs_16_0_18_0_c+cmp_c+h_c,0,inf
+
+//R# = 720 PSSA2 hs 16 0 18 0 Regulation: 81490
+PSSA2_hs_16_0_18_0,pe_hs_16_0_18_0_c+ser_L_c,etha_c+ps_hs_16_0_18_0_c,-inf,inf
+
+//R# = 721 PSSA1 hs 16 0 18 0 Regulation: 9791
+PSSA1_hs_16_0_18_0,chol_c+ps_hs_16_0_18_0_c,ser_L_c+pchol_hs_16_0_18_0_c,-inf,inf
+
+//R# = 722 CEPTC 16 0 18 0 Regulation: 56994 or 10390
+CEPTC_16_0_18_0,dag_hs_16_0_18_0_c+cdpchol_c,cmp_c+pchol_hs_16_0_18_0_c+h_c,0,inf
+
+//R# = 723 PLA2 2 16 0 18 0 Regulation: 5320 or 8398
+PLA2_2_16_0_18_0,h2o_c+pchol_hs_16_0_18_0_c,lpchol_hs_16_0_c+h_c+ocdca_c,0,inf
+
+//R# = 724 DAGK hs 16 0 18 0 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_16_0_18_0,pa_hs_16_0_18_0_c+h_c+adp_c,atp_c+dag_hs_16_0_18_0_c,-inf,inf
+
+//R# = 725 LPS2 16 0 18 0 Regulation: 4023
+LPS2_16_0_18_0,h2o_c+dag_hs_16_0_18_0_c,mag_hs_16_0_c+h_c+ocdca_c,0,inf
+
+//R# = 726 CDS 16 0 18 0 Regulation: 1040
+CDS_16_0_18_0,pa_hs_16_0_18_0_c+ctp_c+h_c,ppi_c+cdpdag_hs_16_0_18_0_c,0,inf
+
+//R# = 727 CDIPTr 16 0 18 0 Regulation: 10423
+CDIPTr_16_0_18_0,inost_c+cdpdag_hs_16_0_18_0_c,cmp_c+pail_hs_16_0_18_0_c+h_c,0,inf
+
+//R# = 728 PIPLC 16 0 18 0 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_16_0_18_0,h2o_c+pail_hs_16_0_18_0_c,mi1p_D_c+h_c+dag_hs_16_0_18_0_c,0,inf
+
+//R# = 729 PIK4 16 0 18 0 Regulation: 5297 or 5298 or 55361
+PIK4_16_0_18_0,atp_c+pail_hs_16_0_18_0_c,h_c+adp_c+pail4p_hs_16_0_18_0_c,0,inf
+
+//R# = 730 PI4PLC 16 0 18 0 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_16_0_18_0,h2o_c+pail4p_hs_16_0_18_0_c,h_c+dag_hs_16_0_18_0_c+mi14p_c,0,inf
+
+//R# = 731 PI4P3K 16 0 18 0 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_16_0_18_0,atp_c+pail4p_hs_16_0_18_0_c,h_c+pail34p_hs_16_0_18_0_c+adp_c,0,inf
+
+//R# = 732 PI34P5K 16 0 18 0 Regulation: 8394 or 8395 or 23396
+PI34P5K_16_0_18_0,atp_c+pail34p_hs_16_0_18_0_c,pail345p_hs_16_0_18_0_c+h_c+adp_c,0,inf
+
+//R# = 733 PI4P5K 16 0 18 0 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_16_0_18_0,atp_c+pail45p_hs_16_0_18_0_c,pail345p_hs_16_0_18_0_c+h_c+adp_c,0,inf
+
+//R# = 734 PI345P3P 16 0 18 0 Regulation: 5728
+PI345P3P_16_0_18_0,pail345p_hs_16_0_18_0_c+h2o_c,pi_c+pail45p_hs_16_0_18_0_c,0,inf
+
+//R# = 735 PI45PLC 16 0 18 0 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_16_0_18_0,h2o_c+pail45p_hs_16_0_18_0_c,h_c+dag_hs_16_0_18_0_c+mi145p_c,0,inf
+
+//R# = 736 AGPAT1 16 0 18 1 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_16_0_18_1,odecoa_c+alpha_hs_16_0_c,pa_hs_16_0_18_1_c+coa_c,0,inf
+
+//R# = 737 PPAP 16 0 18 1 Regulation: 8611 or 8612 or 8613
+PPAP_16_0_18_1,pa_hs_16_0_18_1_c+h2o_c,pi_c+dag_hs_16_0_18_1_c,0,inf
+
+//R# = 738 CEPTE 16 0 18 1 Regulation: 10390
+CEPTE_16_0_18_1,cdpea_c+dag_hs_16_0_18_1_c,cmp_c+pe_hs_16_0_18_1_c+h_c,0,inf
+
+//R# = 739 PSSA2 hs 16 0 18 1 Regulation: 81490
+PSSA2_hs_16_0_18_1,pe_hs_16_0_18_1_c+ser_L_c,etha_c+ps_hs_16_0_18_1_c,-inf,inf
+
+//R# = 740 PSSA1 hs 16 0 18 1 Regulation: 9791
+PSSA1_hs_16_0_18_1,chol_c+ps_hs_16_0_18_1_c,ser_L_c+pchol_hs_16_0_18_1_c,-inf,inf
+
+//R# = 741 CEPTC 16 0 18 1 Regulation: 56994 or 10390
+CEPTC_16_0_18_1,cdpchol_c+dag_hs_16_0_18_1_c,cmp_c+h_c+pchol_hs_16_0_18_1_c,0,inf
+
+//R# = 742 PLA2 2 16 0 18 1 Regulation: 5320 or 8398
+PLA2_2_16_0_18_1,h2o_c+pchol_hs_16_0_18_1_c,ocdcea_c+lpchol_hs_16_0_c+h_c,0,inf
+
+//R# = 743 DAGK hs 16 0 18 1 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_16_0_18_1,pa_hs_16_0_18_1_c+h_c+adp_c,atp_c+dag_hs_16_0_18_1_c,-inf,inf
+
+//R# = 744 LPS2 16 0 18 1 Regulation: 4023
+LPS2_16_0_18_1,h2o_c+dag_hs_16_0_18_1_c,ocdcea_c+mag_hs_16_0_c+h_c,0,inf
+
+//R# = 745 CDS 16 0 18 1 Regulation: 1040
+CDS_16_0_18_1,pa_hs_16_0_18_1_c+ctp_c+h_c,ppi_c+cdpdag_hs_16_0_18_1_c,0,inf
+
+//R# = 746 CDIPTr 16 0 18 1 Regulation: 10423
+CDIPTr_16_0_18_1,inost_c+cdpdag_hs_16_0_18_1_c,cmp_c+h_c+pail_hs_16_0_18_1_c,0,inf
+
+//R# = 747 PIPLC 16 0 18 1 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_16_0_18_1,h2o_c+pail_hs_16_0_18_1_c,mi1p_D_c+h_c+dag_hs_16_0_18_1_c,0,inf
+
+//R# = 748 PIK4 16 0 18 1 Regulation: 5297 or 5298 or 55361
+PIK4_16_0_18_1,atp_c+pail_hs_16_0_18_1_c,pail4p_hs_16_0_18_1_c+h_c+adp_c,0,inf
+
+//R# = 749 PI4PLC 16 0 18 1 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_16_0_18_1,h2o_c+pail4p_hs_16_0_18_1_c,h_c+mi14p_c+dag_hs_16_0_18_1_c,0,inf
+
+//R# = 750 PI4P3K 16 0 18 1 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_16_0_18_1,atp_c+pail4p_hs_16_0_18_1_c,pail34p_hs_16_0_18_1_c+h_c+adp_c,0,inf
+
+//R# = 751 PI34P5K 16 0 18 1 Regulation: 8394 or 8395 or 23396
+PI34P5K_16_0_18_1,atp_c+pail34p_hs_16_0_18_1_c,h_c+adp_c+pail345p_hs_16_0_18_1_c,0,inf
+
+//R# = 752 PI4P5K 16 0 18 1 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_16_0_18_1,pail45p_hs_16_0_18_1_c+atp_c,h_c+adp_c+pail345p_hs_16_0_18_1_c,0,inf
+
+//R# = 753 PI345P3P 16 0 18 1 Regulation: 5728
+PI345P3P_16_0_18_1,h2o_c+pail345p_hs_16_0_18_1_c,pail45p_hs_16_0_18_1_c+pi_c,0,inf
+
+//R# = 754 PI45PLC 16 0 18 1 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_16_0_18_1,pail45p_hs_16_0_18_1_c+h2o_c,h_c+mi145p_c+dag_hs_16_0_18_1_c,0,inf
+
+//R# = 755 AGPAT1 16 0 18 2 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_16_0_18_2,lnlccoa_c+alpha_hs_16_0_c,coa_c+pa_hs_16_0_18_2_c,0,inf
+
+//R# = 756 PPAP 16 0 18 2 Regulation: 8611 or 8612 or 8613
+PPAP_16_0_18_2,h2o_c+pa_hs_16_0_18_2_c,pi_c+dag_hs_16_0_18_2_c,0,inf
+
+//R# = 757 CEPTE 16 0 18 2 Regulation: 10390
+CEPTE_16_0_18_2,cdpea_c+dag_hs_16_0_18_2_c,pe_hs_16_0_18_2_c+cmp_c+h_c,0,inf
+
+//R# = 758 PSSA2 hs 16 0 18 2 Regulation: 81490
+PSSA2_hs_16_0_18_2,pe_hs_16_0_18_2_c+ser_L_c,etha_c+ps_hs_16_0_18_2_c,-inf,inf
+
+//R# = 759 PSSA1 hs 16 0 18 2 Regulation: 9791
+PSSA1_hs_16_0_18_2,chol_c+ps_hs_16_0_18_2_c,ser_L_c+pchol_hs_16_0_18_2_c,-inf,inf
+
+//R# = 760 CEPTC 16 0 18 2 Regulation: 56994 or 10390
+CEPTC_16_0_18_2,dag_hs_16_0_18_2_c+cdpchol_c,cmp_c+h_c+pchol_hs_16_0_18_2_c,0,inf
+
+//R# = 761 PLA2 2 16 0 18 2 Regulation: 5320 or 8398
+PLA2_2_16_0_18_2,h2o_c+pchol_hs_16_0_18_2_c,lpchol_hs_16_0_c+lnlc_c+h_c,0,inf
+
+//R# = 762 DAGK hs 16 0 18 2 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_16_0_18_2,h_c+adp_c+pa_hs_16_0_18_2_c,atp_c+dag_hs_16_0_18_2_c,-inf,inf
+
+//R# = 763 LPS2 16 0 18 2 Regulation: 4023
+LPS2_16_0_18_2,h2o_c+dag_hs_16_0_18_2_c,lnlc_c+mag_hs_16_0_c+h_c,0,inf
+
+//R# = 764 CDS 16 0 18 2 Regulation: 1040
+CDS_16_0_18_2,ctp_c+h_c+pa_hs_16_0_18_2_c,ppi_c+cdpdag_hs_16_0_18_2_c,0,inf
+
+//R# = 765 CDIPTr 16 0 18 2 Regulation: 10423
+CDIPTr_16_0_18_2,inost_c+cdpdag_hs_16_0_18_2_c,cmp_c+pail_hs_16_0_18_2_c+h_c,0,inf
+
+//R# = 766 PIPLC 16 0 18 2 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_16_0_18_2,h2o_c+pail_hs_16_0_18_2_c,mi1p_D_c+h_c+dag_hs_16_0_18_2_c,0,inf
+
+//R# = 767 PIK4 16 0 18 2 Regulation: 5297 or 5298 or 55361
+PIK4_16_0_18_2,atp_c+pail_hs_16_0_18_2_c,h_c+adp_c+pail4p_hs_16_0_18_2_c,0,inf
+
+//R# = 768 PI4PLC 16 0 18 2 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_16_0_18_2,h2o_c+pail4p_hs_16_0_18_2_c,h_c+dag_hs_16_0_18_2_c+mi14p_c,0,inf
+
+//R# = 769 PI4P3K 16 0 18 2 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_16_0_18_2,atp_c+pail4p_hs_16_0_18_2_c,h_c+pail34p_hs_16_0_18_2_c+adp_c,0,inf
+
+//R# = 770 PI34P5K 16 0 18 2 Regulation: 8394 or 8395 or 23396
+PI34P5K_16_0_18_2,atp_c+pail34p_hs_16_0_18_2_c,pail345p_hs_16_0_18_2_c+h_c+adp_c,0,inf
+
+//R# = 771 PI4P5K 16 0 18 2 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_16_0_18_2,atp_c+pail45p_hs_16_0_18_2_c,pail345p_hs_16_0_18_2_c+h_c+adp_c,0,inf
+
+//R# = 772 PI345P3P 16 0 18 2 Regulation: 5728
+PI345P3P_16_0_18_2,pail345p_hs_16_0_18_2_c+h2o_c,pi_c+pail45p_hs_16_0_18_2_c,0,inf
+
+//R# = 773 PI45PLC 16 0 18 2 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_16_0_18_2,h2o_c+pail45p_hs_16_0_18_2_c,h_c+dag_hs_16_0_18_2_c+mi145p_c,0,inf
+
+//R# = 774 AGPAT1 16 0 20 4 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_16_0_20_4,arachdcoa_c+alpha_hs_16_0_c,pa_hs_16_0_20_4_c+coa_c,0,inf
+
+//R# = 775 PPAP 16 0 20 4 Regulation: 8611 or 8612 or 8613
+PPAP_16_0_20_4,pa_hs_16_0_20_4_c+h2o_c,dag_hs_16_0_20_4_c+pi_c,0,inf
+
+//R# = 776 CEPTE 16 0 20 4 Regulation: 10390
+CEPTE_16_0_20_4,cdpea_c+dag_hs_16_0_20_4_c,cmp_c+h_c+pe_hs_16_0_20_4_c,0,inf
+
+//R# = 777 PSSA2 hs 16 0 20 4 Regulation: 81490
+PSSA2_hs_16_0_20_4,ser_L_c+pe_hs_16_0_20_4_c,ps_hs_16_0_20_4_c+etha_c,-inf,inf
+
+//R# = 778 PSSA1 hs 16 0 20 4 Regulation: 9791
+PSSA1_hs_16_0_20_4,ps_hs_16_0_20_4_c+chol_c,pchol_hs_16_0_20_4_c+ser_L_c,-inf,inf
+
+//R# = 779 CEPTC 16 0 20 4 Regulation: 56994 or 10390
+CEPTC_16_0_20_4,dag_hs_16_0_20_4_c+cdpchol_c,cmp_c+pchol_hs_16_0_20_4_c+h_c,0,inf
+
+//R# = 780 PLA2 2 16 0 20 4 Regulation: 5320 or 8398
+PLA2_2_16_0_20_4,h2o_c+pchol_hs_16_0_20_4_c,lpchol_hs_16_0_c+h_c+arachd_c,0,inf
+
+//R# = 781 DAGK hs 16 0 20 4 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_16_0_20_4,pa_hs_16_0_20_4_c+h_c+adp_c,atp_c+dag_hs_16_0_20_4_c,-inf,inf
+
+//R# = 782 LPS2 16 0 20 4 Regulation: 4023
+LPS2_16_0_20_4,h2o_c+dag_hs_16_0_20_4_c,mag_hs_16_0_c+h_c+arachd_c,0,inf
+
+//R# = 783 CDS 16 0 20 4 Regulation: 1040
+CDS_16_0_20_4,pa_hs_16_0_20_4_c+ctp_c+h_c,ppi_c+cdpdag_hs_16_0_20_4_c,0,inf
+
+//R# = 784 CDIPTr 16 0 20 4 Regulation: 10423
+CDIPTr_16_0_20_4,inost_c+cdpdag_hs_16_0_20_4_c,pail_hs_16_0_20_4_c+cmp_c+h_c,0,inf
+
+//R# = 785 PIPLC 16 0 20 4 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_16_0_20_4,pail_hs_16_0_20_4_c+h2o_c,mi1p_D_c+dag_hs_16_0_20_4_c+h_c,0,inf
+
+//R# = 786 PIK4 16 0 20 4 Regulation: 5297 or 5298 or 55361
+PIK4_16_0_20_4,pail_hs_16_0_20_4_c+atp_c,h_c+adp_c+pail4p_hs_16_0_20_4_c,0,inf
+
+//R# = 787 PI4PLC 16 0 20 4 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_16_0_20_4,h2o_c+pail4p_hs_16_0_20_4_c,dag_hs_16_0_20_4_c+h_c+mi14p_c,0,inf
+
+//R# = 788 PI4P3K 16 0 20 4 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_16_0_20_4,atp_c+pail4p_hs_16_0_20_4_c,pail34p_hs_16_0_20_4_c+h_c+adp_c,0,inf
+
+//R# = 789 PI34P5K 16 0 20 4 Regulation: 8394 or 8395 or 23396
+PI34P5K_16_0_20_4,pail34p_hs_16_0_20_4_c+atp_c,pail345p_hs_16_0_20_4_c+h_c+adp_c,0,inf
+
+//R# = 790 PI4P5K 16 0 20 4 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_16_0_20_4,atp_c+pail45p_hs_16_0_20_4_c,pail345p_hs_16_0_20_4_c+h_c+adp_c,0,inf
+
+//R# = 791 PI345P3P 16 0 20 4 Regulation: 5728
+PI345P3P_16_0_20_4,h2o_c+pail345p_hs_16_0_20_4_c,pi_c+pail45p_hs_16_0_20_4_c,0,inf
+
+//R# = 792 PI45PLC 16 0 20 4 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_16_0_20_4,h2o_c+pail45p_hs_16_0_20_4_c,dag_hs_16_0_20_4_c+h_c+mi145p_c,0,inf
+
+//R# = 793 AGPAT1 18 0 18 0 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_18_0_18_0,alpha_hs_18_0_c+stcoa_c,coa_c+pa_hs_18_0_18_0_c,0,inf
+
+//R# = 794 PPAP 18 0 18 0 Regulation: 8611 or 8612 or 8613
+PPAP_18_0_18_0,h2o_c+pa_hs_18_0_18_0_c,dag_hs_18_0_18_0_c+pi_c,0,inf
+
+//R# = 795 CEPTE 18 0 18 0 Regulation: 10390
+CEPTE_18_0_18_0,dag_hs_18_0_18_0_c+cdpea_c,cmp_c+h_c+pe_hs_18_0_18_0_c,0,inf
+
+//R# = 796 PSSA2 hs 18 0 18 0 Regulation: 81490
+PSSA2_hs_18_0_18_0,ser_L_c+pe_hs_18_0_18_0_c,ps_hs_18_0_18_0_c+etha_c,-inf,inf
+
+//R# = 797 PSSA1 hs 18 0 18 0 Regulation: 9791
+PSSA1_hs_18_0_18_0,chol_c+ps_hs_18_0_18_0_c,ser_L_c+pchol_hs_18_0_18_0_c,-inf,inf
+
+//R# = 798 CEPTC 18 0 18 0 Regulation: 56994 or 10390
+CEPTC_18_0_18_0,dag_hs_18_0_18_0_c+cdpchol_c,cmp_c+pchol_hs_18_0_18_0_c+h_c,0,inf
+
+//R# = 799 PLA2 2 18 0 18 0 Regulation: 5320 or 8398
+PLA2_2_18_0_18_0,h2o_c+pchol_hs_18_0_18_0_c,h_c+lpchol_hs_18_0_c+ocdca_c,0,inf
+
+//R# = 800 DAGK hs 18 0 18 0 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_18_0_18_0,h_c+adp_c+pa_hs_18_0_18_0_c,dag_hs_18_0_18_0_c+atp_c,-inf,inf
+
+//R# = 801 LPS2 18 0 18 0 Regulation: 4023
+LPS2_18_0_18_0,dag_hs_18_0_18_0_c+h2o_c,h_c+ocdca_c+mag_hs_18_0_c,0,inf
+
+//R# = 802 CDS 18 0 18 0 Regulation: 1040
+CDS_18_0_18_0,ctp_c+h_c+pa_hs_18_0_18_0_c,ppi_c+cdpdag_hs_18_0_18_0_c,0,inf
+
+//R# = 803 CDIPTr 18 0 18 0 Regulation: 10423
+CDIPTr_18_0_18_0,inost_c+cdpdag_hs_18_0_18_0_c,cmp_c+pail_hs_18_0_18_0_c+h_c,0,inf
+
+//R# = 804 PIPLC 18 0 18 0 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_18_0_18_0,h2o_c+pail_hs_18_0_18_0_c,dag_hs_18_0_18_0_c+mi1p_D_c+h_c,0,inf
+
+//R# = 805 PIK4 18 0 18 0 Regulation: 5297 or 5298 or 55361
+PIK4_18_0_18_0,pail_hs_18_0_18_0_c+atp_c,pail4p_hs_18_0_18_0_c+h_c+adp_c,0,inf
+
+//R# = 806 PI4PLC 18 0 18 0 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_18_0_18_0,h2o_c+pail4p_hs_18_0_18_0_c,dag_hs_18_0_18_0_c+h_c+mi14p_c,0,inf
+
+//R# = 807 PI4P3K 18 0 18 0 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_18_0_18_0,pail4p_hs_18_0_18_0_c+atp_c,pail34p_hs_18_0_18_0_c+h_c+adp_c,0,inf
+
+//R# = 808 PI34P5K 18 0 18 0 Regulation: 8394 or 8395 or 23396
+PI34P5K_18_0_18_0,pail34p_hs_18_0_18_0_c+atp_c,pail345p_hs_18_0_18_0_c+h_c+adp_c,0,inf
+
+//R# = 809 PI4P5K 18 0 18 0 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_18_0_18_0,atp_c+pail45p_hs_18_0_18_0_c,pail345p_hs_18_0_18_0_c+h_c+adp_c,0,inf
+
+//R# = 810 PI345P3P 18 0 18 0 Regulation: 5728
+PI345P3P_18_0_18_0,h2o_c+pail345p_hs_18_0_18_0_c,pi_c+pail45p_hs_18_0_18_0_c,0,inf
+
+//R# = 811 PI45PLC 18 0 18 0 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_18_0_18_0,h2o_c+pail45p_hs_18_0_18_0_c,dag_hs_18_0_18_0_c+h_c+mi145p_c,0,inf
+
+//R# = 812 AGPAT1 18 0 18 1 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_18_0_18_1,alpha_hs_18_0_c+odecoa_c,coa_c+pa_hs_18_0_18_1_c,0,inf
+
+//R# = 813 PPAP 18 0 18 1 Regulation: 8611 or 8612 or 8613
+PPAP_18_0_18_1,h2o_c+pa_hs_18_0_18_1_c,dag_hs_18_0_18_1_c+pi_c,0,inf
+
+//R# = 814 CEPTE 18 0 18 1 Regulation: 10390
+CEPTE_18_0_18_1,dag_hs_18_0_18_1_c+cdpea_c,cmp_c+h_c+pe_hs_18_0_18_1_c,0,inf
+
+//R# = 815 PSSA2 hs 18 0 18 1 Regulation: 81490
+PSSA2_hs_18_0_18_1,ser_L_c+pe_hs_18_0_18_1_c,ps_hs_18_0_18_1_c+etha_c,-inf,inf
+
+//R# = 816 PSSA1 hs 18 0 18 1 Regulation: 9791
+PSSA1_hs_18_0_18_1,chol_c+ps_hs_18_0_18_1_c,ser_L_c+pchol_hs_18_0_18_1_c,-inf,inf
+
+//R# = 817 CEPTC 18 0 18 1 Regulation: 56994 or 10390
+CEPTC_18_0_18_1,dag_hs_18_0_18_1_c+cdpchol_c,cmp_c+h_c+pchol_hs_18_0_18_1_c,0,inf
+
+//R# = 818 PLA2 2 18 0 18 1 Regulation: 5320 or 8398
+PLA2_2_18_0_18_1,h2o_c+pchol_hs_18_0_18_1_c,ocdcea_c+h_c+lpchol_hs_18_0_c,0,inf
+
+//R# = 819 DAGK hs 18 0 18 1 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_18_0_18_1,h_c+adp_c+pa_hs_18_0_18_1_c,dag_hs_18_0_18_1_c+atp_c,-inf,inf
+
+//R# = 820 LPS2 18 0 18 1 Regulation: 4023
+LPS2_18_0_18_1,dag_hs_18_0_18_1_c+h2o_c,ocdcea_c+h_c+mag_hs_18_0_c,0,inf
+
+//R# = 821 CDS 18 0 18 1 Regulation: 1040
+CDS_18_0_18_1,ctp_c+h_c+pa_hs_18_0_18_1_c,ppi_c+cdpdag_hs_18_0_18_1_c,0,inf
+
+//R# = 822 CDIPTr 18 0 18 1 Regulation: 10423
+CDIPTr_18_0_18_1,inost_c+cdpdag_hs_18_0_18_1_c,pail_hs_18_0_18_1_c+cmp_c+h_c,0,inf
+
+//R# = 823 PIPLC 18 0 18 1 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_18_0_18_1,pail_hs_18_0_18_1_c+h2o_c,mi1p_D_c+dag_hs_18_0_18_1_c+h_c,0,inf
+
+//R# = 824 PIK4 18 0 18 1 Regulation: 5297 or 5298 or 55361
+PIK4_18_0_18_1,pail_hs_18_0_18_1_c+atp_c,pail4p_hs_18_0_18_1_c+h_c+adp_c,0,inf
+
+//R# = 825 PI4PLC 18 0 18 1 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_18_0_18_1,h2o_c+pail4p_hs_18_0_18_1_c,dag_hs_18_0_18_1_c+h_c+mi14p_c,0,inf
+
+//R# = 826 PI4P3K 18 0 18 1 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_18_0_18_1,pail4p_hs_18_0_18_1_c+atp_c,pail34p_hs_18_0_18_1_c+h_c+adp_c,0,inf
+
+//R# = 827 PI34P5K 18 0 18 1 Regulation: 8394 or 8395 or 23396
+PI34P5K_18_0_18_1,pail34p_hs_18_0_18_1_c+atp_c,h_c+pail345p_hs_18_0_18_1_c+adp_c,0,inf
+
+//R# = 828 PI4P5K 18 0 18 1 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_18_0_18_1,atp_c+pail45p_hs_18_0_18_1_c,h_c+pail345p_hs_18_0_18_1_c+adp_c,0,inf
+
+//R# = 829 PI345P3P 18 0 18 1 Regulation: 5728
+PI345P3P_18_0_18_1,h2o_c+pail345p_hs_18_0_18_1_c,pi_c+pail45p_hs_18_0_18_1_c,0,inf
+
+//R# = 830 PI45PLC 18 0 18 1 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_18_0_18_1,h2o_c+pail45p_hs_18_0_18_1_c,dag_hs_18_0_18_1_c+h_c+mi145p_c,0,inf
+
+//R# = 831 AGPAT1 18 0 18 2 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_18_0_18_2,alpha_hs_18_0_c+lnlccoa_c,coa_c+pa_hs_18_0_18_2_c,0,inf
+
+//R# = 832 PPAP 18 0 18 2 Regulation: 8611 or 8612 or 8613
+PPAP_18_0_18_2,h2o_c+pa_hs_18_0_18_2_c,dag_hs_18_0_18_2_c+pi_c,0,inf
+
+//R# = 833 CEPTE 18 0 18 2 Regulation: 10390
+CEPTE_18_0_18_2,dag_hs_18_0_18_2_c+cdpea_c,pe_hs_18_0_18_2_c+cmp_c+h_c,0,inf
+
+//R# = 834 PSSA2 hs 18 0 18 2 Regulation: 81490
+PSSA2_hs_18_0_18_2,pe_hs_18_0_18_2_c+ser_L_c,ps_hs_18_0_18_2_c+etha_c,-inf,inf
+
+//R# = 835 PSSA1 hs 18 0 18 2 Regulation: 9791
+PSSA1_hs_18_0_18_2,chol_c+ps_hs_18_0_18_2_c,ser_L_c+pchol_hs_18_0_18_2_c,-inf,inf
+
+//R# = 836 CEPTC 18 0 18 2 Regulation: 56994 or 10390
+CEPTC_18_0_18_2,dag_hs_18_0_18_2_c+cdpchol_c,cmp_c+h_c+pchol_hs_18_0_18_2_c,0,inf
+
+//R# = 837 PLA2 2 18 0 18 2 Regulation: 5320 or 8398
+PLA2_2_18_0_18_2,h2o_c+pchol_hs_18_0_18_2_c,lnlc_c+h_c+lpchol_hs_18_0_c,0,inf
+
+//R# = 838 DAGK hs 18 0 18 2 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_18_0_18_2,h_c+adp_c+pa_hs_18_0_18_2_c,dag_hs_18_0_18_2_c+atp_c,-inf,inf
+
+//R# = 839 LPS2 18 0 18 2 Regulation: 4023
+LPS2_18_0_18_2,dag_hs_18_0_18_2_c+h2o_c,lnlc_c+h_c+mag_hs_18_0_c,0,inf
+
+//R# = 840 CDS 18 0 18 2 Regulation: 1040
+CDS_18_0_18_2,ctp_c+h_c+pa_hs_18_0_18_2_c,ppi_c+cdpdag_hs_18_0_18_2_c,0,inf
+
+//R# = 841 CDIPTr 18 0 18 2 Regulation: 10423
+CDIPTr_18_0_18_2,inost_c+cdpdag_hs_18_0_18_2_c,cmp_c+pail_hs_18_0_18_2_c+h_c,0,inf
+
+//R# = 842 PIPLC 18 0 18 2 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_18_0_18_2,h2o_c+pail_hs_18_0_18_2_c,dag_hs_18_0_18_2_c+mi1p_D_c+h_c,0,inf
+
+//R# = 843 PIK4 18 0 18 2 Regulation: 5297 or 5298 or 55361
+PIK4_18_0_18_2,pail_hs_18_0_18_2_c+atp_c,pail4p_hs_18_0_18_2_c+h_c+adp_c,0,inf
+
+//R# = 844 PI4PLC 18 0 18 2 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_18_0_18_2,h2o_c+pail4p_hs_18_0_18_2_c,dag_hs_18_0_18_2_c+h_c+mi14p_c,0,inf
+
+//R# = 845 PI4P3K 18 0 18 2 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_18_0_18_2,pail4p_hs_18_0_18_2_c+atp_c,pail34p_hs_18_0_18_2_c+h_c+adp_c,0,inf
+
+//R# = 846 PI34P5K 18 0 18 2 Regulation: 8394 or 8395 or 23396
+PI34P5K_18_0_18_2,pail34p_hs_18_0_18_2_c+atp_c,pail345p_hs_18_0_18_2_c+h_c+adp_c,0,inf
+
+//R# = 847 PI4P5K 18 0 18 2 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_18_0_18_2,atp_c+pail45p_hs_18_0_18_2_c,pail345p_hs_18_0_18_2_c+h_c+adp_c,0,inf
+
+//R# = 848 PI345P3P 18 0 18 2 Regulation: 5728
+PI345P3P_18_0_18_2,h2o_c+pail345p_hs_18_0_18_2_c,pi_c+pail45p_hs_18_0_18_2_c,0,inf
+
+//R# = 849 PI45PLC 18 0 18 2 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_18_0_18_2,h2o_c+pail45p_hs_18_0_18_2_c,dag_hs_18_0_18_2_c+h_c+mi145p_c,0,inf
+
+//R# = 850 AGPAT1 18 0 20 4 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_18_0_20_4,arachdcoa_c+alpha_hs_18_0_c,coa_c+pa_hs_18_0_20_4_c,0,inf
+
+//R# = 851 PPAP 18 0 20 4 Regulation: 8611 or 8612 or 8613
+PPAP_18_0_20_4,h2o_c+pa_hs_18_0_20_4_c,pi_c+dag_hs_18_0_20_4_c,0,inf
+
+//R# = 852 CEPTE 18 0 20 4 Regulation: 10390
+CEPTE_18_0_20_4,cdpea_c+dag_hs_18_0_20_4_c,cmp_c+pe_hs_18_0_20_4_c+h_c,0,inf
+
+//R# = 853 PSSA2 hs 18 0 20 4 Regulation: 81490
+PSSA2_hs_18_0_20_4,ser_L_c+pe_hs_18_0_20_4_c,ps_hs_18_0_20_4_c+etha_c,-inf,inf
+
+//R# = 854 PSSA1 hs 18 0 20 4 Regulation: 9791
+PSSA1_hs_18_0_20_4,chol_c+ps_hs_18_0_20_4_c,ser_L_c+pchol_hs_18_0_20_4_c,-inf,inf
+
+//R# = 855 CEPTC 18 0 20 4 Regulation: 56994 or 10390
+CEPTC_18_0_20_4,cdpchol_c+dag_hs_18_0_20_4_c,cmp_c+pchol_hs_18_0_20_4_c+h_c,0,inf
+
+//R# = 856 PLA2 2 18 0 20 4 Regulation: 5320 or 8398
+PLA2_2_18_0_20_4,h2o_c+pchol_hs_18_0_20_4_c,h_c+lpchol_hs_18_0_c+arachd_c,0,inf
+
+//R# = 857 DAGK hs 18 0 20 4 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_18_0_20_4,h_c+adp_c+pa_hs_18_0_20_4_c,atp_c+dag_hs_18_0_20_4_c,-inf,inf
+
+//R# = 858 LPS2 18 0 20 4 Regulation: 4023
+LPS2_18_0_20_4,h2o_c+dag_hs_18_0_20_4_c,h_c+arachd_c+mag_hs_18_0_c,0,inf
+
+//R# = 859 CDS 18 0 20 4 Regulation: 1040
+CDS_18_0_20_4,ctp_c+h_c+pa_hs_18_0_20_4_c,cdpdag_hs_18_0_20_4_c+ppi_c,0,inf
+
+//R# = 860 CDIPTr 18 0 20 4 Regulation: 10423
+CDIPTr_18_0_20_4,cdpdag_hs_18_0_20_4_c+inost_c,cmp_c+pail_hs_18_0_20_4_c+h_c,0,inf
+
+//R# = 861 PIPLC 18 0 20 4 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_18_0_20_4,h2o_c+pail_hs_18_0_20_4_c,mi1p_D_c+h_c+dag_hs_18_0_20_4_c,0,inf
+
+//R# = 862 PIK4 18 0 20 4 Regulation: 5297 or 5298 or 55361
+PIK4_18_0_20_4,pail_hs_18_0_20_4_c+atp_c,pail4p_hs_18_0_20_4_c+h_c+adp_c,0,inf
+
+//R# = 863 PI4PLC 18 0 20 4 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_18_0_20_4,h2o_c+pail4p_hs_18_0_20_4_c,h_c+dag_hs_18_0_20_4_c+mi14p_c,0,inf
+
+//R# = 864 PI4P3K 18 0 20 4 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_18_0_20_4,pail4p_hs_18_0_20_4_c+atp_c,pail34p_hs_18_0_20_4_c+h_c+adp_c,0,inf
+
+//R# = 865 PI34P5K 18 0 20 4 Regulation: 8394 or 8395 or 23396
+PI34P5K_18_0_20_4,pail34p_hs_18_0_20_4_c+atp_c,pail345p_hs_18_0_20_4_c+h_c+adp_c,0,inf
+
+//R# = 866 PI4P5K 18 0 20 4 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_18_0_20_4,pail45p_hs_18_0_20_4_c+atp_c,pail345p_hs_18_0_20_4_c+h_c+adp_c,0,inf
+
+//R# = 867 PI345P3P 18 0 20 4 Regulation: 5728
+PI345P3P_18_0_20_4,h2o_c+pail345p_hs_18_0_20_4_c,pail45p_hs_18_0_20_4_c+pi_c,0,inf
+
+//R# = 868 PI45PLC 18 0 20 4 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_18_0_20_4,pail45p_hs_18_0_20_4_c+h2o_c,h_c+mi145p_c+dag_hs_18_0_20_4_c,0,inf
+
+//R# = 869 AGPAT1 18 1 18 1 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_18_1_18_1,alpha_hs_18_1_c+odecoa_c,pa_hs_18_1_18_1_c+coa_c,0,inf
+
+//R# = 870 PPAP 18 1 18 1 Regulation: 8611 or 8612 or 8613
+PPAP_18_1_18_1,h2o_c+pa_hs_18_1_18_1_c,dag_hs_18_1_18_1_c+pi_c,0,inf
+
+//R# = 871 CEPTE 18 1 18 1 Regulation: 10390
+CEPTE_18_1_18_1,cdpea_c+dag_hs_18_1_18_1_c,cmp_c+h_c+pe_hs_18_1_18_1_c,0,inf
+
+//R# = 872 PSSA2 hs 18 1 18 1 Regulation: 81490
+PSSA2_hs_18_1_18_1,ser_L_c+pe_hs_18_1_18_1_c,ps_hs_18_1_18_1_c+etha_c,-inf,inf
+
+//R# = 873 PSSA1 hs 18 1 18 1 Regulation: 9791
+PSSA1_hs_18_1_18_1,chol_c+ps_hs_18_1_18_1_c,ser_L_c+pchol_hs_18_1_18_1_c,-inf,inf
+
+//R# = 874 CEPTC 18 1 18 1 Regulation: 56994 or 10390
+CEPTC_18_1_18_1,dag_hs_18_1_18_1_c+cdpchol_c,cmp_c+pchol_hs_18_1_18_1_c+h_c,0,inf
+
+//R# = 875 PLA2 2 18 1 18 1 Regulation: 5320 or 8398
+PLA2_2_18_1_18_1,h2o_c+pchol_hs_18_1_18_1_c,ocdcea_c+h_c+lpchol_hs_18_1_c,0,inf
+
+//R# = 876 DAGK hs 18 1 18 1 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_18_1_18_1,pa_hs_18_1_18_1_c+h_c+adp_c,dag_hs_18_1_18_1_c+atp_c,-inf,inf
+
+//R# = 877 LPS2 18 1 18 1 Regulation: 4023
+LPS2_18_1_18_1,h2o_c+dag_hs_18_1_18_1_c,ocdcea_c+mag_hs_18_1_c+h_c,0,inf
+
+//R# = 878 CDS 18 1 18 1 Regulation: 1040
+CDS_18_1_18_1,pa_hs_18_1_18_1_c+ctp_c+h_c,cdpdag_hs_18_1_18_1_c+ppi_c,0,inf
+
+//R# = 879 CDIPTr 18 1 18 1 Regulation: 10423
+CDIPTr_18_1_18_1,cdpdag_hs_18_1_18_1_c+inost_c,cmp_c+pail_hs_18_1_18_1_c+h_c,0,inf
+
+//R# = 880 PIPLC 18 1 18 1 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_18_1_18_1,pail_hs_18_1_18_1_c+h2o_c,mi1p_D_c+dag_hs_18_1_18_1_c+h_c,0,inf
+
+//R# = 881 PIK4 18 1 18 1 Regulation: 5297 or 5298 or 55361
+PIK4_18_1_18_1,pail_hs_18_1_18_1_c+atp_c,pail4p_hs_18_1_18_1_c+h_c+adp_c,0,inf
+
+//R# = 882 PI4PLC 18 1 18 1 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_18_1_18_1,h2o_c+pail4p_hs_18_1_18_1_c,dag_hs_18_1_18_1_c+h_c+mi14p_c,0,inf
+
+//R# = 883 PI4P3K 18 1 18 1 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_18_1_18_1,pail4p_hs_18_1_18_1_c+atp_c,pail34p_hs_18_1_18_1_c+h_c+adp_c,0,inf
+
+//R# = 884 PI34P5K 18 1 18 1 Regulation: 8394 or 8395 or 23396
+PI34P5K_18_1_18_1,atp_c+pail34p_hs_18_1_18_1_c,pail345p_hs_18_1_18_1_c+h_c+adp_c,0,inf
+
+//R# = 885 PI4P5K 18 1 18 1 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_18_1_18_1,atp_c+pail45p_hs_18_1_18_1_c,pail345p_hs_18_1_18_1_c+h_c+adp_c,0,inf
+
+//R# = 886 PI345P3P 18 1 18 1 Regulation: 5728
+PI345P3P_18_1_18_1,h2o_c+pail345p_hs_18_1_18_1_c,pi_c+pail45p_hs_18_1_18_1_c,0,inf
+
+//R# = 887 PI45PLC 18 1 18 1 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_18_1_18_1,h2o_c+pail45p_hs_18_1_18_1_c,dag_hs_18_1_18_1_c+h_c+mi145p_c,0,inf
+
+//R# = 888 AGPAT1 18 1 18 2 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_18_1_18_2,alpha_hs_18_1_c+lnlccoa_c,coa_c+pa_hs_18_1_18_2_c,0,inf
+
+//R# = 889 PPAP 18 1 18 2 Regulation: 8611 or 8612 or 8613
+PPAP_18_1_18_2,h2o_c+pa_hs_18_1_18_2_c,pi_c+dag_hs_18_1_18_2_c,0,inf
+
+//R# = 890 CEPTE 18 1 18 2 Regulation: 10390
+CEPTE_18_1_18_2,cdpea_c+dag_hs_18_1_18_2_c,cmp_c+pe_hs_18_1_18_2_c+h_c,0,inf
+
+//R# = 891 PSSA2 hs 18 1 18 2 Regulation: 81490
+PSSA2_hs_18_1_18_2,pe_hs_18_1_18_2_c+ser_L_c,ps_hs_18_1_18_2_c+etha_c,-inf,inf
+
+//R# = 892 PSSA1 hs 18 1 18 2 Regulation: 9791
+PSSA1_hs_18_1_18_2,chol_c+ps_hs_18_1_18_2_c,ser_L_c+pchol_hs_18_1_18_2_c,-inf,inf
+
+//R# = 893 CEPTC 18 1 18 2 Regulation: 56994 or 10390
+CEPTC_18_1_18_2,dag_hs_18_1_18_2_c+cdpchol_c,cmp_c+pchol_hs_18_1_18_2_c+h_c,0,inf
+
+//R# = 894 PLA2 2 18 1 18 2 Regulation: 5320 or 8398
+PLA2_2_18_1_18_2,h2o_c+pchol_hs_18_1_18_2_c,lnlc_c+h_c+lpchol_hs_18_1_c,0,inf
+
+//R# = 895 DAGK hs 18 1 18 2 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_18_1_18_2,pa_hs_18_1_18_2_c+h_c+adp_c,atp_c+dag_hs_18_1_18_2_c,-inf,inf
+
+//R# = 896 LPS2 18 1 18 2 Regulation: 4023
+LPS2_18_1_18_2,h2o_c+dag_hs_18_1_18_2_c,lnlc_c+mag_hs_18_1_c+h_c,0,inf
+
+//R# = 897 CDS 18 1 18 2 Regulation: 1040
+CDS_18_1_18_2,pa_hs_18_1_18_2_c+ctp_c+h_c,ppi_c+cdpdag_hs_18_1_18_2_c,0,inf
+
+//R# = 898 CDIPTr 18 1 18 2 Regulation: 10423
+CDIPTr_18_1_18_2,inost_c+cdpdag_hs_18_1_18_2_c,cmp_c+h_c+pail_hs_18_1_18_2_c,0,inf
+
+//R# = 899 PIPLC 18 1 18 2 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_18_1_18_2,h2o_c+pail_hs_18_1_18_2_c,mi1p_D_c+dag_hs_18_1_18_2_c+h_c,0,inf
+
+//R# = 900 PIK4 18 1 18 2 Regulation: 5297 or 5298 or 55361
+PIK4_18_1_18_2,atp_c+pail_hs_18_1_18_2_c,pail4p_hs_18_1_18_2_c+h_c+adp_c,0,inf
+
+//R# = 901 PI4PLC 18 1 18 2 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_18_1_18_2,h2o_c+pail4p_hs_18_1_18_2_c,dag_hs_18_1_18_2_c+h_c+mi14p_c,0,inf
+
+//R# = 902 PI4P3K 18 1 18 2 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_18_1_18_2,atp_c+pail4p_hs_18_1_18_2_c,h_c+adp_c+pail34p_hs_18_1_18_2_c,0,inf
+
+//R# = 903 PI34P5K 18 1 18 2 Regulation: 8394 or 8395 or 23396
+PI34P5K_18_1_18_2,atp_c+pail34p_hs_18_1_18_2_c,h_c+adp_c+pail345p_hs_18_1_18_2_c,0,inf
+
+//R# = 904 PI4P5K 18 1 18 2 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_18_1_18_2,atp_c+pail45p_hs_18_1_18_2_c,h_c+adp_c+pail345p_hs_18_1_18_2_c,0,inf
+
+//R# = 905 PI345P3P 18 1 18 2 Regulation: 5728
+PI345P3P_18_1_18_2,h2o_c+pail345p_hs_18_1_18_2_c,pi_c+pail45p_hs_18_1_18_2_c,0,inf
+
+//R# = 906 PI45PLC 18 1 18 2 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_18_1_18_2,h2o_c+pail45p_hs_18_1_18_2_c,dag_hs_18_1_18_2_c+h_c+mi145p_c,0,inf
+
+//R# = 907 AGPAT1 18 1 20 4 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_18_1_20_4,alpha_hs_18_1_c+arachdcoa_c,coa_c+pa_hs_18_1_20_4_c,0,inf
+
+//R# = 908 PPAP 18 1 20 4 Regulation: 8611 or 8612 or 8613
+PPAP_18_1_20_4,h2o_c+pa_hs_18_1_20_4_c,pi_c+dag_hs_18_1_20_4_c,0,inf
+
+//R# = 909 CEPTE 18 1 20 4 Regulation: 10390
+CEPTE_18_1_20_4,cdpea_c+dag_hs_18_1_20_4_c,cmp_c+h_c+pe_hs_18_1_20_4_c,0,inf
+
+//R# = 910 PSSA2 hs 18 1 20 4 Regulation: 81490
+PSSA2_hs_18_1_20_4,ser_L_c+pe_hs_18_1_20_4_c,ps_hs_18_1_20_4_c+etha_c,-inf,inf
+
+//R# = 911 PSSA1 hs 18 1 20 4 Regulation: 9791
+PSSA1_hs_18_1_20_4,chol_c+ps_hs_18_1_20_4_c,ser_L_c+pchol_hs_18_1_20_4_c,-inf,inf
+
+//R# = 912 CEPTC 18 1 20 4 Regulation: 56994 or 10390
+CEPTC_18_1_20_4,cdpchol_c+dag_hs_18_1_20_4_c,cmp_c+h_c+pchol_hs_18_1_20_4_c,0,inf
+
+//R# = 913 PLA2 2 18 1 20 4 Regulation: 5320 or 8398
+PLA2_2_18_1_20_4,h2o_c+pchol_hs_18_1_20_4_c,h_c+arachd_c+lpchol_hs_18_1_c,0,inf
+
+//R# = 914 DAGK hs 18 1 20 4 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_18_1_20_4,pa_hs_18_1_20_4_c+h_c+adp_c,atp_c+dag_hs_18_1_20_4_c,-inf,inf
+
+//R# = 915 LPS2 18 1 20 4 Regulation: 4023
+LPS2_18_1_20_4,h2o_c+dag_hs_18_1_20_4_c,mag_hs_18_1_c+h_c+arachd_c,0,inf
+
+//R# = 916 CDS 18 1 20 4 Regulation: 1040
+CDS_18_1_20_4,pa_hs_18_1_20_4_c+ctp_c+h_c,ppi_c+cdpdag_hs_18_1_20_4_c,0,inf
+
+//R# = 917 CDIPTr 18 1 20 4 Regulation: 10423
+CDIPTr_18_1_20_4,inost_c+cdpdag_hs_18_1_20_4_c,cmp_c+h_c+pail_hs_18_1_20_4_c,0,inf
+
+//R# = 918 PIPLC 18 1 20 4 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_18_1_20_4,h2o_c+pail_hs_18_1_20_4_c,mi1p_D_c+h_c+dag_hs_18_1_20_4_c,0,inf
+
+//R# = 919 PIK4 18 1 20 4 Regulation: 5297 or 5298 or 55361
+PIK4_18_1_20_4,atp_c+pail_hs_18_1_20_4_c,h_c+adp_c+pail4p_hs_18_1_20_4_c,0,inf
+
+//R# = 920 PI4PLC 18 1 20 4 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_18_1_20_4,h2o_c+pail4p_hs_18_1_20_4_c,h_c+mi14p_c+dag_hs_18_1_20_4_c,0,inf
+
+//R# = 921 PI4P3K 18 1 20 4 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_18_1_20_4,atp_c+pail4p_hs_18_1_20_4_c,h_c+adp_c+pail34p_hs_18_1_20_4_c,0,inf
+
+//R# = 922 PI34P5K 18 1 20 4 Regulation: 8394 or 8395 or 23396
+PI34P5K_18_1_20_4,atp_c+pail34p_hs_18_1_20_4_c,pail345p_hs_18_1_20_4_c+h_c+adp_c,0,inf
+
+//R# = 923 PI4P5K 18 1 20 4 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_18_1_20_4,pail45p_hs_18_1_20_4_c+atp_c,pail345p_hs_18_1_20_4_c+h_c+adp_c,0,inf
+
+//R# = 924 PI345P3P 18 1 20 4 Regulation: 5728
+PI345P3P_18_1_20_4,h2o_c+pail345p_hs_18_1_20_4_c,pail45p_hs_18_1_20_4_c+pi_c,0,inf
+
+//R# = 925 PI45PLC 18 1 20 4 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_18_1_20_4,h2o_c+pail45p_hs_18_1_20_4_c,h_c+mi145p_c+dag_hs_18_1_20_4_c,0,inf
+
+//R# = 926 AGPAT1 18 2 18 2 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_18_2_18_2,alpha_hs_18_2_c+lnlccoa_c,pa_hs_18_2_18_2_c+coa_c,0,inf
+
+//R# = 927 PPAP 18 2 18 2 Regulation: 8611 or 8612 or 8613
+PPAP_18_2_18_2,pa_hs_18_2_18_2_c+h2o_c,pi_c+dag_hs_18_2_18_2_c,0,inf
+
+//R# = 928 CEPTE 18 2 18 2 Regulation: 10390
+CEPTE_18_2_18_2,cdpea_c+dag_hs_18_2_18_2_c,cmp_c+pe_hs_18_2_18_2_c+h_c,0,inf
+
+//R# = 929 PSSA2 hs 18 2 18 2 Regulation: 81490
+PSSA2_hs_18_2_18_2,ser_L_c+pe_hs_18_2_18_2_c,ps_hs_18_2_18_2_c+etha_c,-inf,inf
+
+//R# = 930 PSSA1 hs 18 2 18 2 Regulation: 9791
+PSSA1_hs_18_2_18_2,chol_c+ps_hs_18_2_18_2_c,pchol_hs_18_2_18_2_c+ser_L_c,-inf,inf
+
+//R# = 931 CEPTC 18 2 18 2 Regulation: 56994 or 10390
+CEPTC_18_2_18_2,cdpchol_c+dag_hs_18_2_18_2_c,pchol_hs_18_2_18_2_c+cmp_c+h_c,0,inf
+
+//R# = 932 PLA2 2 18 2 18 2 Regulation: 5320 or 8398
+PLA2_2_18_2_18_2,pchol_hs_18_2_18_2_c+h2o_c,lnlc_c+h_c+lpchol_hs_18_2_c,0,inf
+
+//R# = 933 DAGK hs 18 2 18 2 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_18_2_18_2,pa_hs_18_2_18_2_c+h_c+adp_c,atp_c+dag_hs_18_2_18_2_c,-inf,inf
+
+//R# = 934 LPS2 18 2 18 2 Regulation: 4023
+LPS2_18_2_18_2,h2o_c+dag_hs_18_2_18_2_c,lnlc_c+h_c+mag_hs_18_2_c,0,inf
+
+//R# = 935 CDS 18 2 18 2 Regulation: 1040
+CDS_18_2_18_2,pa_hs_18_2_18_2_c+ctp_c+h_c,cdpdag_hs_18_2_18_2_c+ppi_c,0,inf
+
+//R# = 936 CDIPTr 18 2 18 2 Regulation: 10423
+CDIPTr_18_2_18_2,cdpdag_hs_18_2_18_2_c+inost_c,cmp_c+pail_hs_18_2_18_2_c+h_c,0,inf
+
+//R# = 937 PIPLC 18 2 18 2 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_18_2_18_2,h2o_c+pail_hs_18_2_18_2_c,mi1p_D_c+h_c+dag_hs_18_2_18_2_c,0,inf
+
+//R# = 938 PIK4 18 2 18 2 Regulation: 5297 or 5298 or 55361
+PIK4_18_2_18_2,pail_hs_18_2_18_2_c+atp_c,h_c+adp_c+pail4p_hs_18_2_18_2_c,0,inf
+
+//R# = 939 PI4PLC 18 2 18 2 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_18_2_18_2,h2o_c+pail4p_hs_18_2_18_2_c,h_c+mi14p_c+dag_hs_18_2_18_2_c,0,inf
+
+//R# = 940 PI4P3K 18 2 18 2 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_18_2_18_2,atp_c+pail4p_hs_18_2_18_2_c,pail34p_hs_18_2_18_2_c+h_c+adp_c,0,inf
+
+//R# = 941 PI34P5K 18 2 18 2 Regulation: 8394 or 8395 or 23396
+PI34P5K_18_2_18_2,pail34p_hs_18_2_18_2_c+atp_c,pail345p_hs_18_2_18_2_c+h_c+adp_c,0,inf
+
+//R# = 942 PI4P5K 18 2 18 2 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_18_2_18_2,pail45p_hs_18_2_18_2_c+atp_c,pail345p_hs_18_2_18_2_c+h_c+adp_c,0,inf
+
+//R# = 943 PI345P3P 18 2 18 2 Regulation: 5728
+PI345P3P_18_2_18_2,pail345p_hs_18_2_18_2_c+h2o_c,pail45p_hs_18_2_18_2_c+pi_c,0,inf
+
+//R# = 944 PI45PLC 18 2 18 2 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_18_2_18_2,h2o_c+pail45p_hs_18_2_18_2_c,h_c+mi145p_c+dag_hs_18_2_18_2_c,0,inf
+
+//R# = 945 AGPAT1 18 2 20 4 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_18_2_20_4,arachdcoa_c+alpha_hs_18_2_c,coa_c+pa_hs_18_2_20_4_c,0,inf
+
+//R# = 946 PPAP 18 2 20 4 Regulation: 8611 or 8612 or 8613
+PPAP_18_2_20_4,h2o_c+pa_hs_18_2_20_4_c,pi_c+dag_hs_18_2_20_4_c,0,inf
+
+//R# = 947 CEPTE 18 2 20 4 Regulation: 10390
+CEPTE_18_2_20_4,cdpea_c+dag_hs_18_2_20_4_c,cmp_c+pe_hs_18_2_20_4_c+h_c,0,inf
+
+//R# = 948 PSSA2 hs 18 2 20 4 Regulation: 81490
+PSSA2_hs_18_2_20_4,pe_hs_18_2_20_4_c+ser_L_c,etha_c+ps_hs_18_2_20_4_c,-inf,inf
+
+//R# = 949 PSSA1 hs 18 2 20 4 Regulation: 9791
+PSSA1_hs_18_2_20_4,chol_c+ps_hs_18_2_20_4_c,ser_L_c+pchol_hs_18_2_20_4_c,-inf,inf
+
+//R# = 950 CEPTC 18 2 20 4 Regulation: 56994 or 10390
+CEPTC_18_2_20_4,cdpchol_c+dag_hs_18_2_20_4_c,cmp_c+h_c+pchol_hs_18_2_20_4_c,0,inf
+
+//R# = 951 PLA2 2 18 2 20 4 Regulation: 5320 or 8398
+PLA2_2_18_2_20_4,h2o_c+pchol_hs_18_2_20_4_c,h_c+lpchol_hs_18_2_c+arachd_c,0,inf
+
+//R# = 952 DAGK hs 18 2 20 4 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_18_2_20_4,pa_hs_18_2_20_4_c+h_c+adp_c,atp_c+dag_hs_18_2_20_4_c,-inf,inf
+
+//R# = 953 LPS2 18 2 20 4 Regulation: 4023
+LPS2_18_2_20_4,h2o_c+dag_hs_18_2_20_4_c,h_c+arachd_c+mag_hs_18_2_c,0,inf
+
+//R# = 954 CDS 18 2 20 4 Regulation: 1040
+CDS_18_2_20_4,ctp_c+pa_hs_18_2_20_4_c+h_c,ppi_c+cdpdag_hs_18_2_20_4_c,0,inf
+
+//R# = 955 CDIPTr 18 2 20 4 Regulation: 10423
+CDIPTr_18_2_20_4,inost_c+cdpdag_hs_18_2_20_4_c,cmp_c+pail_hs_18_2_20_4_c+h_c,0,inf
+
+//R# = 956 PIPLC 18 2 20 4 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_18_2_20_4,h2o_c+pail_hs_18_2_20_4_c,mi1p_D_c+h_c+dag_hs_18_2_20_4_c,0,inf
+
+//R# = 957 PIK4 18 2 20 4 Regulation: 5297 or 5298 or 55361
+PIK4_18_2_20_4,pail_hs_18_2_20_4_c+atp_c,pail4p_hs_18_2_20_4_c+h_c+adp_c,0,inf
+
+//R# = 958 PI4PLC 18 2 20 4 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_18_2_20_4,h2o_c+pail4p_hs_18_2_20_4_c,h_c+dag_hs_18_2_20_4_c+mi14p_c,0,inf
+
+//R# = 959 PI4P3K 18 2 20 4 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_18_2_20_4,atp_c+pail4p_hs_18_2_20_4_c,pail34p_hs_18_2_20_4_c+h_c+adp_c,0,inf
+
+//R# = 960 PI34P5K 18 2 20 4 Regulation: 8394 or 8395 or 23396
+PI34P5K_18_2_20_4,pail34p_hs_18_2_20_4_c+atp_c,pail345p_hs_18_2_20_4_c+h_c+adp_c,0,inf
+
+//R# = 961 PI4P5K 18 2 20 4 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_18_2_20_4,atp_c+pail45p_hs_18_2_20_4_c,pail345p_hs_18_2_20_4_c+h_c+adp_c,0,inf
+
+//R# = 962 PI345P3P 18 2 20 4 Regulation: 5728
+PI345P3P_18_2_20_4,h2o_c+pail345p_hs_18_2_20_4_c,pi_c+pail45p_hs_18_2_20_4_c,0,inf
+
+//R# = 963 PI45PLC 18 2 20 4 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_18_2_20_4,h2o_c+pail45p_hs_18_2_20_4_c,h_c+mi145p_c+dag_hs_18_2_20_4_c,0,inf
+
+//R# = 964 AGPAT1 20 4 20 4 Regulation: 137964 or 56894 or 10554 or 10555 or 55326 or 56895
+AGPAT1_20_4_20_4,alpha_hs_20_4_c+arachdcoa_c,pa_hs_20_4_20_4_c+coa_c,0,inf
+
+//R# = 965 PPAP 20 4 20 4 Regulation: 8611 or 8612 or 8613
+PPAP_20_4_20_4,h2o_c+pa_hs_20_4_20_4_c,dag_hs_20_4_20_4_c+pi_c,0,inf
+
+//R# = 966 CEPTE 20 4 20 4 Regulation: 10390
+CEPTE_20_4_20_4,dag_hs_20_4_20_4_c+cdpea_c,pe_hs_20_4_20_4_c+cmp_c+h_c,0,inf
+
+//R# = 967 PSSA2 hs 20 4 20 4 Regulation: 81490
+PSSA2_hs_20_4_20_4,pe_hs_20_4_20_4_c+ser_L_c,ps_hs_20_4_20_4_c+etha_c,-inf,inf
+
+//R# = 968 PSSA1 hs 20 4 20 4 Regulation: 9791
+PSSA1_hs_20_4_20_4,chol_c+ps_hs_20_4_20_4_c,ser_L_c+pchol_hs_20_4_20_4_c,-inf,inf
+
+//R# = 969 CEPTC 20 4 20 4 Regulation: 56994 or 10390
+CEPTC_20_4_20_4,dag_hs_20_4_20_4_c+cdpchol_c,cmp_c+h_c+pchol_hs_20_4_20_4_c,0,inf
+
+//R# = 970 PLA2 2 20 4 20 4 Regulation: 5320 or 8398
+PLA2_2_20_4_20_4,h2o_c+pchol_hs_20_4_20_4_c,h_c+lpchol_hs_20_4_c+arachd_c,0,inf
+
+//R# = 971 DAGK hs 20 4 20 4 Regulation: 1606 or 1607 or 1608 or 1609 or 9162 or 8525 or 8526 or 8527 or 160851
+DAGK_hs_20_4_20_4,pa_hs_20_4_20_4_c+h_c+adp_c,dag_hs_20_4_20_4_c+atp_c,-inf,inf
+
+//R# = 972 LPS2 20 4 20 4 Regulation: 4023
+LPS2_20_4_20_4,dag_hs_20_4_20_4_c+h2o_c,mag_hs_20_4_c+h_c+arachd_c,0,inf
+
+//R# = 973 CDS 20 4 20 4 Regulation: 1040
+CDS_20_4_20_4,pa_hs_20_4_20_4_c+ctp_c+h_c,ppi_c+cdpdag_hs_20_4_20_4_c,0,inf
+
+//R# = 974 CDIPTr 20 4 20 4 Regulation: 10423
+CDIPTr_20_4_20_4,inost_c+cdpdag_hs_20_4_20_4_c,cmp_c+pail_hs_20_4_20_4_c+h_c,0,inf
+
+//R# = 975 PIPLC 20 4 20 4 Regulation: 113026 or 23236 or 84812 or 257068 or 9651 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PIPLC_20_4_20_4,h2o_c+pail_hs_20_4_20_4_c,dag_hs_20_4_20_4_c+mi1p_D_c+h_c,0,inf
+
+//R# = 976 PIK4 20 4 20 4 Regulation: 5297 or 5298 or 55361
+PIK4_20_4_20_4,pail_hs_20_4_20_4_c+atp_c,h_c+adp_c+pail4p_hs_20_4_20_4_c,0,inf
+
+//R# = 977 PI4PLC 20 4 20 4 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI4PLC_20_4_20_4,h2o_c+pail4p_hs_20_4_20_4_c,dag_hs_20_4_20_4_c+h_c+mi14p_c,0,inf
+
+//R# = 978 PI4P3K 20 4 20 4 Regulation: 5286 or 5287 or 5288 or 5290 or 5291 or 5293 or 5294 or 23533 or 5296 or 10870 or 8503 or 5295
+PI4P3K_20_4_20_4,atp_c+pail4p_hs_20_4_20_4_c,h_c+pail34p_hs_20_4_20_4_c+adp_c,0,inf
+
+//R# = 979 PI34P5K 20 4 20 4 Regulation: 8394 or 8395 or 23396
+PI34P5K_20_4_20_4,atp_c+pail34p_hs_20_4_20_4_c,pail345p_hs_20_4_20_4_c+h_c+adp_c,0,inf
+
+//R# = 980 PI4P5K 20 4 20 4 Regulation: 200576 or 23396 or 8394 or 8395 or 8396 or 5305 or 79837
+PI4P5K_20_4_20_4,pail45p_hs_20_4_20_4_c+atp_c,pail345p_hs_20_4_20_4_c+h_c+adp_c,0,inf
+
+//R# = 981 PI345P3P 20 4 20 4 Regulation: 5728
+PI345P3P_20_4_20_4,h2o_c+pail345p_hs_20_4_20_4_c,pail45p_hs_20_4_20_4_c+pi_c,0,inf
+
+//R# = 982 PI45PLC 20 4 20 4 Regulation: 113026 or 23236 or 84812 or 9651 or 257068 or 89869 or 5330 or 5331 or 5332 or 5333 or 5334 or 5335 or 5336 or 51196 or 23007
+PI45PLC_20_4_20_4,h2o_c+pail45p_hs_20_4_20_4_c,dag_hs_20_4_20_4_c+h_c+mi145p_c,0,inf
+
+//R# = 983 PAFH Regulation: (5049 and 5050) or (5049 and 5050 and 5048) or 5051
+PAFH,h2o_c+paf_hs_c,ac_c+h_c+ak2lgchol_hs_c,0,inf
+
+//R# = 984 PAFS Regulation: 
+PAFS,accoa_c+ak2lgchol_hs_c,coa_c+paf_hs_c,0,inf
+
+//R# = 985 PYRt2m Regulation: 6566
+PYRt2m,pyr_c+h_c,h_m+pyr_m,-inf,inf
+
+//R# = 986 sink Tyr-ggn Regulation: 
+sink_Tyr_ggn,Tyr_ggn_c,[],-inf,inf
+
+//R# = 987 EX paf hs(e) Regulation: 
+EX_paf_hs_e,paf_hs_e,[],-inf,inf
+
+//R# = 988 PAFt Regulation: 
+PAFt,paf_hs_e,paf_hs_c,-inf,inf
+
+//R# = 989 sink paf hs Regulation: 
+sink_paf_hs,paf_hs_c,[],-inf,inf
+
+//R# = 990 GLYt2r Regulation: 206358
+GLYt2r,gly_e+h_e,gly_c+h_c,-inf,inf
+
+//R# = 991 PROD2m Regulation: 5625
+PROD2m,fad_m+pro_L_m,1pyr5c_m+fadh2_m+h_m,-inf,inf
+
+//R# = 992 HXANtx Regulation: 
+HXANtx,hxan_c,hxan_x,-inf,inf
+
+//R# = 993 XAO2x Regulation: 7498
+XAO2x,hxan_x+o2_x+h2o_x,h2o2_x+xan_x,-inf,inf
+
+//R# = 994 DM glygn3 c Regulation: 
+DM_glygn3_c,glygn3_c,[],-inf,inf
+
+//R# = 995 sink adp c Regulation: 
+sink_adp_c,adp_c,[],-inf,inf
+
+//R# = 996 DM atp c Regulation: 
+DM_atp_c,h2o_c+atp_c,pi_c+h_c+adp_c,-inf,inf
+
+//R# = 997 ACCOAtm Regulation: 
+ACCOAtm,accoa_c,accoa_m,0,inf
+
+//R# = 998 AMPt Regulation: 
+AMPt,amp_e,amp_c,-inf,inf
+
+//R# = 999 ADP/ATP transporter, mitochondrial Regulation: 291 or 292 or 293
+ATPtm,atp_m+adp_c,atp_c+adp_m,0,inf
+
+//R# = 1000 H2O transport, mitochondrial Regulation: 343
+H2Otm,h2o_c,h2o_m,-inf,inf
+
+//R# = 1001 H2O transport via diffusion Regulation: 6523
+H2Ot,h2o_e,h2o_c,-inf,inf
+
+//R# = 1002 phosphate transport in/out via two Na+ symporter Regulation: 142680
+PIt9,2*na1_e+pi_e,2*na1_c+pi_c,-inf,inf
+
+//R# = 1003 Succinate--CoA ligase (ADP-forming) Regulation: 8802 and 8803
+SUCOASm,atp_m+coa_m+succ_m,pi_m+succoa_m+adp_m,-inf,inf
+
+//R# = 1004 CO2 transport (diffusion), mitochondrial Regulation: 
+CO2tm,co2_c,co2_m,-inf,inf
+
+//R# = 1005 CoA transporter Regulation: 8034
+COAtm,coa_c,coa_m,-inf,inf
+
+//R# = 1006 ammonia transport via proton antiport Regulation: 6005 or 57127
+NH4t3r,nh4_c+h_e,nh4_e+h_c,-inf,inf
+
+//R# = 1007 Ht Regulation: 
+Ht,h_e,h_c,-inf,inf
+
+//R# = 1008 GLNt Regulation: 
+GLNt,gln_L_e,gln_L_c,-inf,inf
+
