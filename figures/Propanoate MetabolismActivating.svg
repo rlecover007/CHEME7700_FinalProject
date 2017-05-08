@@ -86,21 +86,21 @@
 </clipPath>
 </defs>
 <g id="surface1">
-<path style="fill:none;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.00165625 -8.502906 L 0.00165625 -28.424781 " transform="matrix(1,0,0,-1,29.971,8.501)"/>
-<path style="fill:none;stroke-width:0.31879;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M -1.195751 1.595406 C -1.094189 0.99775 -0.00043875 0.0993125 0.300343 0.00165625 C -0.00043875 -0.0999063 -1.094189 -0.994438 -1.195751 -1.592094 " transform="matrix(0,1,1,0,29.971,36.92622)"/>
+<path style="fill:none;stroke-width:1.59404;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.00165625 -8.502906 L 0.00165625 -27.678688 " transform="matrix(1,0,0,-1,29.971,8.501)"/>
+<path style="fill:none;stroke-width:1.27522;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M -2.27275 3.029 C -2.081344 1.892281 0.0006875 0.189156 0.567094 0.00165625 C 0.0006875 -0.18975 -2.081344 -1.892875 -2.27275 -3.029594 " transform="matrix(0,1,1,0,29.971,36.179)"/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-1" x="33.49" y="30.401"/>
-  <use xlink:href="#glyph0-2" x="38.47132" y="30.401"/>
-  <use xlink:href="#glyph0-2" x="43.45264" y="30.401"/>
-  <use xlink:href="#glyph0-2" x="48.43396" y="30.401"/>
+  <use xlink:href="#glyph0-1" x="34.088" y="30.401"/>
+  <use xlink:href="#glyph0-2" x="39.06932" y="30.401"/>
+  <use xlink:href="#glyph0-2" x="44.05064" y="30.401"/>
+  <use xlink:href="#glyph0-2" x="49.03196" y="30.401"/>
 </g>
-<path style="fill:none;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.00165625 -28.881813 L 0.00165625 -8.959938 " transform="matrix(1,0,0,-1,29.971,8.501)"/>
-<path style="fill:none;stroke-width:0.31879;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M -1.19578 1.592094 C -1.094217 0.994438 -0.0004675 0.0999063 0.300314 -0.00165625 C -0.0004675 -0.0993125 -1.094217 -0.99775 -1.19578 -1.595406 " transform="matrix(0,-1,-1,0,29.971,17.46047)"/>
+<path style="fill:none;stroke-width:1.59404;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.00165625 -28.881813 L 0.00165625 -9.706031 " transform="matrix(1,0,0,-1,29.971,8.501)"/>
+<path style="fill:none;stroke-width:1.27522;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M -2.272769 3.029594 C -2.081363 1.892875 0.00066875 0.18975 0.567075 -0.00165625 C 0.00066875 -0.189156 -2.081363 -1.892281 -2.272769 -3.029 " transform="matrix(0,-1,-1,0,29.971,18.2077)"/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-1" x="6.526" y="30.401"/>
-  <use xlink:href="#glyph0-2" x="11.50732" y="30.401"/>
-  <use xlink:href="#glyph0-2" x="16.48864" y="30.401"/>
-  <use xlink:href="#glyph0-2" x="21.46996" y="30.401"/>
+  <use xlink:href="#glyph0-1" x="5.928" y="30.401"/>
+  <use xlink:href="#glyph0-2" x="10.90932" y="30.401"/>
+  <use xlink:href="#glyph0-2" x="15.89064" y="30.401"/>
+  <use xlink:href="#glyph0-2" x="20.87196" y="30.401"/>
 </g>
 <path style="fill-rule:nonzero;fill:rgb(85.998535%,85.998535%,100%);fill-opacity:1;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 25.786812 8.301781 L -25.787406 8.301781 C -27.986625 8.301781 -29.771781 6.516625 -29.771781 4.317406 L -29.771781 -4.315406 C -29.771781 -6.518531 -27.986625 -8.303688 -25.787406 -8.303688 L 25.786812 -8.303688 C 27.986031 -8.303688 29.771187 -6.518531 29.771187 -4.315406 L 29.771187 4.317406 C 29.771187 6.516625 27.986031 8.301781 25.786812 8.301781 Z M 25.786812 8.301781 " transform="matrix(1,0,0,-1,29.971,8.501)"/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">

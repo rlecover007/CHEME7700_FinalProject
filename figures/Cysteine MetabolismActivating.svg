@@ -116,13 +116,13 @@
 </clipPath>
 </defs>
 <g id="surface1">
-<path style="fill:none;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 73.755562 -7.196875 L 73.755562 -28.478125 " transform="matrix(1,0,0,-1,29.971,36.475)"/>
-<path style="fill:none;stroke-width:0.31879;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M -1.197217 1.594003 C -1.095655 0.996346 -0.001905 0.0979088 0.298876 0.0002525 C -0.001905 -0.10131 -1.095655 -0.995841 -1.197217 -1.593497 " transform="matrix(0,1,1,0,103.72631,64.95503)"/>
+<path style="fill:none;stroke-width:0.19925;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 73.755562 -7.196875 L 73.755562 -28.603125 " transform="matrix(1,0,0,-1,29.971,36.475)"/>
+<path style="fill:none;stroke-width:0.15938;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M -1.01707 1.355721 C -0.931132 0.847909 -0.001445 0.08619 0.252461 0.0002525 C -0.001445 -0.085685 -0.931132 -0.847404 -1.01707 -1.355216 " transform="matrix(0,1,1,0,103.72631,65.07957)"/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-1" x="107.245" y="57.75"/>
-  <use xlink:href="#glyph0-2" x="112.22632" y="57.75"/>
-  <use xlink:href="#glyph0-3" x="117.20764" y="57.75"/>
-  <use xlink:href="#glyph0-4" x="122.18896" y="57.75"/>
+  <use xlink:href="#glyph0-1" x="107.145" y="57.75"/>
+  <use xlink:href="#glyph0-2" x="112.12632" y="57.75"/>
+  <use xlink:href="#glyph0-3" x="117.10764" y="57.75"/>
+  <use xlink:href="#glyph0-4" x="122.08896" y="57.75"/>
 </g>
 <path style="fill:none;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 73.755562 -28.939063 L 73.755562 -7.653906 " transform="matrix(1,0,0,-1,29.971,36.475)"/>
 <path style="fill:none;stroke-width:0.31879;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M -1.194859 1.593497 C -1.097203 0.995841 0.00045375 0.10131 0.297329 -0.0002525 C 0.00045375 -0.0979088 -1.097203 -0.996346 -1.194859 -1.594003 " transform="matrix(0,-1,-1,0,103.72631,44.12936)"/>

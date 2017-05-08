@@ -24,7 +24,7 @@ function drawNetworkFromAdj()
 	end
 	@show g
 	t=TikzGraphs.plot(g)
-	TikzPictures.save(PDF(string("../figures/mapping_all_reactants","03_05_17")), t)
+	TikzPictures.save(SVG(string("../figures/mapping_all_reactants","03_05_17")), t)
 end
 
 function drawNetwork()
@@ -73,7 +73,7 @@ function drawNetwork()
 	a = adjacency_matrix(g)
 	#network = Layout(a, Point2f0, tol = .01, C=1, K=1, iterations = 20)
 	gplot(g, nodelabel = rxns)
-	draw(PDF("../figures/Network.PDF", 100cm, 100cm), gplot(g, nodelabel=names, layout=circular_layout))
+	draw(SVG("../figures/Network.SVG", 100cm, 100cm), gplot(g, nodelabel=names, layout=circular_layout))
 end
 
 function writeOutFluxes(flux_array, outputfn)
@@ -162,7 +162,7 @@ function drawNetworkBySystems(flux_array,savestr,d)
 					#@show reactants2
 					for r1 in allproducts1
 						for r2 in allreactants2
-							if(r1==r2)
+							if(r1==r2 && findfirst(r2, common_reactants)==0) #only draw edges between non common reactants
 	
 								#@show r1, r2
 								#@show g, j, rxn_cntr
@@ -208,7 +208,7 @@ function drawNetworkBySystems(flux_array,savestr,d)
 					t=TikzGraphs.plot(g,names, edge_labels=edge_weight_dict,edge_styles = edge_styles_dict,node_style="draw, rounded corners, fill=blue!10")
 				end
 			end
-			TikzPictures.save(PDF(string("../figures/",replace(s, "/", "-"),savestr)), t)
+			TikzPictures.save(SVG(string("../figures/",replace(s, "/", "-"),savestr)), t)
 		end
 	end
 
@@ -404,10 +404,10 @@ function drawNetwork(fp)
 	#@show size(scaled_marker_sizes)
 	#plt=graphplot(g, names = names, fontsize = 12,line=(1.0, :black), marker=(:rect), markersize=scaled_marker_sizes)
 	#plt=graphplot(exchange_graph, names = exchange_names, fontsize = 12, marker=(:circle), line=(1,.5,:black), weights=scalededgewights, method=:circular, arrow=true, marker_z=scalededgewights)
-	#draw(PDF("../figures/NetworkBasedOnFluxProfile.PDF", 200cm, 200cm), gplot(g, nodelabel=names, nodesize=nodesize, nodelabelsize = 4,layout=circular_layout))
+	#draw(SVG("../figures/NetworkBasedOnFluxProfile.SVG", 200cm, 200cm), gplot(g, nodelabel=names, nodesize=nodesize, nodelabelsize = 4,layout=circular_layout))
 	t=TikzGraphs.plot(exchange_graph, Layouts.SimpleNecklace(),exchange_names, edge_labels = flux_dict,node_style="draw, rounded corners, fill=blue!14")
-	TikzPictures.save(PDF("../figures/scaled_exchange_flux_graph"), t)
+	TikzPictures.save(SVG("../figures/scaled_exchange_flux_graph"), t)
 	t=TikzGraphs.plot(g, Layouts.Spring(randomSeed=15), names, edge_labels=internal_flux_dict,node_style="draw, rounded corners, fill=blue!14")
-	TikzPictures.save(PDF("../figures/scaled_internal_flux_graph"), t)
+	TikzPictures.save(SVG("../figures/scaled_internal_flux_graph"), t)
 
 end
