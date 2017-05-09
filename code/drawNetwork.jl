@@ -113,10 +113,11 @@ function drawNetworkBySystems(flux_array,savestr,d)
 	for s in systems
 		num_vertices = 1
 		contained_rxns,contained_fluxes =determineReactionsInSystem(rxns, s, flux_array)
+		active_rxns, active_fluxes=determineActiveReactions(contained_rxns, contained_fluxes)
 		@show size(contained_rxns)
 		#@show contained_rxns
 		#if(contains(s, "exchange") || contains(s, "Transport"))
-			g = DiGraph(size(contained_rxns,1)+1)
+			g = DiGraph(size(active_rxns,1)+1)
 			names = AbstractString["Sink/Source"]
 #		else
 #			g = DiGraph(size(contained_rxns,1))
@@ -124,7 +125,7 @@ function drawNetworkBySystems(flux_array,savestr,d)
 #		end
 		included_fluxes = Float64[]
 		rxn_cntr =1
-		for rxn1 in contained_rxns
+		for rxn1 in active_rxns
 			#@show rxn1
 			if(contains(rxn1, "reverse"))
 				name1 = string(rxn1[1:findfirst(rxn1, '|')-1], "reverse")
@@ -144,14 +145,14 @@ function drawNetworkBySystems(flux_array,savestr,d)
 			#@show g
 			if(contains(reactants1, "[]"))
 				add_edge!(g,rxn_cntr,1) #add edge between source/sink and this reaction
-				push!(included_fluxes, contained_fluxes[rxn_cntr])
+				push!(included_fluxes, active_fluxes[rxn_cntr])
 				#println(string("adding edge between source/sink and ",rxn1))
 			elseif(contains(products1, "[]"))
 				add_edge!(g,1,rxn_cntr) #add edge between source/sink and this reaction
-				push!(included_fluxes, contained_fluxes[rxn_cntr])
+				push!(included_fluxes, active_fluxes[rxn_cntr])
 				#println(string("adding edge between source/sink and ",rxn1))
 			else
-				for rxn2 in contained_rxns
+				for rxn2 in active_rxns
 					name2 = rxn1[1:findfirst(rxn2, '|')-1]
 					system2 = rxn2[findfirst(rxn2, '|')+1:findfirst(rxn2,':')-1]
 					reactants2 = rxn2[findlast(rxn2,':')+1:findfirst(rxn2, '-')-2]
@@ -169,11 +170,11 @@ function drawNetworkBySystems(flux_array,savestr,d)
 								if(r1=="[]")
 									#println(string("adding edge between source/sink and ",rxn2))
 									add_edge!(g,1,j) #add edge between source/sink and this reaction
-									push!(included_fluxes, contained_fluxes[rxn_cntr])
+									push!(included_fluxes, active_fluxes[rxn_cntr])
 								else
 									happened= add_edge!(g, j, rxn_cntr)
 									if(happened)
-										push!(included_fluxes, contained_fluxes[rxn_cntr])
+										push!(included_fluxes, active_fluxes[rxn_cntr])
 										#print(string(happened," adding an edge between", rxn1, rxn2, "\n"))
 									end
 								end
@@ -187,14 +188,25 @@ function drawNetworkBySystems(flux_array,savestr,d)
 		end
 		#@show size(names), edges(g), size(vertices(g))
 		k = 1
-		@show size(names), size(vertices(g))
-		@show size(included_fluxes), edges(g)
+		
 		#@show edge_weight_dict
 		#add an edge back to itself if only one vertex so set of edges isn't empty
-		if(size(vertices(g),1)==1)
-			printf("Found single node")
-			add_edge!(g,1,1)
-		end
+#		if(size(vertices(g),1)==1)
+#			println("Found single node")
+#			add_edge!(g,1,1)
+#		end
+		#remove nodes with no edges, make things to visualize
+#		k = 1
+#		for k in collect(1:size(contained_rxns,1)+1)
+#			if(degree(g, k)==0)
+#				rem_vertex!(g,k)
+#				deleteat!(names, k)
+#			end
+#			k = k+1
+#		end
+		@show size(names), size(vertices(g))
+		@show size(included_fluxes), edges(g)
+	
 		if(ne(g)>0) #if we have edges
 			edge_weight_dict = createEdgeLables(g, included_fluxes)
 			edge_styles_dict = createEdgeColors(g,included_fluxes)	
@@ -287,6 +299,26 @@ function determineReactionsInSystem(allrxns, system,flux_array)
 		k =k+1
 	end
 	return contained_rxns,contained_fluxes
+end
+
+function determineActiveReactions(contained_rxns, contained_fluxes)
+	active_rxns = AbstractString[]
+	active_fluxes = Float64[]
+	k = 1
+	for rxn1 in contained_rxns
+		name1 = rxn1[1:findfirst(rxn1, '|')-1]
+		system1 = rxn1[findfirst(rxn1, '|')+1:findfirst(rxn1,':')]
+		reactants1 = rxn1[findlast(rxn1,':')+1:findfirst(rxn1, ' ')]
+		products1 = rxn1[findlast(rxn1, ' '):end]
+		allreactants1 = split(strip(reactants1), '+')
+		allproducts1 = split(strip(products1), '+')
+		if(contained_fluxes[k]>0)
+			push!(active_rxns, rxn1)
+			push!(active_fluxes, contained_fluxes[k])	
+		end
+		k = k+1
+	end
+	return active_rxns, active_fluxes
 end
 
 function drawNetwork(fp)

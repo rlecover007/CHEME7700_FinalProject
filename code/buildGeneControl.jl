@@ -137,28 +137,56 @@ function buildGeneControl(data_dict)
 	return data_dict
 end
 
-function setBounds_BasedOnGenes(gene_control, reaction_dict, control_dict, data_dict)
-	fluxbounds = data_dict["default_flux_bounds_array"]
-	for (rxnid, rxn_num) in reaction_dict
-		try
-			controllers = control_dict[rxnid]
-			#@show rxnid, controllers
-			#@show reaction_dict[rxn_id]
-			#@show fluxbounds[reaction_dict[rxn_id],:]
-			#controlstr = string("if(", controllers, ") else fluxbounds[reaction_dict[rxn_id],:]=0.0 end")
-			#@show controlstr
-			conditions=eval(parse(controllers)) 
-			#@show conditions
-			if(!conditions)
-				fluxbounds[reaction_dict[rxn_id],:]=0.0
+function knockOutGenes(data_dict, knockedoutgenes)
+	allgenes = createAllGenesList()
+	gene_control= Dict()
+	control_dict =createControlDict()
+	reaction_dict = constructGeneControlledBounds()
+	for gene in allgenes
+		tagged = false
+		for ko in knockedoutgenes
+			if(findfirst(gene,ko)!=0) #if its a knocked out gene
+				println(string("knocking out gene ", gene))
+				gene_control[gene]=false
+				tagged = true
 			end
-			#@show fluxbounds[reaction_dict[rxn_id],:]
-			
-			
-		catch
-
+		end
+		if(!tagged)
+			gene_control[gene]=true
 		end
 	end
+	data_dict=setBounds_BasedOnGenes(gene_control, reaction_dict, control_dict, data_dict)
+	return data_dict
+end
+
+function setBounds_BasedOnGenes(genecontrol, reaction_dict, control_dict, data_dict)
+	@show length(keys(control_dict))
+	global gene_control = genecontrol
+	fluxbounds = data_dict["default_flux_bounds_array"]
+	for (rxnid, rxn_num) in reaction_dict
+		usefulrxnid= rxnid[1:findfirst(rxnid,'|')-1]
+		controllers = get(control_dict, usefulrxnid, 0)
+		#@show controllers,usefulrxnid
+		if(controllers !=0)
+			#@show rxnid, controllers
+			#@show reaction_dict[rxnid]
+			#@show fluxbounds[reaction_dict[rxnid],:]
+			#controlstr = string("if(", controllers, ") else fluxbounds[reaction_dict[rxn_id],:]=0.0 end")
+			controlstr = string("if(", controllers, ")")
+			#@show controlstr
+			conditions=eval(parse(controllers)) 
+			#conditions =eval(parse(controlstr))
+			#@show conditions
+			if(!conditions)
+				@show fluxbounds[reaction_dict[rxnid],:]
+				println(string("Setting flux bounds for rxn ", rxnid, " to zero"))
+				fluxbounds[reaction_dict[rxnid],:]=[0.0, 100.0]
+				@show fluxbounds[reaction_dict[rxnid],:]
+			end
+			#@show fluxbounds[reaction_dict[rxnid],:]
+		end
+	end
+	#@show fluxbounds
 	data_dict["default_flux_bounds_array"]=fluxbounds
 	return data_dict
 end

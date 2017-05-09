@@ -1,0 +1,19 @@
+\documentclass[tikz]{standalone}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Math}
+\usetikzlibrary{graphs}
+\usetikzlibrary{graphdrawing}
+
+\usegdlibrary{force}
+\begin{document}
+\begin{tikzpicture}[]
+\graph [spring layout, random seed = 52] {
+1/"Sink/Source" [draw, rounded corners, fill=blue!14],
+2/"PGSr" [draw, rounded corners, fill=blue!14],
+3/"TXASr" [draw, rounded corners, fill=blue!14],
+;
+2 -> [,edge label={10.0},black, very thin,] 1;
+};
+
+\end{tikzpicture}
+\end{document}

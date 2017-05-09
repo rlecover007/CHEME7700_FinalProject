@@ -1,0 +1,99 @@
+----Intracellular Constraint----
+EX_ca2_c_ca2_e,ca2_c--> ca2_e,5.082500000000001
+EX_ca2_c_ca2_ereverse,ca2_e--> ca2_c,106.04374749999975
+DM_atp_creverse,pi_c+h_c+adp_c--> h2o_c+atp_c,657.56312375
+----Extracellular exchange----
+EX_cholp_e,cholp_c--> [],27.781561875000023
+----Transport_ Mitochondrial----
+----Transport_ Lysosomal----
+----Lysine Metabolism----
+----Pyrimidine Catabolism----
+----Tryptophan metabolism----
+----Tyrosine metabolism----
+----Valine_ Leucine_ and Isoleucine Metabolism----
+----Transport_ Extracellular----
+CAATPS,h2o_c+atp_c+2.0*ca2_c--> 2.0*ca2_e+pi_c+h_e+adp_c,55.56312374999988
+SPC_HStreverse,spc_hs_e--> spc_hs_c,27.781561875000023
+SPHS1Pte,sphs1p_c--> sphs1p_e,27.781561875000023
+TXA2tereverse,txa2_c--> txa2_e,50.00000000000763
+AMPtreverse,amp_c--> amp_e,13.890780937499928
+H2Ot,h2o_e--> h2o_c,27.781561874999866
+----CYP Metabolism----
+----Heme Biosynthesis----
+----Propanoate Metabolism----
+----Glutamate metabolism----
+----Cholesterol Metabolism----
+----Fatty Acid Metabolism----
+----Citric Acid Cycle----
+----Glycolysis/Gluconeogenesis----
+----Purine Catabolism----
+----Nucleotides----
+ADK1reverse,2.0*adp_c--> atp_c+amp_c,12.890780937499928
+ADNCYC,atp_c--> camp_c+ppi_c,1.0
+CYTK1,cmp_c+atp_c--> cdp_c+adp_c,100.0
+NDPK3,atp_c+cdp_c--> ctp_c+adp_c,100.0
+PDE1,h2o_c+camp_c--> h_c+amp_c,1.0
+----Salvage Pathway----
+----IMP Biosynthesis----
+----Methionine Metabolism----
+----Glycine_ Serine_ and Threonine Metabolism----
+----Miscellaneous----
+----Pyruvate Metabolism----
+----Phenylalanine metabolism----
+----Eicosanoid Metabolism----
+TXASr,prostgh2_r--> txa2_r,50.0
+----Glutathione Metabolism----
+----beta-Alanine metabolism----
+----Transport_ Endoplasmic Reticular----
+TXA2trreverse,txa2_r--> txa2_c,50.0
+----Urea cycle/amino group metabolism----
+----Alanine and Aspartate Metabolism----
+----Oxidative Phosphorylation----
+PPA,h2o_c+ppi_c--> 2.0*pi_c+h_c,101.0
+----Heme Degradation----
+----Carnitine shuttle----
+----ROS Detoxification----
+----Glycerophospholipid Metabolism----
+----Cysteine Metabolism----
+----Pentose and Glucuronate Interconversions----
+----Tetrahydrobiopterin----
+----Pentose Phosphate Pathway----
+----Steroid Metabolism----
+----Fatty acid oxidation----
+----Fatty acid activation----
+----Fatty acid elongation----
+----Fructose and Mannose Metabolism----
+----Folate Metabolism----
+----Proline Metabolism----
+----Galactose metabolism----
+----Starch and Sucrose Metabolism----
+----Transport_ Peroxisomal----
+----Histidine Metabolism----
+----Inositol Phosphate Metabolism----
+MI145PP,h2o_c+mi145p_c--> pi_c+mi14p_c,100.0
+MI14PP,h2o_c+mi14p_c--> mi4p_D_c+pi_c,100.0
+MI4PP,h2o_c+mi4p_D_c--> inost_c+pi_c,100.0
+----NAD Metabolism----
+----Sphingolipid Metabolism----
+SMPD4,h2o_c+spc_hs_c--> sphings_c+cholp_c+h_c,27.781561875000023
+SPHK21c,sphings_c+atp_c--> h_c+adp_c+sphs1p_c,27.781561875000023
+----Pyrimidine Biosynthesis----
+----Expanded DAG metabolism----
+DAGK_hs_16_0_16_0reverse,dag_hs_16_0_16_0_c+atp_c--> pa_hs_16_0_16_0_c+h_c+adp_c,50.0
+DAGK_hs_16_0_18_0reverse,atp_c+dag_hs_16_0_18_0_c--> pa_hs_16_0_18_0_c+h_c+adp_c,50.0
+----Expanded Phospholipid metabolism----
+----Expanded Glycerophospholipid metabolism----
+CDS_16_0_16_0,ctp_c+pa_hs_16_0_16_0_c+h_c--> ppi_c+cdpdag_hs_16_0_16_0_c,50.0
+CDIPTr_16_0_16_0,inost_c+cdpdag_hs_16_0_16_0_c--> cmp_c+h_c+pail_hs_16_0_16_0_c,50.0
+PIK4_16_0_16_0,atp_c+pail_hs_16_0_16_0_c--> pail4p_hs_16_0_16_0_c+h_c+adp_c,50.0
+PI4P3K_16_0_16_0,pail4p_hs_16_0_16_0_c+atp_c--> h_c+adp_c+pail34p_hs_16_0_16_0_c,50.0
+PI34P5K_16_0_16_0,atp_c+pail34p_hs_16_0_16_0_c--> pail345p_hs_16_0_16_0_c+h_c+adp_c,50.0
+PI345P3P_16_0_16_0,h2o_c+pail345p_hs_16_0_16_0_c--> pail45p_hs_16_0_16_0_c+pi_c,50.0
+PI45PLC_16_0_16_0,pail45p_hs_16_0_16_0_c+h2o_c--> dag_hs_16_0_16_0_c+h_c+mi145p_c,50.0
+CDS_16_0_18_0,pa_hs_16_0_18_0_c+ctp_c+h_c--> ppi_c+cdpdag_hs_16_0_18_0_c,50.0
+CDIPTr_16_0_18_0,inost_c+cdpdag_hs_16_0_18_0_c--> cmp_c+pail_hs_16_0_18_0_c+h_c,50.0
+PIK4_16_0_18_0,atp_c+pail_hs_16_0_18_0_c--> h_c+adp_c+pail4p_hs_16_0_18_0_c,50.0
+PI4P3K_16_0_18_0,atp_c+pail4p_hs_16_0_18_0_c--> h_c+pail34p_hs_16_0_18_0_c+adp_c,50.0
+PI34P5K_16_0_18_0,atp_c+pail34p_hs_16_0_18_0_c--> pail345p_hs_16_0_18_0_c+h_c+adp_c,50.0
+PI345P3P_16_0_18_0,pail345p_hs_16_0_18_0_c+h2o_c--> pi_c+pail45p_hs_16_0_18_0_c,50.0
+PI45PLC_16_0_18_0,h2o_c+pail45p_hs_16_0_18_0_c--> h_c+dag_hs_16_0_18_0_c+mi145p_c,50.0
