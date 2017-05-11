@@ -1,0 +1,181 @@
+\documentclass[11pt]{article}
+
+\RequirePackage[letterpaper,left=1.0in,top=1.0in,bottom=1.0in,right=1.0in,nohead,nofoot]{geometry}
+
+% Load packages
+\usepackage{times}
+\usepackage{url}  % Formatting web addresses
+\usepackage{ifthen}  % Conditional
+\usepackage{multicol}   %Columns
+\usepackage[utf8]{inputenc} %unicode support
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{graphicx}
+\usepackage[font=scriptsize,labelfont=bf]{caption}
+\usepackage{setspace}
+%\usepackage{longtable}
+\usepackage{colortbl}
+%\usepackage{palatino,lettrine}
+%\usepackage{times}
+%\usepackage[applemac]{inputenc} %applemac support if unicode package fails
+%\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
+\usepackage[wide]{sidecap}
+%\usepackage[authoryear,round,comma,sort&compress]{natbib}
+%\usepackage[round,sort,comma,numbers,sort&compress]{natbib}
+%\usepackage[authoryear,round]{natbib}
+\usepackage{supertabular}
+\usepackage{simplemargins}
+\usepackage{fullpage}
+\usepackage{comment}
+\usepackage{lineno}
+%\usepackage{chicago}
+\usepackage{textcomp}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage[linesnumbered,lined,boxed,commentsnumbered]{algorithm2e}
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+
+\usepackage{algorithm2e}
+\usepackage{algpseudocode}
+%\usepackage[space]{cite}
+\urlstyle{rm}
+
+%\textwidth = 6.50 in
+%\textheight = 9.5 in
+%\oddsidemargin =  0.0 in
+%\evensidemargin = 0.0 in
+%\topmargin = -0.50 in
+%\headheight = 0.0 in
+%\headsep = 0.25 in
+%\parskip = 0.15in
+%\linespread{1.75}
+
+%\bibliographystyle{chicago}
+\usepackage[square,sort,comma,numbers,sort&compress]{natbib}
+\usepackage{wrapfig}
+
+\makeatletter
+\renewcommand\subsection{\@startsection
+	{subsection}{2}{0mm}
+	{-0.05in}
+	{-0.5\baselineskip}
+	{\normalfont\normalsize\bfseries}}
+\renewcommand\subsubsection{\@startsection
+	{subsubsection}{2}{0mm}
+	{-0.05in}
+	{-0.5\baselineskip}
+	{\normalfont\normalsize\bfseries}}
+\renewcommand\section{\@startsection
+	{subsection}{2}{0mm}
+	{-0.2in}
+	{0.05\baselineskip}
+	{\normalfont\large\bfseries}}
+\renewcommand\paragraph{\@startsection
+  {paragraph}{2}{0mm}
+  {-0.05in}
+  {-0.5\baselineskip}
+  {\normalfont\normalsize\itshape}}
+\makeatother
+
+%Review style settings
+%\newenvironment{bmcformat}{\begin{raggedright}\baselineskip20pt\sloppy\setboolean{publ}{false}}{\end{raggedright}\baselineskip20pt\sloppy}
+
+%Publication style settings
+
+% Single space'd bib -
+\setlength\bibsep{0pt}
+
+\renewcommand{\rmdefault}{phv}\renewcommand{\sfdefault}{phv}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+% Change the number format in the ref list -
+\renewcommand{\bibnumfmt}[1]{#1.}
+
+% Change Figure to Fig.
+\renewcommand{\figurename}{Fig.}
+\everymath{\displaystyle}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TITLE PAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+  \begin{center}
+    \vspace*{\stretch{0.8}}
+    {\LARGE{Towards a Greater Understanding of Platelet Metabolism}}\par
+    \vspace{5em}
+    { \Large{Rachel LeCover} \\
+    \vspace{1em}
+    { \large{ChemE 7700 Final Report}}\par
+     \vspace{1em}
+    { \large{May 17, 2017}}\par
+    \begin{figure}[h]
+    \vspace{3em}
+       \centering
+       \includegraphics[width=0.7\textwidth]{../figures/CULogo187}
+       \end{figure}
+    \vspace{2em} \large{ \textit{School of Chemical and Biomolecular Engineering \\ \vspace{0.5em} Cornell University, Ithaca, NY}}}\par
+    \vspace{3em}
+  \end{center}
+\end{titlepage}
+\pagebreak
+
+\setcounter{page}{1}
+\section*{Background}
+Platelets, small anucleate cell fragments produced by megakaryocytes, play a key role in thrombosis, the process of clot formation \cite{hoffman2005hematology}. When the endothelium is damaged and tissue factor(TF) is exposed, the coagulation cascade commences, producing thrombin. Thrombin generation is a positive feed back loop, as thrombin can self activate from its inactive form, prothrombin. Thrombin can bind to the PAR1 receptors, present on the platelet membrane, setting off a signaling cascade inside the platelet that results in the activates PLC$\beta$ (phospholipase C$\beta$), which catalyzes the conversion of PIP$_2$ (phosphatidylinositol 4,5-bisphosphate) to IP$_3$(inositol 1,4,5 trisphosphate) and DAG \cite{brass2003thrombin}. The increased IP$_3$ leads to a release of calcium from the platelet's dense tubular system, which leads to an influx of calcium into the platelet from the surrounding fluid. The spike in intracellular calcium increases the activity of PLA2 (phospholipase A2), which catalyzes the production of TXA$_2$ (thomboxane A2). Activated platelets then dump the contents of their dense granules (vesicles containing ADP) into the surroundings. This ADP then interacts with the P2Y1 receptor, resulting in the inhibition of adenlyate cyclcase, and a decrease in cAMP concentration, allowing for a change in platelet shape \cite{hoffman2005hematology}. Additionally, the presence of this additional calcium results in the movement of phosphatidlyserine (PS) to the outer layer of platelet membranes \cite{lhermusier2011platelet}.
+
+The prothombinase complex, consisting of active factors X and V, forms on the surfaces of platelets during coagulation\footnote{If you are unfamiliar with the coagulation cascade, TF activates FVII, and forms the TF-FVIIa complex, which activates FIX and FX. FX can catalyze the production of thrombin from prothrombin, but not very quickly. However, once a small amount of thrombin is generated, this thrombin can activate FV, FVIII, and FXI. The [FV-FX]$_a$ complex is very good at activating thrombin, and the [FIX-FVIII]$_a$ complex activates additional FX, resulting in a positive feed back loop.}. This complex is very efficient at activating thombin-the complete complex (with phosophlipids, FXa, FVa, and calcium)\footnote{The a denotes active} has a $V_{max}$ of 1919 mol/min per mol FXa, compared to a $V_{max}$ of .61 mol/min per mol FXa in the presence of only FXa \cite{rosing1980role}. Phophoditylserine is key to the formation of the prothominase complex and to the normal function of the coagulation cascade, and if the scrablease that moves phophtidylserine to the outer leaflet of the membrane does not function properly, the patient will suffer from a bleeding disorder, known as Scott syndrome \cite{halliez2015detection}. 
+
+\subsection*{Previous Work}
+Since platelets play a key role in homeostasis, we may wish to understand platelet metabolism and activation. A fairly comprehensive kinetic model of platelet signaling exists, containing 77 reactions and 70 species \cite{purvis2008molecular}, however, this model does not include the activation of platelets by thrombin. In 2014, Thomas et al published a model of platelet metabolism based on evidence from 33 human platelet proteomic studies \cite{thomas2014network}. This model contains 1008 reactions (mapped to 636 genes) and 739 compartment specific metabolites, but lacks any sort of a control system or signal transduction mechanism.  
+
+\section*{Extension of Literature}
+I extended the platelet metabolic model developed by Thomas et al by adding logical rules to simulate platelet activation and by transforming it into a dynamic model as opposed to a static one. To mimic signaling, I changed the bounds of the model in response to the external concentrations of activating molecules (calcium, TXA$_2$, and ADP).
+\section*{Mathematical Methods}
+\subsection*{Flux Balance Analysis (FBA)}
+FBA permits the solving of undertermined systems of equations, such as those found describing the flow of metabolites through a cell. This technique was used by Thomas et al to solve their model of platelet metabolism. Instead of seeking a solution for the underdetermined system of equations (Equation \ref{stoch}), it recasts the problem as a maximization problem, as shown in Equation \ref{max}, which can be solved via linear programming techniques, such as the Simplex method.
+\begin{equation}
+\max_{v_1,...v_R}\sum_{i=1}^Rc_iv_i
+\label{max}
+\end{equation}
+Subject to:
+\begin{equation}
+Sv=b
+\label{stoch}
+\end{equation}
+
+\begin{equation}
+L_i  \leq \sum_{i=1}^R \sigma_{ij}v_j \leq U_i
+\end{equation}
+
+\begin{equation}
+\alpha_j \leq v_j \leq \beta_j
+\end{equation}
+In the above equations, $v_i$ represents a flux through the system, $c_i$ is the weight applied to the flux in the objective, $S$ is the stoichiometric matrix (with elements $\sigma_{ij}$), $b$ is the residual (usually set to zero), $L_i$ is the lower species bound for species $i$, $U_i$ is the upper, $\alpha_j$ is the lower bound for flux $j$, $\beta_j$ is the upper bound on it.
+\subsection*{Dynamic Flux Balance Analysis (dFBA)}
+Dynamic flux balance analysis extends flux balance analysis to examine changes in flux as external conditions change, as reflected in changes in the bounds applied to the system, as shown in Equations \ref{speciesbounds} and \ref{fluxbounds}.  
+\begin{equation}
+\max_{v_1,...v_R}\sum_{i=1}^Rc_iv_i
+\end{equation}
+Subject to:
+\begin{equation}
+Sv=\frac{dy}{dt}
+\end{equation}
+\begin{equation}
+\label{speciesbounds}
+L_i(t)  \leq \sum_{i=1}^R \sigma_{ij}v_j(t) \leq U_i(t)
+\end{equation}
+
+\begin{equation}
+\label{fluxbounds}
+\alpha_j(t) \leq v_j(t) \leq \beta_j(t)
+\end{equation}
+The main change is that the product of the stoichiometric matrix and the flux vector is no longer a constant, rather, it represents the changes in the concentrations of the species in the system $\frac{dy}{dt}$. This differential equation is solved by first solving the linear programming problem for $v$, and then integrating the results at discrete time points through Euler's method. I used dFBA to make the platelet model respond to changes in the external environment.
+\section*{Results}
+
+\clearpage
+\bibliographystyle{unsrt}
+\bibliography{report}
+
+\end{document}
