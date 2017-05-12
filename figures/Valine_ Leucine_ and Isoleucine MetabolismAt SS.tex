@@ -1,0 +1,63 @@
+\documentclass[tikz]{standalone}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Math}
+\usetikzlibrary{graphs}
+\usetikzlibrary{graphdrawing}
+
+\usegdlibrary{circular}
+\begin{document}
+\begin{tikzpicture}[]
+\graph [simple necklace layout, ] {
+1/"Sink/Source" [draw, rounded corners, fill=blue!10],
+2/"3HBCOAHLm" [draw, rounded corners, fill=blue!10],
+3/"ACOAD9m" [draw, rounded corners, fill=blue!10],
+4/"ECOAH12m" [draw, rounded corners, fill=blue!10],
+5/"HACD9m" [draw, rounded corners, fill=blue!10],
+6/"HACD9mreverse" [draw, rounded corners, fill=blue!10],
+7/"HIBDm" [draw, rounded corners, fill=blue!10],
+8/"HIBDmreverse" [draw, rounded corners, fill=blue!10],
+9/"MCCCrm" [draw, rounded corners, fill=blue!10],
+10/"MCCCrmreverse" [draw, rounded corners, fill=blue!10],
+11/"MMMm" [draw, rounded corners, fill=blue!10],
+12/"MMTSADm" [draw, rounded corners, fill=blue!10],
+13/"OIVD2m" [draw, rounded corners, fill=blue!10],
+14/"VALTA" [draw, rounded corners, fill=blue!10],
+;
+1 -> [,edge label={282.},black, very thin,] 3;
+2 -> [,edge label={282.},black, very thin,] 12;
+3 -> [,edge label={282.},black, very thin,] 2;
+4 -> [,edge label={282.},black, very thin,] 5;
+4 -> [,edge label={282.},black, very thin,] 7;
+5 -> [,edge label={282.},black, very thin,] 1;
+5 -> [,edge label={282.},black, very thin,] 4;
+5 -> [,edge label={282.},black, very thin,] 6;
+5 -> [,edge label={1000},black, ultra thick,] 8;
+5 -> [,edge label={1000},black, ultra thick,] 11;
+5 -> [,edge label={1000},black, ultra thick,] 12;
+6 -> [,edge label={1000},black, ultra thick,] 1;
+6 -> [,edge label={1000},black, ultra thick,] 5;
+6 -> [,edge label={1000},black, ultra thick,] 7;
+7 -> [,edge label={1000},black, ultra thick,] 1;
+7 -> [,edge label={1000},black, ultra thick,] 4;
+7 -> [,edge label={1000},black, ultra thick,] 6;
+7 -> [,edge label={1000},black, ultra thick,] 8;
+7 -> [,edge label={1000},black, ultra thick,] 11;
+7 -> [,edge label={717.},black, thick,] 12;
+8 -> [,edge label={717.},black, thick,] 9;
+9 -> [,edge label={717.},black, thick,] 1;
+9 -> [,edge label={717.},black, thick,] 4;
+9 -> [,edge label={1000},black, ultra thick,] 6;
+9 -> [,edge label={1000},black, ultra thick,] 8;
+9 -> [,edge label={1000},black, ultra thick,] 11;
+10 -> [,edge label={1000},black, ultra thick,] 11;
+11 -> [,edge label={282.},black, very thin,] 1;
+11 -> [,edge label={282.},black, very thin,] 5;
+11 -> [,edge label={282.},black, very thin,] 6;
+11 -> [,edge label={282.},black, very thin,] 7;
+12 -> [,edge label={282.},black, very thin,] 1;
+12 -> [,edge label={282.},black, very thin,] 5;
+12 -> [,edge label={282.},black, very thin,] 7;
+};
+
+\end{tikzpicture}
+\end{document}

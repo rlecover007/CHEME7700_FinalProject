@@ -10,7 +10,7 @@ function setBoundsUsingExpData(data_dictionary)
 		j = 1
 		for bounded_rxn in bounded_rxns
 			if(bounded_rxn==rxn_name)
-				fluxbounds[j,2]=expBounds[j,2] #set the upper bound to the experimentally derived upper bound
+				fluxbounds[j,:]=expBounds[j,2] #set the upper bound to the experimentally derived upper bound
 			end
 			j = j+1
 		end

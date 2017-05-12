@@ -69,12 +69,38 @@ function mass_balances(t,y,data_dictionary)
 	write(f, string(t, ",", norm, "\n"))
 	close(f)
 	at_save_pt=findfirst(savepts,t)
-	if(at_save_pt!=0) #we're at a save point'
-		println("writing fluxes to file")
-		writeOutFluxes(flux_array, string("fluxes/", savestrs[at_save_pt], ".txt"))
-		println("Drawing Network")
-		drawNetworkBySystems(flux_array, savestrs[at_save_pt], data_dictionary)
-	end
+#	if(at_save_pt!=0) #we're at a save point'
+#		println("writing fluxes to file")
+#		writeOutFluxes(flux_array, string("fluxes/", savestrs[at_save_pt], ".txt"))
+#		println("Drawing Network")
+#		drawNetworkBySystems(flux_array, savestrs[at_save_pt], data_dictionary)
+#	end
+	change =S*flux_array#-flux_array[growth_flux_id]*y
+	change[idx_small]=0.0
+	#@show change
+	return change
+end
+
+function mass_balancesCa(t,y,data_dictionary)
+	idx_small = find(y.<0)
+	y[idx_small]=0.0 #prevent concentrations from becoming negative
+	savepts = [.03,.055,.2]
+	savestrs =["At SS", "Activating", "Deactivating"]
+	S = data_dictionary["stoichiometric_matrix"]
+	data_dictionary = setFluxBoundsCa_Exp(data_dictionary,y,t)
+	(objective_value, flux_array, dual_array, uptake_array, exit_flag) = FluxDriver(data_dictionary)
+	norm = calculateNorm(flux_array)
+	@show norm
+	f = open("fluxes/NormOverTime.txt", "a+")
+	write(f, string(t, ",", norm, "\n"))
+	close(f)
+	at_save_pt=findfirst(savepts,t)
+#	if(at_save_pt!=0) #we're at a save point'
+#		println("writing fluxes to file")
+#		writeOutFluxes(flux_array, string("fluxes/", savestrs[at_save_pt], ".txt"))
+#		println("Drawing Network")
+#		drawNetworkBySystems(flux_array, savestrs[at_save_pt], data_dictionary)
+#	end
 	change =S*flux_array#-flux_array[growth_flux_id]*y
 	change[idx_small]=0.0
 	#@show change
@@ -163,6 +189,18 @@ function dFBA(tstart,tstep,tend, inital_conditions,data_dictionary)
 	data_dictionary = setBoundsUsingExpData(data_dictionary)
 	data_dictionary = setObjectiveAllEnergySpeices(data_dictionary)
 	res=eulerIntegration(inital_conditions, mass_balances, time, data_dictionary)
+	@show size(res)
+	res[1,:]=inital_conditions
+	return time, res, data_dictionary
+end
+
+function dFBA_Ca(tstart,tstep,tend, inital_conditions,data_dictionary)
+	time = collect(tstart:tstep:tend)
+	data_dictionary=buildGeneControl(data_dictionary)
+	data_dictionary=setSpeciesBounds(data_dictionary)
+	data_dictionary = setBoundsUsingExpData(data_dictionary)
+	data_dictionary = setObjectiveAllEnergySpeices(data_dictionary)
+	res=eulerIntegration(inital_conditions, mass_balancesCa, time, data_dictionary)
 	@show size(res)
 	res[1,:]=inital_conditions
 	return time, res, data_dictionary
@@ -263,7 +301,7 @@ end
 
 function runToSSThenActivate()
 	tstart = 0.0
-	tactivate = .05
+	tactivate = .025 #activate at 90 seconds = .025 hours
 	tend_activation = .06
 	tend =.3
 	tstep = .005
@@ -279,8 +317,30 @@ function runToSSThenActivate()
 	res_total=vcat(resSS,resActive, resDeactive)
 	idx_small = find(resSS.<0)
 	res_total[idx_small]=0.0 #remove small negative concentrations
-	plotSpeciesOfInterest(time_total, res_total, data_dictionary, "ActivateAtPoint2")
+	plotSpeciesOfInterest(time_total, res_total, data_dictionary, "ActivateAt90s")
 end
+
+function runCaSim()
+	tstart = 0.0
+	tactivate = .0167#.025 #activate at 90 seconds = .025 hours
+	tend_activation = 300/(60^2)
+	tend =.3
+	tstep = .001
+	data_dictionary = DataDictionary(0,0,0)
+	IC=setIC_40microM_ADP_Initial(data_dictionary)
+	timeSS, resSS,data_dictionary=dFBA_Ca(tstart,tstep,tactivate, IC, data_dictionary)
+	idx_small = find(resSS.<0)
+	resSS[idx_small]=0.0 #remove small negative concentrations
+	IC = setIC_40microM_ADP_Active(data_dictionary)
+	timeActive,resActive,data_dictionary=dFBA_Ca(tactivate, tstep,tend_activation,IC,data_dictionary)
+	time_total =vcat(timeSS, timeActive)
+	res_total=vcat(resSS,resActive)
+	idx_small = find(res_total.<0)
+	res_total[idx_small]=0.0 #remove small negative concentrations
+	plotSpeciesOfInterest(time_total, res_total, data_dictionary, "ActivateAt90s")
+	plotCa(time_total, res_total, data_dictionary)
+end
+
 
 function runAllKockouts()
 	allgenes =createAllGenesList()
@@ -293,6 +353,29 @@ end
 function knockoutPSTG()
 	knockouts =[5742, 5743]
 	runActivationWKnockout(knockouts)
+end
+
+function plotCa(time, res,data_dictionary)
+	species_of_interest = ["ca2_c"]
+	metabs =data_dictionary["list_of_metabolite_symbols"]
+	Ca_data = readdlm("../experimentalData/ADP_induced_CaDeterministic.txt", ',')
+	j = 1
+	k = 1
+	#close("all")
+	figure(figsize=[10,10])
+	for m in metabs
+		for s in species_of_interest
+			if(m ==s)
+				PyPlot.plot(Ca_data[:,1], Ca_data[:,2], "rx") 
+				PyPlot.plot(time*60*60, res[:,j]*1000, "k")
+				title(s)
+				k = k+1
+			end
+		end
+		j = j+1
+	end
+	ylabel("Concentration in nanoMolar")
+	xlabel("Time, in seconds")
 end
 
 function runActivationWKnockout(gene)
