@@ -25,14 +25,14 @@ function makeBarPlot()
 	ax = gca()
 	ax[:xaxis][:set_ticks](SSpos+1)
 	ax[:xaxis][:set_ticklabels](allRxns, fontsize = 10, rotation = 90)
-	savefig(string("../figures/bar", selectedCatagory, ".jpg"))
+	savefig(string("../figures/bar", selectedCatagory, ".pdf"))
 	
 end
 
 function makeBarPlot(selectedCatagory)
 	close("all")
-	SSdata = readdlm("fluxes/At\ SS.txt",',')
-	postActivationData = readdlm("fluxes/Deactivating.txt", ',')
+	SSdata = readdlm("fluxes/AtSSCa.txt",',')
+	postActivationData = readdlm("fluxes/DeactivatingCa.txt", ',')
 	maxFlux = 1000
 	selectedSSFluxes = Float64[]
 	selectedSSRxns = AbstractString[]
@@ -61,7 +61,7 @@ function makeBarPlot(selectedCatagory)
 		labelfz = 12
 	end
 	ax[:xaxis][:set_ticklabels](allRxns, fontsize = labelfz, rotation = 90)
-	savefig(string("../figures/bar", replace(selectedCatagory, "/", "_"), ".jpg"))
+	savefig(string("../figures/Ca_bar", replace(replace(selectedCatagory, "/", "_"), " ", ""), ".pdf"))
 	
 end
 
@@ -69,16 +69,16 @@ function makeBarPlotKnockout(selectedCatagory, state)
 	close("all")
 	if(state =="SS")
 		SSdata = readdlm("fluxes/At \SS.txt",',')
-		postActivationData = readdlm("fluxes/AtSSPTSGKnockedout.txt", ',')
-		savestr =string("../figures/barSSKnockouts[5742,5743]", replace(selectedCatagory, "/", "_"), ".eps")
+		postActivationData = readdlm("fluxes/AtSSCaKnockouts.txt", ',')
+		savestr =string("../figures/barSSKnockouts[5742,5743]", replace(selectedCatagory, "/", "_"), ".pdf")
 	elseif(state == "A")
 		SSdata = readdlm("fluxes/Activating.txt",',')
-		postActivationData = readdlm("fluxes/ActivatingPTSGKnockedout.txt", ',')
-		savestr =string("../figures/barActivatingKnockouts[5742,5743]", replace(selectedCatagory, "/", "_"), ".eps")
+		postActivationData = readdlm("fluxes/ActivatingCaKnockouts.txt", ',')
+		savestr =string("../figures/barActivatingKnockouts[5742,5743]", replace(selectedCatagory, "/", "_"), ".pdf")
 	elseif(state == "D")
 		SSdata = readdlm("fluxes/Deactivating.txt",',')
-		postActivationData = readdlm("fluxes/DeactivatingPTSGKnockedout.txt", ',')
-		savestr =string("../figures/barDeactivatingKnockouts[5742,5743]", replace(selectedCatagory, "/", "_"), ".eps")
+		postActivationData = readdlm("fluxes/DeactivatingCaKnockouts.txt", ',')
+		savestr =string("../figures/barDeactivatingKnockouts[5742,5743]", replace(selectedCatagory, "/", "_"), ".pdf")
 	end
 	maxFlux = 1000
 	selectedSSFluxes = Float64[]

@@ -89,7 +89,7 @@ function setIC_40microM_ADP_Active(data_dictionary)
 		if(m=="ca2_e")
 			IC[j]=2120.0 #blood calcium lower bound =8..5=10.2mg/dl = 2120 microMolar
 		elseif(m=="adp_e")
-			IC[j]=40 #Using Diamond simulation values
+			IC[j]=20 #Using Diamond simulation values
 		elseif(m =="glc_D_e")
 			IC[j]=5500.0 #normal blood glucose 100 mg/dl=5500 microMolar
 		elseif(m=="txa2_e")

@@ -69,7 +69,7 @@ function setFluxBounds(data_dictionary, y,t)
 end
 
 function setFluxBoundsCa_Exp(data_dictionary,y,t)
-	@show t/(60^2)
+	@show t
 	normal_adp = 0.0
 	t_activate = .025
 	tpeak = 130.0/(60^2)
@@ -112,7 +112,7 @@ function setFluxBoundsCa_Exp(data_dictionary,y,t)
 		fluxbounds[ca2import_id,:]=[0,1000]
 		#speciesbounds[id_ca2c,:]=[0,100]
 	end
-	@show fluxbounds[ca2import_id,:], fluxbounds[ca2export_id, :], y[id_ca2c]
+	#@show fluxbounds[ca2import_id,:], fluxbounds[ca2export_id, :], y[id_ca2c]
 	data_dictionary["species_bounds_array"]=speciesbounds
 	data_dictionary["default_bounds_array"]=fluxbounds
 	return data_dictionary

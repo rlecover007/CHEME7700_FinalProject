@@ -84,23 +84,24 @@ end
 function mass_balancesCa(t,y,data_dictionary)
 	idx_small = find(y.<0)
 	y[idx_small]=0.0 #prevent concentrations from becoming negative
-	savepts = [.03,.055,.2]
-	savestrs =["At SS", "Activating", "Deactivating"]
+	savepts = [.01,.0297,.0487]
+	#savestrs =["AtSSCa", "ActivatingCa", "DeactivatingCa"]
+	savestrs =["AtSSCaKnockouts", "ActivatingCaKnockouts", "DeactivatingCaKnockouts"]
 	S = data_dictionary["stoichiometric_matrix"]
 	data_dictionary = setFluxBoundsCa_Exp(data_dictionary,y,t)
 	(objective_value, flux_array, dual_array, uptake_array, exit_flag) = FluxDriver(data_dictionary)
 	norm = calculateNorm(flux_array)
 	@show norm
-	f = open("fluxes/NormOverTime.txt", "a+")
+	f = open("fluxes/NormOverTimeCaSpikeKnockout.txt", "a+")
 	write(f, string(t, ",", norm, "\n"))
 	close(f)
 	at_save_pt=findfirst(savepts,t)
-#	if(at_save_pt!=0) #we're at a save point'
-#		println("writing fluxes to file")
-#		writeOutFluxes(flux_array, string("fluxes/", savestrs[at_save_pt], ".txt"))
-#		println("Drawing Network")
-#		drawNetworkBySystems(flux_array, savestrs[at_save_pt], data_dictionary)
-#	end
+	if(at_save_pt!=0) #we're at a save point'
+		println("writing fluxes to file")
+		writeOutFluxes(flux_array, string("fluxes/", savestrs[at_save_pt], ".txt"))
+		#println("Drawing Network")
+		#drawNetworkBySystems(flux_array, savestrs[at_save_pt], data_dictionary)
+	end
 	change =S*flux_array#-flux_array[growth_flux_id]*y
 	change[idx_small]=0.0
 	#@show change
@@ -247,7 +248,7 @@ function dFBA_Activation(tstart,tstep,tend, inital_conditions,data_dictionary,no
 end
 
 function plotSpeciesOfInterest(time,res,data_dictionary,case)
-	species_of_interest = ["adp_e", "ca2_e", "glc_D_e", "txa2_e", "ca2_c"]
+	species_of_interest = ["na1_c"]
 	metabs =data_dictionary["list_of_metabolite_symbols"]
 	j = 1
 	k = 1
@@ -282,7 +283,7 @@ function plotSpeciesOfInterest(time,res,data_dictionary,case)
 	va="top",
 	rotation = 90,
 	fontsize = 20)
-	savefig(string("../figures/Allmetab","case=", case, ".jpg"))
+	savefig(string("../figures/Allmetab","case=", case, ".pdf"))
 	close("all")
 end
 
@@ -337,8 +338,9 @@ function runCaSim()
 	res_total=vcat(resSS,resActive)
 	idx_small = find(res_total.<0)
 	res_total[idx_small]=0.0 #remove small negative concentrations
-	plotSpeciesOfInterest(time_total, res_total, data_dictionary, "ActivateAt90s")
+	plotSpeciesOfInterest(time_total, res_total, data_dictionary, "ActivateAt90sNaAcc")
 	plotCa(time_total, res_total, data_dictionary)
+	return res_total, time_total, data_dictionary
 end
 
 
@@ -352,7 +354,8 @@ end
 
 function knockoutPSTG()
 	knockouts =[5742, 5743]
-	runActivationWKnockout(knockouts)
+	res_total, time_total, data_dictionary=runActivationWKnockout(knockouts)
+	return res_total, time_total, data_dictionary
 end
 
 function plotCa(time, res,data_dictionary)
@@ -376,35 +379,29 @@ function plotCa(time, res,data_dictionary)
 	end
 	ylabel("Concentration in nanoMolar")
 	xlabel("Time, in seconds")
+	savefig("../figures/internalCa.pdf")
 end
 
 function runActivationWKnockout(gene)
 	tstart = 0.0
-	tactivate = .05
-	tend_activation = .06
+	tactivate = .0167#.025 #activate at 90 seconds = .025 hours
+	tend_activation = 300/(60^2)
 	tend =.3
-	tstep = .005
-	normsavestr = string("fluxes/NormOfgene",gene,"knockedout.txt")
-	normplotstr = string("../figures/NormPlotOf", gene, "knockedout.jpg")
-	concentrationsavestr = string("ConcenrtationsOfgene",gene,"knockedout")
+	tstep = .001
 	data_dictionary = DataDictionary(0,0,0)
-	data_dictionary=buildGeneControl(data_dictionary)
+	IC=setIC_40microM_ADP_Initial(data_dictionary)
 	data_dictionary=knockOutGenes(data_dictionary,gene)
-	IC =setIC(data_dictionary)
-	timeSS, resSS,data_dictionary=dFBA(tstart,tstep,tactivate,IC,data_dictionary,normsavestr)
+	timeSS, resSS,data_dictionary=dFBA_Ca(tstart,tstep,tactivate, IC, data_dictionary)
 	idx_small = find(resSS.<0)
 	resSS[idx_small]=0.0 #remove small negative concentrations
-	IC = resSS[end,:]
-	timeActive,resActive,data_dictionary=dFBA_Activation(tactivate, tstep,tend_activation,IC,data_dictionary,normsavestr)
-	IC = resActive[end,:]
-	IC = setIC_PostActivation(data_dictionary,IC)
-	time_deactive, resDeactive,data_dictionary=dFBA(tend_activation, tstep, tend,IC,data_dictionary,normsavestr)
-	time_total =vcat(timeSS, timeActive,time_deactive)
-	res_total=vcat(resSS,resActive, resDeactive)
-	idx_small = find(resSS.<0)
+	IC = setIC_40microM_ADP_Active(data_dictionary)
+	timeActive,resActive,data_dictionary=dFBA_Ca(tactivate, tstep,tend_activation,IC,data_dictionary)
+	time_total =vcat(timeSS, timeActive)
+	res_total=vcat(resSS,resActive)
+	idx_small = find(res_total.<0)
 	res_total[idx_small]=0.0 #remove small negative concentrations
-	plotSpeciesOfInterest(time_total, res_total, data_dictionary, concentrationsavestr)
-	plotNorm(normsavestr, normplotstr)
+	plotSpeciesOfInterest(time_total, res_total, data_dictionary, "ActivateAt90sKnockOutNaAcc")
+	return res_total, time_total, data_dictionary
 end
 
 function plotNorm(pathToData,savestr)
@@ -420,13 +417,29 @@ end
 
 function plotNorm()
 	close("all")
-	data = readdlm("fluxes/NormOverTime.txt", ',')
+	data = readdlm("fluxes/NormOverTimeCaSpike.txt", ',')
 	figure(figsize = [10,10])
 	PyPlot.plot(data[:,1]*60*60, data[:,2], "kx-")
-	dataknockout = readdlm("fluxes/NormOfgene[5742,5743]knockedout.txt", ',')
+	dataknockout = readdlm("fluxes/NormOverTimeCaSpikeKnockout.txt", ',')
 	PyPlot.plot(dataknockout[:,1]*60*60, dataknockout[:,2], "rx-")
 	xlabel("Time in Seconds", fontsize = 20)
 	ylabel("Norm of the fluxes", fontsize = 20)
-	legend(["Normal", "PTGS1 Knocked Out"])
-	savefig("../figures/NormOfFluxesNormalAndKnocked.eps")
+	legend(["Normal", "PTGS1 Knocked Out"], loc="best")
+	savefig("../figures/NormOfFluxesNormalAndKnockedCaSpike.pdf")
+end
+
+function plotNaProfiles()
+	res_total, time_total, data_dictionary = runCaSim()
+	res_total_KO, time_total_KO, data_dictionary_KO = knockoutPSTG()
+	metabs = data_dictionary["list_of_metabolite_symbols"]
+	nac_id = findfirst(metabs, "na1_c")
+	close("all")
+	figure(figsize=[15,15])
+	PyPlot.plot(time_total*60*60, res_total[:,nac_id], "kD")
+	PyPlot.plot(time_total_KO*60*60, res_total_KO[:,nac_id], color = "r")
+	legend(["Wild Type Cytosolic Sodium", "PTGS1 Knocked Out Cytosolic Sodium"], loc = "best")
+	xlabel("Time in seconds", fontsize =20)
+	ylabel("Concentration in microMolar")
+	axis([0, 300, -.05, 1.6])
+	savefig("../figures/cytosolicNa.pdf")
 end

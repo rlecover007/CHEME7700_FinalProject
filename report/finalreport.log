@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.23)  11 MAY 2017 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.23)  15 MAY 2017 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -882,7 +882,15 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count125
 \algocf@algoframe=\box63
 \algocf@algobox=\box64
-) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
 (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
@@ -919,25 +927,25 @@ Package: wrapfig 2003/01/31  v 3.6
 (./finalreport.aux)
 \openout1 = `finalreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 90.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 99.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 90.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1028,7 +1036,7 @@ Package epstopdf Info: Source file: <../figures/CULogo187.eps>
 (epstopdf)                    size: 41074 bytes
 (epstopdf)             Command: <repstopdf --outfile=../figures/CULogo187-eps-c
 onverted-to.pdf ../figures/CULogo187.eps>
-(epstopdf)             \includegraphics on input line 116.
+(epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
 <../figures/CULogo187-eps-converted-to.pdf, id=1, 351.3125pt x 109.40875pt>
@@ -1036,58 +1044,206 @@ File: ../figures/CULogo187-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/CULogo187-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/CULogo187-eps-converted-to.pdf used on inpu
-t line 116.
+t line 107.
 (pdftex.def)             Requested size: 328.82707pt x 102.4135pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 118.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 109.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../figures/CULogo187-eps-c
 onverted-to.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 125.
-LaTeX Font Info:    Try loading font information for U+msa on input line 126.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 116.
+LaTeX Font Info:    Try loading font information for U+msa on input line 117.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 126.
+LaTeX Font Info:    Try loading font information for U+msb on input line 117.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 131.
- [1] [2]
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 122.
+ [1]
+<../figures/internalCa.pdf, id=23, 722.7pt x 722.7pt>
+File: ../figures/internalCa.pdf Graphic file (type pdf)
+
+<use ../figures/internalCa.pdf>
+Package pdftex.def Info: ../figures/internalCa.pdf used on input line 171.
+(pdftex.def)             Requested size: 252.94878pt x 252.94878pt.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 172.
+ [2]
+<../figures/Ca_barGlycolysis_Gluconeogenesis.pdf, id=31, 1684.79437pt x 953.964
+02pt>
+File: ../figures/Ca_barGlycolysis_Gluconeogenesis.pdf Graphic file (type pdf)
+ <use ../figures/Ca_barGlycolysis_Gluconeogenesis.pdf>
+Package pdftex.def Info: ../figures/Ca_barGlycolysis_Gluconeogenesis.pdf used o
+n input line 179.
+(pdftex.def)             Requested size: 421.19757pt x 238.49042pt.
+
+Underfull \hbox (badness 1983) in paragraph at lines 174--183
+\OT1/phv/m/n/10.95 es-pe-cially in gly-colyl-sis, as shown in
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 174--183
+\OT1/phv/m/n/10.95 Fig-ure 2[], and in ex-change re-ac-tions,
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 174--183
+\OT1/phv/m/n/10.95 glyceraldehyde-3-phosphate de-hy-dro-ge-
+ []
+
+
+<../figures/NormOfFluxesNormalAndKnockedCaSpike.pdf, id=32, 722.7pt x 722.7pt>
+File: ../figures/NormOfFluxesNormalAndKnockedCaSpike.pdf Graphic file (type pdf
+)
+
+<use ../figures/NormOfFluxesNormalAndKnockedCaSpike.pdf>
+Package pdftex.def Info: ../figures/NormOfFluxesNormalAndKnockedCaSpike.pdf use
+d on input line 186.
+(pdftex.def)             Requested size: 252.94878pt x 252.94878pt.
+ [3 <../figures/Ca_barGlycolysis_Gluconeogenesis.pdf> <../figures/internalCa.pd
+f
+
+pdfTeX warning: pdflatex (file ../figures/internalCa.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+191.
+
+<../figures/cytosolicNa.pdf, id=107, 1084.05pt x 928.66951pt>
+File: ../figures/cytosolicNa.pdf Graphic file (type pdf)
+
+<use ../figures/cytosolicNa.pdf>
+Package pdftex.def Info: ../figures/cytosolicNa.pdf used on input line 193.
+(pdftex.def)             Requested size: 271.01184pt x 232.16681pt.
+
+Overfull \hbox (12.64516pt too wide) in paragraph at lines 193--194
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 190--196
+[] \OT1/phv/b/n/10.95 Gene Knock Outs \OT1/phv/m/n/10.95 As pre-vi-ously de-
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 190--196
+\OT1/phv/m/n/10.95 enoperoxide syn-thase 1 (also known
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 190--196
+\OT1/phv/m/n/10.95 arachi-donic acid to prost-gladin, which
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 190--196
+\OT1/phv/m/n/10.95 is later con-verted into TXA$[]$, a key
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 190--196
+\OT1/phv/m/n/10.95 de-creased, sim-u-lat-ing a mu-ta-tion that
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 190--196
+\OT1/phv/m/n/10.95 not pri-mal fea-si-ble, so I in-stead low-
+ []
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 19
+6.
+
+
+<../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png, id=108, 16
+84.6137pt x 953.964pt>
+File: ../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png Graphi
+c file (type png)
+
+<use ../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png>
+Package pdftex.def Info: ../figures/barSSKnockouts[5742,5743]Glycolysis_Glucone
+ogenesis.png used on input line 201.
+(pdftex.def)             Requested size: 421.15239pt x 238.49042pt.
+
+[4 <../figures/NormOfFluxesNormalAndKnockedCaSpike.pdf> <../figures/cytosolicNa
+.pdf
+
+pdfTeX warning: pdflatex (file ../figures/cytosolicNa.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>] [5 <../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png>]
 (./finalreport.bbl
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
-) [3
+) [6
 
-] (./finalreport.aux) ) 
+]
+<../figures/Ca_barTransport_Extracellular.pdf, id=205, 1684.79437pt x 953.96402
+pt>
+File: ../figures/Ca_barTransport_Extracellular.pdf Graphic file (type pdf)
+ <use ../figures/Ca_barTransport_Extracellular.pdf>
+Package pdftex.def Info: ../figures/Ca_barTransport_Extracellular.pdf used on i
+nput line 218.
+(pdftex.def)             Requested size: 926.63979pt x 524.68182pt.
+
+Overfull \hbox (221.62567pt too wide) in paragraph at lines 217--219
+[]  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 64.42679pt on input line 221.
+
+
+<../figures/barSSKnockouts[5742,5743]Transport_Extracellular.pdf, id=206, 1684.
+79437pt x 953.96402pt>
+File: ../figures/barSSKnockouts[5742,5743]Transport_Extracellular.pdf Graphic f
+ile (type pdf)
+
+<use ../figures/barSSKnockouts[5742,5743]Transport_Extracellular.pdf>
+Package pdftex.def Info: ../figures/barSSKnockouts[5742,5743]Transport_Extracel
+lular.pdf used on input line 225.
+(pdftex.def)             Requested size: 926.63979pt x 524.68182pt.
+
+Overfull \hbox (221.62567pt too wide) in paragraph at lines 224--226
+[]  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 64.42679pt on input line 228.
+
+[7 <../figures/Ca_barTransport_Extracellular.pdf>] [8 <../figures/barSSKnockout
+s[5742,5743]Transport_Extracellular.pdf>] (./finalreport.aux) ) 
 Here is how much of TeX's memory you used:
- 7581 strings out of 493029
- 109932 string characters out of 6136234
- 190784 words of memory out of 5000000
- 10923 multiletter control sequences out of 15000+600000
- 29836 words of font info for 63 fonts, out of 8000000 for 9000
+ 7661 strings out of 493029
+ 112423 string characters out of 6136234
+ 191263 words of memory out of 5000000
+ 10989 multiletter control sequences out of 15000+600000
+ 31469 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,38p,1657b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.e
-nc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
-tic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on finalreport.pdf (4 pages, 141817 bytes).
+ 42i,8n,43p,1834b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texl
+ive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/helvetic/uhvro8a.pfb>
+Output written on finalreport.pdf (9 pages, 291732 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 354 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

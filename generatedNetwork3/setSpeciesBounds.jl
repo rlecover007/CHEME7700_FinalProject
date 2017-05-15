@@ -11,6 +11,11 @@ function setSpeciesBounds(data_dictionary)
 		if(contains(m, "ca2_c"))
 			sb[j,:]=[-100.0,100.0]
 		end
+		#allow accumulation of intracellular sodium
+		if(contains(m, "na1_c"))
+			sb[j,:]=[-100.0,100.0]
+		end
+
 		j = j+1
 	end
 	data_dictionary["species_bounds_array"]=sb
