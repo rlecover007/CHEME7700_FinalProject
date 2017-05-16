@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{hoffman2005hematology}
 R.~Hoffman.
@@ -45,9 +45,38 @@ Alex Thomas, Sorena Rahmanian, Aarash Bordbar, Bernhard~{\O} Palsson, and Neema
   signature for aspirin resistance.
 \newblock {\em Scientific reports}, 4, 2014.
 
+\bibitem{tekir2006analysis}
+Saliha~Durmu{\c{s}} Tekir, Tunahan {\c{C}}ak{\i}r, and Kutlu~{\"O} {\"U}lgen.
+\newblock Analysis of enzymopathies in the human red blood cells by
+  constraint-based stoichiometric modeling approaches.
+\newblock {\em Computational biology and chemistry}, 30(5):327--338, 2006.
+
 \bibitem{kunicki2010genetics}
 Thomas~J Kunicki and Diane~J Nugent.
 \newblock The genetics of normal platelet reactivity.
 \newblock {\em Blood}, 116(15):2627--2634, 2010.
+
+\bibitem{sage1991resting}
+SO~Sage, TJ~Rink, and MP~Mahaut-Smith.
+\newblock Resting and adp-evoked changes in cytosolic free sodium concentration
+  in human platelets loaded with the indicator sbfi.
+\newblock {\em The Journal of physiology}, 441:559, 1991.
+
+\bibitem{motulsky1983influence}
+Harvey~J Motulsky and PA~Insel.
+\newblock Influence of sodium on the alpha 2-adrenergic receptor system of
+  human platelets. role for intraplatelet sodium in receptor binding.
+\newblock {\em Journal of Biological Chemistry}, 258(6):3913--3919, 1983.
+
+\bibitem{spalding1998mechanism}
+Aaron Spalding, Henrikas Vaitkevicius, Scott Dill, Steven MacKenzie, Alvin
+  Schmaier, and Warren Lockette.
+\newblock Mechanism of epinephrine-induced platelet aggregation.
+\newblock {\em Hypertension}, 31(2):603--607, 1998.
+
+\bibitem{kanehisa2017kegg}
+Minoru Kanehisa, Miho Furumichi, Mao Tanabe, Yoko Sato, and Kanae Morishima.
+\newblock Kegg: new perspectives on genomes, pathways, diseases and drugs.
+\newblock {\em Nucleic Acids Research}, 45(D1):D353--D361, 2017.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.23)  15 MAY 2017 17:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.23)  16 MAY 2017 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,30 +1071,30 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
 File: ../figures/internalCa.pdf Graphic file (type pdf)
 
 <use ../figures/internalCa.pdf>
-Package pdftex.def Info: ../figures/internalCa.pdf used on input line 171.
+Package pdftex.def Info: ../figures/internalCa.pdf used on input line 172.
 (pdftex.def)             Requested size: 252.94878pt x 252.94878pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 172.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 173.
  [2]
 <../figures/Ca_barGlycolysis_Gluconeogenesis.pdf, id=31, 1684.79437pt x 953.964
 02pt>
 File: ../figures/Ca_barGlycolysis_Gluconeogenesis.pdf Graphic file (type pdf)
  <use ../figures/Ca_barGlycolysis_Gluconeogenesis.pdf>
 Package pdftex.def Info: ../figures/Ca_barGlycolysis_Gluconeogenesis.pdf used o
-n input line 179.
+n input line 180.
 (pdftex.def)             Requested size: 421.19757pt x 238.49042pt.
 
-Underfull \hbox (badness 1983) in paragraph at lines 174--183
+Underfull \hbox (badness 1983) in paragraph at lines 175--184
 \OT1/phv/m/n/10.95 es-pe-cially in gly-colyl-sis, as shown in
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 174--183
+Underfull \hbox (badness 1742) in paragraph at lines 175--184
 \OT1/phv/m/n/10.95 Fig-ure 2[], and in ex-change re-ac-tions,
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 174--183
+Underfull \hbox (badness 2875) in paragraph at lines 175--184
 \OT1/phv/m/n/10.95 glyceraldehyde-3-phosphate de-hy-dro-ge-
  []
 
@@ -1105,100 +1105,102 @@ File: ../figures/NormOfFluxesNormalAndKnockedCaSpike.pdf Graphic file (type pdf
 
 <use ../figures/NormOfFluxesNormalAndKnockedCaSpike.pdf>
 Package pdftex.def Info: ../figures/NormOfFluxesNormalAndKnockedCaSpike.pdf use
-d on input line 186.
+d on input line 188.
 (pdftex.def)             Requested size: 252.94878pt x 252.94878pt.
- [3 <../figures/Ca_barGlycolysis_Gluconeogenesis.pdf> <../figures/internalCa.pd
-f
 
-pdfTeX warning: pdflatex (file ../figures/internalCa.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
->]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-191.
+193.
 
-<../figures/cytosolicNa.pdf, id=107, 1084.05pt x 928.66951pt>
+<../figures/cytosolicNa.pdf, id=33, 1084.05pt x 928.66951pt>
 File: ../figures/cytosolicNa.pdf Graphic file (type pdf)
 
 <use ../figures/cytosolicNa.pdf>
-Package pdftex.def Info: ../figures/cytosolicNa.pdf used on input line 193.
+Package pdftex.def Info: ../figures/cytosolicNa.pdf used on input line 196.
 (pdftex.def)             Requested size: 271.01184pt x 232.16681pt.
 
-Overfull \hbox (12.64516pt too wide) in paragraph at lines 193--194
+Overfull \hbox (12.64516pt too wide) in paragraph at lines 196--197
  [][] 
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 190--196
+Underfull \hbox (badness 1859) in paragraph at lines 192--199
 [] \OT1/phv/b/n/10.95 Gene Knock Outs \OT1/phv/m/n/10.95 As pre-vi-ously de-
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 190--196
+Underfull \hbox (badness 3668) in paragraph at lines 192--199
 \OT1/phv/m/n/10.95 enoperoxide syn-thase 1 (also known
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 190--196
+Underfull \hbox (badness 1616) in paragraph at lines 192--199
 \OT1/phv/m/n/10.95 arachi-donic acid to prost-gladin, which
  []
 
 
-Underfull \hbox (badness 3302) in paragraph at lines 190--196
+Underfull \hbox (badness 3302) in paragraph at lines 192--199
 \OT1/phv/m/n/10.95 is later con-verted into TXA$[]$, a key
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 190--196
+Underfull \hbox (badness 1635) in paragraph at lines 192--199
 \OT1/phv/m/n/10.95 de-creased, sim-u-lat-ing a mu-ta-tion that
  []
 
+[3 <../figures/internalCa.pdf> <../figures/NormOfFluxesNormalAndKnockedCaSpike.
+pdf
 
-Underfull \hbox (badness 1502) in paragraph at lines 190--196
-\OT1/phv/m/n/10.95 not pri-mal fea-si-ble, so I in-stead low-
- []
-
+pdfTeX warning: pdflatex (file ../figures/NormOfFluxesNormalAndKnockedCaSpike.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 19
-6.
+9.
 
 
-<../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png, id=108, 16
+<../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png, id=109, 16
 84.6137pt x 953.964pt>
 File: ../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png Graphi
 c file (type png)
 
 <use ../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png>
 Package pdftex.def Info: ../figures/barSSKnockouts[5742,5743]Glycolysis_Glucone
-ogenesis.png used on input line 201.
+ogenesis.png used on input line 204.
 (pdftex.def)             Requested size: 421.15239pt x 238.49042pt.
 
-[4 <../figures/NormOfFluxesNormalAndKnockedCaSpike.pdf> <../figures/cytosolicNa
-.pdf
+Underfull \hbox (badness 1062) in paragraph at lines 208--209
+[][]\OT1/phv/m/n/10.95 This led me to al-ter the model to
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 208--209
+\OT1/phv/m/n/10.95 be-tween the wild type and knock out
+ []
+
+[4 <../figures/Ca_barGlycolysis_Gluconeogenesis.pdf> <../figures/cytosolicNa.pd
+f
 
 pdfTeX warning: pdflatex (file ../figures/cytosolicNa.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->] [5 <../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png>]
-(./finalreport.bbl
+>] (./finalreport.bbl
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
-) [6
-
-]
+ [5 <../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png>]) [6]
 <../figures/Ca_barTransport_Extracellular.pdf, id=205, 1684.79437pt x 953.96402
 pt>
 File: ../figures/Ca_barTransport_Extracellular.pdf Graphic file (type pdf)
  <use ../figures/Ca_barTransport_Extracellular.pdf>
 Package pdftex.def Info: ../figures/Ca_barTransport_Extracellular.pdf used on i
-nput line 218.
+nput line 224.
 (pdftex.def)             Requested size: 926.63979pt x 524.68182pt.
 
-Overfull \hbox (221.62567pt too wide) in paragraph at lines 217--219
+Overfull \hbox (221.62567pt too wide) in paragraph at lines 223--225
 []  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 64.42679pt on input line 221.
+LaTeX Warning: Float too large for page by 64.42679pt on input line 227.
 
 
 <../figures/barSSKnockouts[5742,5743]Transport_Extracellular.pdf, id=206, 1684.
@@ -1208,23 +1210,23 @@ ile (type pdf)
 
 <use ../figures/barSSKnockouts[5742,5743]Transport_Extracellular.pdf>
 Package pdftex.def Info: ../figures/barSSKnockouts[5742,5743]Transport_Extracel
-lular.pdf used on input line 225.
+lular.pdf used on input line 231.
 (pdftex.def)             Requested size: 926.63979pt x 524.68182pt.
 
-Overfull \hbox (221.62567pt too wide) in paragraph at lines 224--226
+Overfull \hbox (221.62567pt too wide) in paragraph at lines 230--232
 []  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 64.42679pt on input line 228.
+LaTeX Warning: Float too large for page by 64.42679pt on input line 234.
 
 [7 <../figures/Ca_barTransport_Extracellular.pdf>] [8 <../figures/barSSKnockout
 s[5742,5743]Transport_Extracellular.pdf>] (./finalreport.aux) ) 
 Here is how much of TeX's memory you used:
- 7661 strings out of 493029
- 112423 string characters out of 6136234
- 191263 words of memory out of 5000000
- 10989 multiletter control sequences out of 15000+600000
+ 7678 strings out of 493029
+ 112829 string characters out of 6136234
+ 194342 words of memory out of 5000000
+ 11006 multiletter control sequences out of 15000+600000
  31469 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,43p,1834b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1240,7 +1242,7 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on finalreport.pdf (9 pages, 291732 bytes).
+Output written on finalreport.pdf (9 pages, 296743 bytes).
 PDF statistics:
  354 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream

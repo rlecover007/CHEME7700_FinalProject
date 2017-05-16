@@ -75,15 +75,20 @@ function setIC_40microM_ADP_Initial(data_dictionary)
 			IC[j]=.00259#plasma concentration of TXA2
 		elseif(m == "ca2_c")
 			IC[j] = 35/1000 #70 nM Cytosolic calcium iri platelet activation Rink
+		elseif(m == "na1_c")
+			IC[j]=5.5*1000 #https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1180214/pdf/jphysiol00441-0562.pdf
+		elseif(m == "na1_e")		
+			IC[j] = 136*1000 #http://www.webmd.com/a-to-z-guides/sodium-na-in-blood#2
+
 		end
 		j = j+1
 	end
 	return IC
 end
 
-function setIC_40microM_ADP_Active(data_dictionary)
+function setIC_40microM_ADP_Active(data_dictionary, IC)
 	metabs =data_dictionary["list_of_metabolite_symbols"]
-	IC=fill(0.0,size(data_dictionary["list_of_metabolite_symbols"], 1),1) #set all IC to zero as default
+	#IC=fill(0.0,size(data_dictionary["list_of_metabolite_symbols"], 1),1) #set all IC to zero as default
 	j = 1
 	for m in metabs
 		if(m=="ca2_e")
