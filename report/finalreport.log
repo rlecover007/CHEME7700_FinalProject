@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.23)  16 MAY 2017 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.23)  16 MAY 2017 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1169,15 +1169,6 @@ Package pdftex.def Info: ../figures/barSSKnockouts[5742,5743]Glycolysis_Glucone
 ogenesis.png used on input line 204.
 (pdftex.def)             Requested size: 421.15239pt x 238.49042pt.
 
-Underfull \hbox (badness 1062) in paragraph at lines 208--209
-[][]\OT1/phv/m/n/10.95 This led me to al-ter the model to
- []
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 208--209
-\OT1/phv/m/n/10.95 be-tween the wild type and knock out
- []
-
 [4 <../figures/Ca_barGlycolysis_Gluconeogenesis.pdf> <../figures/cytosolicNa.pd
 f
 
@@ -1187,12 +1178,12 @@ iple pdfs with page group included in a single page
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
  [5 <../figures/barSSKnockouts[5742,5743]Glycolysis_Gluconeogenesis.png>]) [6]
-<../figures/Ca_barTransport_Extracellular.pdf, id=205, 1684.79437pt x 953.96402
-pt>
-File: ../figures/Ca_barTransport_Extracellular.pdf Graphic file (type pdf)
- <use ../figures/Ca_barTransport_Extracellular.pdf>
-Package pdftex.def Info: ../figures/Ca_barTransport_Extracellular.pdf used on i
-nput line 224.
+<../figures/Ca_barPyruvateMetabolism.pdf, id=205, 1684.79437pt x 953.96402pt>
+File: ../figures/Ca_barPyruvateMetabolism.pdf Graphic file (type pdf)
+
+<use ../figures/Ca_barPyruvateMetabolism.pdf>
+Package pdftex.def Info: ../figures/Ca_barPyruvateMetabolism.pdf used on input 
+line 224.
 (pdftex.def)             Requested size: 926.63979pt x 524.68182pt.
 
 Overfull \hbox (221.62567pt too wide) in paragraph at lines 223--225
@@ -1203,49 +1194,65 @@ Overfull \hbox (221.62567pt too wide) in paragraph at lines 223--225
 LaTeX Warning: Float too large for page by 64.42679pt on input line 227.
 
 
-<../figures/barSSKnockouts[5742,5743]Transport_Extracellular.pdf, id=206, 1684.
+<../figures/Ca_barTransport_Extracellular.pdf, id=206, 1684.79437pt x 953.96402
+pt>
+File: ../figures/Ca_barTransport_Extracellular.pdf Graphic file (type pdf)
+ <use ../figures/Ca_barTransport_Extracellular.pdf>
+Package pdftex.def Info: ../figures/Ca_barTransport_Extracellular.pdf used on i
+nput line 232.
+(pdftex.def)             Requested size: 926.63979pt x 524.68182pt.
+
+Overfull \hbox (221.62567pt too wide) in paragraph at lines 231--233
+[]  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 64.42679pt on input line 235.
+
+
+<../figures/barSSKnockouts[5742,5743]Transport_Extracellular.pdf, id=207, 1684.
 79437pt x 953.96402pt>
 File: ../figures/barSSKnockouts[5742,5743]Transport_Extracellular.pdf Graphic f
 ile (type pdf)
 
 <use ../figures/barSSKnockouts[5742,5743]Transport_Extracellular.pdf>
 Package pdftex.def Info: ../figures/barSSKnockouts[5742,5743]Transport_Extracel
-lular.pdf used on input line 231.
+lular.pdf used on input line 239.
 (pdftex.def)             Requested size: 926.63979pt x 524.68182pt.
 
-Overfull \hbox (221.62567pt too wide) in paragraph at lines 230--232
+Overfull \hbox (221.62567pt too wide) in paragraph at lines 238--240
 []  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 64.42679pt on input line 234.
+LaTeX Warning: Float too large for page by 64.42679pt on input line 242.
 
-[7 <../figures/Ca_barTransport_Extracellular.pdf>] [8 <../figures/barSSKnockout
-s[5742,5743]Transport_Extracellular.pdf>] (./finalreport.aux) ) 
+[7 <../figures/Ca_barPyruvateMetabolism.pdf>] [8 <../figures/Ca_barTransport_Ex
+tracellular.pdf>] [9 <../figures/barSSKnockouts[5742,5743]Transport_Extracellul
+ar.pdf>] (./finalreport.aux) ) 
 Here is how much of TeX's memory you used:
- 7678 strings out of 493029
- 112829 string characters out of 6136234
- 194342 words of memory out of 5000000
- 11006 multiletter control sequences out of 15000+600000
+ 7684 strings out of 493029
+ 113046 string characters out of 6136234
+ 194350 words of memory out of 5000000
+ 11011 multiletter control sequences out of 15000+600000
  31469 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,43p,1834b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texl
-ive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/helvetic/uhvro8a.pfb>
-Output written on finalreport.pdf (9 pages, 296743 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ba
+se/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
+hvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on finalreport.pdf (10 pages, 308361 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 400 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
